@@ -6,3 +6,12 @@ __pycache__/
 # Ignore .vscode
 .vscode/
 
+# model libraries
+TabPFNModels/
+catboost_info/
+
+# local logs
+log/
+
+# venv
+tablab/

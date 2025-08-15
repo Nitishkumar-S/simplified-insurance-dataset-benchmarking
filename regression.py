@@ -1,7 +1,7 @@
 # Standard Library Imports
 
 # TabPFN and Extensions
-
+print("importing")
 try:
     from tabpfn import TabPFNClassifier, TabPFNRegressor
     from tabpfn_extensions.post_hoc_ensembles.sklearn_interface import (
@@ -23,8 +23,10 @@ import os
 from catboost import CatBoostClassifier, CatBoostRegressor
 
 # Notebook UI/Display
-from IPython.display import Markdown, display
+# from IPython.display import Markdown, display
 from sklearn.compose import make_column_selector, make_column_transformer
+from sklearn.linear_model import Ridge
+from tabpfn_extensions import AutoTabPFNRegressor
 
 
 # Scikit-Learn: Models
@@ -54,14 +56,14 @@ column_transformer = make_column_transformer(
 # df1 = pd.read_csv(r"Data/car_insurance_premium_dataset.csv")
 # df1.head()
 # df = pd.concat([df1, df2], ignore_index=True)
-
-dataset_path = "/content/insurance.csv"
+print("Reading dataset")
+dataset_path = "data/SwedishMotorInsurance.csv"
 df = pd.read_csv(dataset_path)
 
-y = df["Insurance Premium ($)"]
-X = df.drop(columns=["Insurance Premium ($)"])
+y = df["Payment"]
+X = df.drop(columns=["Payment"])
 
-
+print("running model")
 # Compare different machine learning models by training each one multiple times
 # on different parts of the data and averaging their performance scores for a
 # more reliable performance estimate
@@ -108,6 +110,7 @@ scores = {
     )
     for name, model in models
 }
+print("completed running models")
 
 os.makedirs("results", exist_ok=True)
 dataset_name = os.path.splitext(os.path.basename(dataset_path))[0]

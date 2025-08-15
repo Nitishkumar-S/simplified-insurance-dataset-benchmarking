@@ -1,7 +1,9 @@
 #!/bin/bash
 #SBATCH -p mlhiwidlc_gpu-rtx2080
+#SBATCH --gres=gpu:1
+# #SBATCH --nodelist=dlcgpu02,dlcgpu04,dlcgpu14
 #SBATCH --mem 4000 # memory pool for each core (4GB)
-#SBATCH -t 0-00:01 # time (D-HH:MM)
+#SBATCH -t 0-24:00 # time (D-HH:MM)
 #SBATCH -c 1 # number of cores
 #SBATCH -o log/%x.%N.%j.out # STDOUT  (the folder log has to be created prior to running or this won't work)
 #SBATCH -e log/%x.%N.%j.err # STDERR  (the folder log has to be created prior to running or this won't work)
@@ -13,7 +15,7 @@ echo "Started at $(date)";
 echo "Running job $SLURM_JOB_NAME using $SLURM_JOB_CPUS_PER_NODE cpus per node with given JID $SLURM_JOB_ID on queue $SLURM_JOB_PARTITION";
 
 # Job to perform
-cd /work/dlc1large
+cd /work/dlclarge1/solpuren-nitish/insurance/simplified-insurance-dataset-benchmarking
 
 # Set up venv (if not already created)
 # Create the venv if it doesn't exist
@@ -28,7 +30,6 @@ fi
 
 # Run your pipeline script
 bash run_pipeline.sh
-
 # Print some Information about the end-time to STDOUT
 echo "DONE";
 echo "Finished at $(date)";

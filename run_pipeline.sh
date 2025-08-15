@@ -4,6 +4,9 @@ echo "Running tablab pipeline"
 # Activate your venv
 source tablab/bin/activate
 
+# install requirements.txt if not worked from job.slurm 'a fallback'
+pip install -r requirements.txt
+
 # Download the dataset
 python regression.py
 
