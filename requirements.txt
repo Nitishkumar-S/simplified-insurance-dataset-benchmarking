@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+pyyaml
+matplotlib
+tabpfn
+xgboost
+catboost
+utils
+numpy
+tabpfn-extensions[all] @ git+https://github.com/PriorLabs/tabpfn-extensions.git
+optuna
