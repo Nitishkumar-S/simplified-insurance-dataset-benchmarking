@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 import torch
 import os
+import argparse
 
 # Other ML Models
 from catboost import CatBoostClassifier, CatBoostRegressor
@@ -51,17 +52,23 @@ column_transformer = make_column_transformer(
     remainder="passthrough",
 )
 
+# parse arguments
+parser = argparse.ArgumentParser(description="Run regression models on a dataset.")
+parser.add_argument("--dataset", type=str, required=True, help="Path to the dataset CSV file")
+parser.add_argument("--target", type=str, required=True, help="Name of the target column")
+args = parser.parse_args()
+
 # df2 = pd.read_csv(r"Data/car_insurance_premium_dataset_TEST.csv")
 # df2.head()
 # df1 = pd.read_csv(r"Data/car_insurance_premium_dataset.csv")
 # df1.head()
 # df = pd.concat([df1, df2], ignore_index=True)
 print("Reading dataset")
-dataset_path = "data/SwedishMotorInsurance.csv"
+dataset_path = args.dataset
 df = pd.read_csv(dataset_path)
 
-y = df["Payment"]
-X = df.drop(columns=["Payment"])
+y = df[args.target]
+X = df.drop(columns=[args.target])
 
 print("running model")
 # Compare different machine learning models by training each one multiple times

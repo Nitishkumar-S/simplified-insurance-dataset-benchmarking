@@ -29,7 +29,11 @@ else
 fi
 
 # Run your pipeline script
-bash run_pipeline.sh
+bash run_pipeline.sh "$DATASET" "$TARGET"
 # Print some Information about the end-time to STDOUT
 echo "DONE";
 echo "Finished at $(date)";
+
+
+# command to run
+# sbatch --export=ALL,DATASET=data/SwedishMotorInsurance.csv, TARGET=Payment job.slurm
