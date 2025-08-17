@@ -1,0 +1,241 @@
+Age,Gender,BAC,CrashDegree,Number
+17-20,Male,<.020 g/100mL,non-casualty,3665
+21-25,Male,<.020 g/100mL,non-casualty,3252
+26-29,Male,<.020 g/100mL,non-casualty,2069
+30-39,Male,<.020 g/100mL,non-casualty,4512
+40-49,Male,<.020 g/100mL,non-casualty,3759
+50-59,Male,<.020 g/100mL,non-casualty,2661
+60-69,Male,<.020 g/100mL,non-casualty,1417
+>70,Male,<.020 g/100mL,non-casualty,1029
+17-20,Female,<.020 g/100mL,non-casualty,1760
+21-25,Female,<.020 g/100mL,non-casualty,1739
+26-29,Female,<.020 g/100mL,non-casualty,1097
+30-39,Female,<.020 g/100mL,non-casualty,2648
+40-49,Female,<.020 g/100mL,non-casualty,2167
+50-59,Female,<.020 g/100mL,non-casualty,1301
+60-69,Female,<.020 g/100mL,non-casualty,622
+>70,Female,<.020 g/100mL,non-casualty,511
+17-20,Male,.020-.049 g/100mL,non-casualty,14
+21-25,Male,.020-.049 g/100mL,non-casualty,1
+26-29,Male,.020-.049 g/100mL,non-casualty,1
+30-39,Male,.020-.049 g/100mL,non-casualty,1
+40-49,Male,.020-.049 g/100mL,non-casualty,0
+50-59,Male,.020-.049 g/100mL,non-casualty,0
+60-69,Male,.020-.049 g/100mL,non-casualty,0
+>70,Male,.020-.049 g/100mL,non-casualty,0
+17-20,Female,.020-.049 g/100mL,non-casualty,2
+21-25,Female,.020-.049 g/100mL,non-casualty,0
+26-29,Female,.020-.049 g/100mL,non-casualty,0
+30-39,Female,.020-.049 g/100mL,non-casualty,1
+40-49,Female,.020-.049 g/100mL,non-casualty,0
+50-59,Female,.020-.049 g/100mL,non-casualty,0
+60-69,Female,.020-.049 g/100mL,non-casualty,0
+>70,Female,.020-.049 g/100mL,non-casualty,0
+17-20,Male,.050-.079 g/100mL,non-casualty,19
+21-25,Male,.050-.079 g/100mL,non-casualty,15
+26-29,Male,.050-.079 g/100mL,non-casualty,17
+30-39,Male,.050-.079 g/100mL,non-casualty,16
+40-49,Male,.050-.079 g/100mL,non-casualty,4
+50-59,Male,.050-.079 g/100mL,non-casualty,6
+60-69,Male,.050-.079 g/100mL,non-casualty,0
+>70,Male,.050-.079 g/100mL,non-casualty,1
+17-20,Female,.050-.079 g/100mL,non-casualty,1
+21-25,Female,.050-.079 g/100mL,non-casualty,3
+26-29,Female,.050-.079 g/100mL,non-casualty,0
+30-39,Female,.050-.079 g/100mL,non-casualty,2
+40-49,Female,.050-.079 g/100mL,non-casualty,1
+50-59,Female,.050-.079 g/100mL,non-casualty,0
+60-69,Female,.050-.079 g/100mL,non-casualty,0
+>70,Female,.050-.079 g/100mL,non-casualty,0
+17-20,Male,.080-.149 g/100mL,non-casualty,53
+21-25,Male,.080-.149 g/100mL,non-casualty,80
+26-29,Male,.080-.149 g/100mL,non-casualty,48
+30-39,Male,.080-.149 g/100mL,non-casualty,57
+40-49,Male,.080-.149 g/100mL,non-casualty,43
+50-59,Male,.080-.149 g/100mL,non-casualty,12
+60-69,Male,.080-.149 g/100mL,non-casualty,8
+>70,Male,.080-.149 g/100mL,non-casualty,4
+17-20,Female,.080-.149 g/100mL,non-casualty,5
+21-25,Female,.080-.149 g/100mL,non-casualty,5
+26-29,Female,.080-.149 g/100mL,non-casualty,11
+30-39,Female,.080-.149 g/100mL,non-casualty,9
+40-49,Female,.080-.149 g/100mL,non-casualty,8
+50-59,Female,.080-.149 g/100mL,non-casualty,2
+60-69,Female,.080-.149 g/100mL,non-casualty,1
+>70,Female,.080-.149 g/100mL,non-casualty,1
+17-20,Male,>= .150 g/100mL,non-casualty,20
+21-25,Male,>= .150 g/100mL,non-casualty,39
+26-29,Male,>= .150 g/100mL,non-casualty,26
+30-39,Male,>= .150 g/100mL,non-casualty,50
+40-49,Male,>= .150 g/100mL,non-casualty,34
+50-59,Male,>= .150 g/100mL,non-casualty,23
+60-69,Male,>= .150 g/100mL,non-casualty,10
+>70,Male,>= .150 g/100mL,non-casualty,0
+17-20,Female,>= .150 g/100mL,non-casualty,4
+21-25,Female,>= .150 g/100mL,non-casualty,1
+26-29,Female,>= .150 g/100mL,non-casualty,5
+30-39,Female,>= .150 g/100mL,non-casualty,16
+40-49,Female,>= .150 g/100mL,non-casualty,14
+50-59,Female,>= .150 g/100mL,non-casualty,7
+60-69,Female,>= .150 g/100mL,non-casualty,1
+>70,Female,>= .150 g/100mL,non-casualty,0
+17-20,Male,<.020 g/100mL,injury,1925
+21-25,Male,<.020 g/100mL,injury,1891
+26-29,Male,<.020 g/100mL,injury,1304
+30-39,Male,<.020 g/100mL,injury,2958
+40-49,Male,<.020 g/100mL,injury,2534
+50-59,Male,<.020 g/100mL,injury,1824
+60-69,Male,<.020 g/100mL,injury,940
+>70,Male,<.020 g/100mL,injury,745
+17-20,Female,<.020 g/100mL,injury,1160
+21-25,Female,<.020 g/100mL,injury,1214
+26-29,Female,<.020 g/100mL,injury,733
+30-39,Female,<.020 g/100mL,injury,1721
+40-49,Female,<.020 g/100mL,injury,1612
+50-59,Female,<.020 g/100mL,injury,993
+60-69,Female,<.020 g/100mL,injury,425
+>70,Female,<.020 g/100mL,injury,361
+17-20,Male,.020-.049 g/100mL,injury,10
+21-25,Male,.020-.049 g/100mL,injury,7
+26-29,Male,.020-.049 g/100mL,injury,3
+30-39,Male,.020-.049 g/100mL,injury,2
+40-49,Male,.020-.049 g/100mL,injury,4
+50-59,Male,.020-.049 g/100mL,injury,1
+60-69,Male,.020-.049 g/100mL,injury,0
+>70,Male,.020-.049 g/100mL,injury,0
+17-20,Female,.020-.049 g/100mL,injury,4
+21-25,Female,.020-.049 g/100mL,injury,1
+26-29,Female,.020-.049 g/100mL,injury,0
+30-39,Female,.020-.049 g/100mL,injury,0
+40-49,Female,.020-.049 g/100mL,injury,0
+50-59,Female,.020-.049 g/100mL,injury,0
+60-69,Female,.020-.049 g/100mL,injury,0
+>70,Female,.020-.049 g/100mL,injury,0
+17-20,Male,.050-.079 g/100mL,injury,16
+21-25,Male,.050-.079 g/100mL,injury,20
+26-29,Male,.050-.079 g/100mL,injury,20
+30-39,Male,.050-.079 g/100mL,injury,18
+40-49,Male,.050-.079 g/100mL,injury,16
+50-59,Male,.050-.079 g/100mL,injury,3
+60-69,Male,.050-.079 g/100mL,injury,7
+>70,Male,.050-.079 g/100mL,injury,2
+17-20,Female,.050-.079 g/100mL,injury,5
+21-25,Female,.050-.079 g/100mL,injury,2
+26-29,Female,.050-.079 g/100mL,injury,2
+30-39,Female,.050-.079 g/100mL,injury,6
+40-49,Female,.050-.079 g/100mL,injury,0
+50-59,Female,.050-.079 g/100mL,injury,0
+60-69,Female,.050-.079 g/100mL,injury,2
+>70,Female,.050-.079 g/100mL,injury,2
+17-20,Male,.080-.149 g/100mL,injury,57
+21-25,Male,.080-.149 g/100mL,injury,83
+26-29,Male,.080-.149 g/100mL,injury,36
+30-39,Male,.080-.149 g/100mL,injury,57
+40-49,Male,.080-.149 g/100mL,injury,54
+50-59,Male,.080-.149 g/100mL,injury,17
+60-69,Male,.080-.149 g/100mL,injury,5
+>70,Male,.080-.149 g/100mL,injury,11
+17-20,Female,.080-.149 g/100mL,injury,11
+21-25,Female,.080-.149 g/100mL,injury,14
+26-29,Female,.080-.149 g/100mL,injury,6
+30-39,Female,.080-.149 g/100mL,injury,18
+40-49,Female,.080-.149 g/100mL,injury,12
+50-59,Female,.080-.149 g/100mL,injury,5
+60-69,Female,.080-.149 g/100mL,injury,3
+>70,Female,.080-.149 g/100mL,injury,1
+17-20,Male,>= .150 g/100mL,injury,39
+21-25,Male,>= .150 g/100mL,injury,80
+26-29,Male,>= .150 g/100mL,injury,49
+30-39,Male,>= .150 g/100mL,injury,102
+40-49,Male,>= .150 g/100mL,injury,66
+50-59,Male,>= .150 g/100mL,injury,31
+60-69,Male,>= .150 g/100mL,injury,12
+>70,Male,>= .150 g/100mL,injury,2
+17-20,Female,>= .150 g/100mL,injury,5
+21-25,Female,>= .150 g/100mL,injury,16
+26-29,Female,>= .150 g/100mL,injury,15
+30-39,Female,>= .150 g/100mL,injury,22
+40-49,Female,>= .150 g/100mL,injury,17
+50-59,Female,>= .150 g/100mL,injury,9
+60-69,Female,>= .150 g/100mL,injury,3
+>70,Female,>= .150 g/100mL,injury,0
+17-20,Male,<.020 g/100mL,fatal,45
+21-25,Male,<.020 g/100mL,fatal,43
+26-29,Male,<.020 g/100mL,fatal,34
+30-39,Male,<.020 g/100mL,fatal,85
+40-49,Male,<.020 g/100mL,fatal,73
+50-59,Male,<.020 g/100mL,fatal,64
+60-69,Male,<.020 g/100mL,fatal,32
+>70,Male,<.020 g/100mL,fatal,42
+17-20,Female,<.020 g/100mL,fatal,17
+21-25,Female,<.020 g/100mL,fatal,14
+26-29,Female,<.020 g/100mL,fatal,8
+30-39,Female,<.020 g/100mL,fatal,28
+40-49,Female,<.020 g/100mL,fatal,26
+50-59,Female,<.020 g/100mL,fatal,21
+60-69,Female,<.020 g/100mL,fatal,8
+>70,Female,<.020 g/100mL,fatal,10
+17-20,Male,.020-.049 g/100mL,fatal,1
+21-25,Male,.020-.049 g/100mL,fatal,0
+26-29,Male,.020-.049 g/100mL,fatal,0
+30-39,Male,.020-.049 g/100mL,fatal,0
+40-49,Male,.020-.049 g/100mL,fatal,0
+50-59,Male,.020-.049 g/100mL,fatal,0
+60-69,Male,.020-.049 g/100mL,fatal,0
+>70,Male,.020-.049 g/100mL,fatal,0
+17-20,Female,.020-.049 g/100mL,fatal,0
+21-25,Female,.020-.049 g/100mL,fatal,0
+26-29,Female,.020-.049 g/100mL,fatal,0
+30-39,Female,.020-.049 g/100mL,fatal,0
+40-49,Female,.020-.049 g/100mL,fatal,0
+50-59,Female,.020-.049 g/100mL,fatal,0
+60-69,Female,.020-.049 g/100mL,fatal,0
+>70,Female,.020-.049 g/100mL,fatal,0
+17-20,Male,.050-.079 g/100mL,fatal,6
+21-25,Male,.050-.079 g/100mL,fatal,1
+26-29,Male,.050-.079 g/100mL,fatal,2
+30-39,Male,.050-.079 g/100mL,fatal,0
+40-49,Male,.050-.079 g/100mL,fatal,0
+50-59,Male,.050-.079 g/100mL,fatal,0
+60-69,Male,.050-.079 g/100mL,fatal,0
+>70,Male,.050-.079 g/100mL,fatal,1
+17-20,Female,.050-.079 g/100mL,fatal,0
+21-25,Female,.050-.079 g/100mL,fatal,0
+26-29,Female,.050-.079 g/100mL,fatal,0
+30-39,Female,.050-.079 g/100mL,fatal,0
+40-49,Female,.050-.079 g/100mL,fatal,0
+50-59,Female,.050-.079 g/100mL,fatal,0
+60-69,Female,.050-.079 g/100mL,fatal,0
+>70,Female,.050-.079 g/100mL,fatal,0
+17-20,Male,.080-.149 g/100mL,fatal,4
+21-25,Male,.080-.149 g/100mL,fatal,4
+26-29,Male,.080-.149 g/100mL,fatal,3
+30-39,Male,.080-.149 g/100mL,fatal,2
+40-49,Male,.080-.149 g/100mL,fatal,1
+50-59,Male,.080-.149 g/100mL,fatal,3
+60-69,Male,.080-.149 g/100mL,fatal,1
+>70,Male,.080-.149 g/100mL,fatal,0
+17-20,Female,.080-.149 g/100mL,fatal,0
+21-25,Female,.080-.149 g/100mL,fatal,2
+26-29,Female,.080-.149 g/100mL,fatal,0
+30-39,Female,.080-.149 g/100mL,fatal,1
+40-49,Female,.080-.149 g/100mL,fatal,1
+50-59,Female,.080-.149 g/100mL,fatal,0
+60-69,Female,.080-.149 g/100mL,fatal,0
+>70,Female,.080-.149 g/100mL,fatal,0
+17-20,Male,>= .150 g/100mL,fatal,2
+21-25,Male,>= .150 g/100mL,fatal,7
+26-29,Male,>= .150 g/100mL,fatal,8
+30-39,Male,>= .150 g/100mL,fatal,9
+40-49,Male,>= .150 g/100mL,fatal,7
+50-59,Male,>= .150 g/100mL,fatal,3
+60-69,Male,>= .150 g/100mL,fatal,2
+>70,Male,>= .150 g/100mL,fatal,0
+17-20,Female,>= .150 g/100mL,fatal,2
+21-25,Female,>= .150 g/100mL,fatal,2
+26-29,Female,>= .150 g/100mL,fatal,0
+30-39,Female,>= .150 g/100mL,fatal,1
+40-49,Female,>= .150 g/100mL,fatal,2
+50-59,Female,>= .150 g/100mL,fatal,0
+60-69,Female,>= .150 g/100mL,fatal,0
+>70,Female,>= .150 g/100mL,fatal,0
