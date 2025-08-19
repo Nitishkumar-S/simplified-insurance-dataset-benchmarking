@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python regression.py --dataset "$1" --target "$2"
 
 # Preprocess the data
-# python classification.py
+# python classification.py --dataset "$1"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml
