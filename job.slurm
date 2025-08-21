@@ -29,7 +29,7 @@ else
 fi
 
 # Run your pipeline script
-bash run_pipeline.sh "$DATASET" "$TARGET"
+bash run_pipeline.sh "$DATASET"
 # Print some Information about the end-time to STDOUT
 echo "DONE";
 echo "Finished at $(date)";

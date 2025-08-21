@@ -291,8 +291,18 @@ y = le.fit_transform(y)
 
 # Define models
 models = [
-    ( "TabPFN", TabPFNClassifier(random_state=42)),
-    ( "AutoTabPFN",AutoTabPFNClassifier(random_state=42)),
+    ( "TabPFN", 
+        make_pipeline(
+            column_transformer,
+            TabPFNClassifier(random_state=42),
+        ),
+    ),
+    ( "AutoTabPFN",
+        make_pipeline(
+            column_transformer,
+            AutoTabPFNClassifier(random_state=42),
+        ),
+    ),
     (
         "RandomForest",
         make_pipeline(
