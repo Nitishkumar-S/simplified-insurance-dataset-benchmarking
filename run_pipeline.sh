@@ -8,7 +8,7 @@ source tablab/bin/activate
 pip install -r requirements.txt
 
 # Download the dataset
-python regression.py --dataset "$1" --target "$2"
+python nigu.py
 
 # Preprocess the data
 # python classification.py --dataset "$1"
