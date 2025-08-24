@@ -8,10 +8,13 @@ source tablab/bin/activate
 pip install -r requirements.txt
 
 # Download the dataset
-python regression.py --dataset "$1" --target "$2"
+# python regression.py --dataset "$1" --target "$2"
 
 # Preprocess the data
-python classification.py --dataset "$1"
+# python classification.py --dataset "$1"
+
+# Feature selection
+python nigu.py
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml
