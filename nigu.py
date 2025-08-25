@@ -62,7 +62,8 @@ We will compare TabPFN's performance against other popular machine learning mode
 df_test = pd.read_csv("data/test_kartik.csv")
 df_train = pd.read_csv("data/train_kartik.csv")
 df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
-X = df.drop(columns=["ID","Response"])
+df = df.sample(n=50, random_state=42)
+X = df.drop(columns=["Response"])
 y = df["Response"]
 print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
 
@@ -183,14 +184,14 @@ print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
 # more reliable performance estimate
 
 
-def feature_selector(X, y):
+def feature_selector(X, y, i):
     le = LabelEncoder()
     y = le.fit_transform(y)
 
     X_enc = column_transformer.fit_transform(X)
 
     feature_names = X.columns
-    n_features = 11  #Number of features to select
+    n_features = i  #Number of features to select
 
     # Initialize model
     clf = TabPFNClassifier(n_estimators=1)
@@ -211,13 +212,17 @@ def feature_selector(X, y):
 
 
 roc_auc_scores = []
+selected_features_full = []
 """**Subset of data selected based on feature importance**"""
 for i in range(1, 13):
     if i != 12:
-        X_selected = feature_selector(X, y)
+        selected_features = feature_selector(X, y, i)
+        selected_features_full.append(selected_features)
+        X_selected = X[selected_features]
         X_enc = column_transformer.fit_transform(X_selected)
     else:
         X_enc = column_transformer.fit_transform(X)
+        selected_features_full.append(X.columns.tolist())
     X_train, X_test, y_train, y_test = train_test_split(
         X_enc, y, test_size=0.20, random_state=42
     )
@@ -233,28 +238,6 @@ for i in range(1, 13):
     print(f"TabPFN ROC AUC Score: {roc_auc:.4f}")
 
 
-X_enc = column_transformer.fit_transform(X)
-X_train, X_test, y_train, y_test = train_test_split(
-    X_enc, y, test_size=0.20, random_state=42
-)
-
-    # Train and evaluate the TabPFN classifier
-tabpfn_classifier = TabPFNClassifier(random_state=42)
-tabpfn_classifier.fit(X_train, y_train)
-y_pred_proba = tabpfn_classifier.predict_proba(X_test)
-
-# Calculate the ROC AUC score
-roc_auc = roc_auc_score(y_test, y_pred_proba[:, 1])
-roc_auc_scores.append(roc_auc)
-print(f"TabPFN ROC AUC Score: {roc_auc:.4f}")
-
-
-# Ensure we include all features for the last step
-selected_features_full = selected_features.copy()
-if len(selected_features_full) < 12:
-    # Add missing feature(s) to make it 12
-    remaining_features = [f for f in feature_names if f not in selected_features_full]
-    selected_features_full += remaining_features[:12 - len(selected_features_full)]
 
 # Create the results DataFrame
 results_df = pd.DataFrame({
