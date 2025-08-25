@@ -242,7 +242,7 @@ for i in range(1, 13):
 # Create the results DataFrame
 results_df = pd.DataFrame({
     "Num_Features": list(range(1, 13)),
-    "Selected_Features": [", ".join(selected_features_full[:i]) for i in range(1, 13)],
+    "Selected_Features": [", ".join(selected_features_full[i]) for i in range(0, 12)],
     "ROC_AUC": roc_auc_scores
 })
 
