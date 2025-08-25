@@ -36,6 +36,7 @@ from sklearn.model_selection import (
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from xgboost import XGBClassifier, XGBRegressor
+import requests
 
 # This transformer will be used to handle categorical features for the baseline models
 column_transformer = make_column_transformer(
@@ -52,14 +53,15 @@ We will compare TabPFN's performance against other popular machine learning mode
 
 **Download dataset from github and save it locally for the session**
 """
-import requests
-url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/healthInsuranceLeadPrediction.csv"
-output = "healthInsuranceLeadPrediction.csv"
-response = requests.get(url)
-with open(output, "wb") as f:
-    f.write(response.content)
-df = pd.read_csv("healthInsuranceLeadPrediction.csv")
-df = df.sample(n=10000, random_state=42)
+
+# url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/healthInsuranceLeadPrediction.csv"
+# output = "healthInsuranceLeadPrediction.csv"
+# response = requests.get(url)
+# with open(output, "wb") as f:
+#     f.write(response.content)
+df_test = pd.read_csv("data/test_kartik.csv")
+df_train = pd.read_csv("data/train_kartik.csv")
+df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
 X = df.drop(columns=["ID","Response"])
 y = df["Response"]
 print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
@@ -181,36 +183,41 @@ print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
 # more reliable performance estimate
 
 
+def feature_selector(X, y):
+    le = LabelEncoder()
+    y = le.fit_transform(y)
 
-le = LabelEncoder()
-y = le.fit_transform(y)
+    X_enc = column_transformer.fit_transform(X)
 
-X_enc = column_transformer.fit_transform(X)
+    feature_names = X.columns
+    n_features = 11  #Number of features to select
 
-feature_names = X.columns
-n_features = 11  #Number of features to select
+    # Initialize model
+    clf = TabPFNClassifier(n_estimators=1)
 
-# Initialize model
-clf = TabPFNClassifier(n_estimators=1)
+    # Feature selection
+    sfs = interpretability.feature_selection.feature_selection(
+        estimator=clf, X=X_enc, y=y, n_features_to_select=n_features, feature_names=feature_names
+    )
 
-# Feature selection
-sfs = interpretability.feature_selection.feature_selection(
-    estimator=clf, X=X_enc, y=y, n_features_to_select=n_features, feature_names=feature_names
-)
+    # Print selected features
+    selected_features = [
+        feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
+    ]
+    print("\nSelected features:")
+    for feature in selected_features:
+        print(f"- {feature}")
+    return selected_features
 
-# Print selected features
-selected_features = [
-    feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
-]
-print("\nSelected features:")
-for feature in selected_features:
-    print(f"- {feature}")
 
 roc_auc_scores = []
 """**Subset of data selected based on feature importance**"""
-for i in range(1,n_features + 1):
-    X_selected = X[selected_features[:i]]
-    X_enc = column_transformer.fit_transform(X_selected)
+for i in range(1, 13):
+    if i != 12:
+        X_selected = feature_selector(X, y)
+        X_enc = column_transformer.fit_transform(X_selected)
+    else:
+        X_enc = column_transformer.fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(
         X_enc, y, test_size=0.20, random_state=42
     )
