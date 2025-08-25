@@ -21,7 +21,6 @@ import torch
 from catboost import CatBoostClassifier, CatBoostRegressor
 
 # Notebook UI/Display
-from IPython.display import Markdown, display
 from sklearn.compose import make_column_selector, make_column_transformer
 
 
@@ -63,6 +62,7 @@ df = pd.read_csv("healthInsuranceLeadPrediction.csv")
 df = df.sample(n=10000, random_state=42)
 X = df.drop(columns=["ID","Response"])
 y = df["Response"]
+print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
 
 # Alternative datasets (commented for reference):
 
