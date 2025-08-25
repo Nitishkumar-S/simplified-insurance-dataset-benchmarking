@@ -62,7 +62,7 @@ We will compare TabPFN's performance against other popular machine learning mode
 df_test = pd.read_csv("data/test_kartik.csv")
 df_train = pd.read_csv("data/train_kartik.csv")
 df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
-df = df.sample(n=50, random_state=42)
+# df = df.sample(n=50, random_state=42)
 X = df.drop(columns=["Response"])
 y = df["Response"]
 print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
