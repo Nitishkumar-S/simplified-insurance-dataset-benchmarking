@@ -1,6 +1,5 @@
 # TabPFN and Extensions
 
-print("\n\n\n\n\n\n\n\njflkaljfal\n\n\n\n")
 try:
     from tabpfn import TabPFNClassifier, TabPFNRegressor
     from tabpfn_extensions import interpretability
@@ -38,6 +37,12 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from xgboost import XGBClassifier, XGBRegressor
 import requests
+import argparse
+
+# get dataset name from argument
+parser = argparse.ArgumentParser()
+parser.add_argument("--dataset", type=str, default="caravan")
+args = parser.parse_args()
 
 # This transformer will be used to handle categorical features for the baseline models
 column_transformer = make_column_transformer(
@@ -60,125 +65,168 @@ We will compare TabPFN's performance against other popular machine learning mode
 # response = requests.get(url)
 # with open(output, "wb") as f:
 #     f.write(response.content)
-df_test = pd.read_csv("data/test_kartik.csv")
-df_train = pd.read_csv("data/train_kartik.csv")
-df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
+# df_test = pd.read_csv("data/test_kartik.csv")
+# df_train = pd.read_csv("data/train_kartik.csv")
+# df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
 # df = df.sample(n=50, random_state=42)
-X = df.drop(columns=["Response"])
-y = df["Response"]
-print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
-
-# Alternative datasets (commented for reference):
-
-# Caravan Insurance Challenge (To predict if one will buy Caravan insurance policy)
-# Samples: 9.8K
-# Features: 86
-# Target: CARAVAN
-# link: https://www.kaggle.com/datasets/uciml/caravan-insurance-challenge
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv -O CaravanInsuranceChallenge.csv
-# df = pd.read_csv("CaravanInsuranceChallenge.csv")
-# df = df.drop(columns=["ORIGIN"])
-# X = df.drop(columns=["CARAVAN"])
-# y = df["CARAVAN"]
-# print(df.head())
-
-# Travel Insurance Prediction Data
-# Samples: 1.9K
-# Features: 9
-# Target: TravelInsurance
-# link: https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/TravelInsurancePrediction.csv -O TravelInsurancePrediction.csv
-#df = pd.read_csv("TravelInsurancePrediction.csv")
-#df = df.drop(columns=["Index"])
-#X = df.drop(columns=["TravelInsurance"])
-#y = df["TravelInsurance"]
-#print(df.head())
-
-# Auto Insurance Claims Data (Fraud Detection)
-# Samples: 1,000
-# Features: 39
-# Target: fraud_reported
-# Link: https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
-# Download your dataset directly from GitHub
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/insurance_claims.csv -O insurance_claims.csv
-# df = pd.read_csv("insurance_claims.csv")
-# df = df.drop(columns=["_c39"])
-# X = df.drop(columns=["fraud_reported"])
-# y = df["fraud_reported"]
-# print(df.head())
-
-# Car Insurance Cold Calls (Customer bought car insurance or no)
-# Samples: 4,000
-# Features: 18
-# Target: CarInsurance
-# Link: https://www.kaggle.com/datasets/kondla/carinsurance
-# Download your dataset directly from GitHub
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceColdCalls.csv -O CarInsuranceColdCalls.csv
-# df = pd.read_csv("CarInsuranceColdCalls.csv")
-# df = df.drop(columns=["Id"])
-# X = df.drop(columns=["CarInsurance"])
-# y = df["CarInsurance"]
-# print(df.head())
-
-# ANU Corporate Travel Insurance Claims
-# Samples: 2.1K
-# Features: 7
-# Target: Status
-# link: https://datacommons.anu.edu.au/DataCommons/item/anudc:6164
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/ANUTravelClaims.csv -O ANUTravelClaims.csv
-# df = pd.read_csv("ANUTravelClaims.csv")
-# X = df.drop(columns=["Status"])
-# y = df["Status"]
-# print(df.head())
-
-# Prudential Life Insurance Assessment("Response" is an ordinal measure of risk that has 8 levels.)
-# Samples: 59K
-# Features: 127
-# Target: Response
-# link: https://www.kaggle.com/competitions/prudential-life-insurance-assessment
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv -O PrudentialLifeInsuranceAssessment.csv
-# df = pd.read_csv("PrudentialLifeInsuranceAssessment.csv")
-# df = df.drop(columns=["Id"])
-# df = df.sample(n=10000, random_state=42)
 # X = df.drop(columns=["Response"])
 # y = df["Response"]
-# print(df.head())
+# print("\n\n\n\n\n\n\ndata done\n\n\n\n\n")
 
-# Car Insurance Claim Prediction
-# Samples: 58.6K
-# Features: 43
-# Target: is_claim
-# link: https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv -O CarInsuranceClaimPrediction.csv
-# df = pd.read_csv("CarInsuranceClaimPrediction.csv")
-# df = df.sample(n=10000, random_state=42)
-# X = df.drop(columns=["is_claim"])
-# y = df["is_claim"]
-# print(df.head())
+# Alternative datasets (commented for reference):
+if args.dataset == "caravan":
+    # Caravan Insurance Challenge (To predict if one will buy Caravan insurance policy)
+    # Samples: 9.8K
+    # Features: 86
+    # Target: CARAVAN
+    # link: https://www.kaggle.com/datasets/uciml/caravan-insurance-challenge
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv"
+    output = "caravan.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.drop(columns=["ORIGIN"])
+    X = df.drop(columns=["CARAVAN"])
+    y = df["CARAVAN"]
+    print(df.head())
+elif args.dataset == "travel":
+    # Travel Insurance Prediction Data
+    # Samples: 1.9K
+    # Features: 9
+    # Target: TravelInsurance
+    # link: https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/TravelInsurancePrediction.csv"
+    output = "TravelInsurancePrediction.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.drop(columns=["Index"])
+    X = df.drop(columns=["TravelInsurance"])
+    y = df["TravelInsurance"]
+    print(df.head())
+elif args.dataset == "insurance_claims":
 
-# Car Insurance Claim Data
-# Samples: 10K
-# Features: 18
-# Target: OUTCOME
-# link: https://www.kaggle.com/datasets/sagnik1511/car-insurance-data
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/Car_Insurance_Claim.csv -O CarInsuranceClaim.csv
-# df = pd.read_csv("CarInsuranceClaim.csv")
-# X = df.drop(columns=["OUTCOME"])
-# y = df["OUTCOME"]
-# df.head()
+    # Auto Insurance Claims Data (Fraud Detection)
+    # Samples: 1,000
+    # Features: 39
+    # Target: fraud_reported
+    # Link: https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
+    # Download your dataset directly from GitHub
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/insurance_claims.csv"
+    output = "insurance_claims.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.drop(columns=["_c39"])
+    X = df.drop(columns=["fraud_reported"])
+    y = df["fraud_reported"]
+    print(df.head())
+elif args.dataset == "car_insurance_cold_calls":
 
-# European lapse dataset from the direct channel(Lapse indicator)
-# Samples: 23,060
-# Features: 18
-# Target: lapse
-# Link: https://github.com/dutangc/CASdatasets/blob/master/man-md/eudirectlapse.md
-# Download your dataset directly from GitHub
-# !wget https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/eudirectlapse.csv -O eudirectlapse.csv
-# df = pd.read_csv("eudirectlapse.csv")
-# df = df.sample(n=10000, random_state=42)
-# X = df.drop(columns=["lapse"])
-# y = df["lapse"]
-# print(df.head())
+    # Car Insurance Cold Calls (Customer bought car insurance or no)
+    # Samples: 4,000
+    # Features: 18
+    # Target: CarInsurance
+    # Link: https://www.kaggle.com/datasets/kondla/carinsurance
+    # Download your dataset directly from GitHub
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceColdCalls.csv"
+    output = "CarInsuranceColdCalls.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.drop(columns=["Id"])
+    X = df.drop(columns=["CarInsurance"])
+    y = df["CarInsurance"]
+    print(df.head())
+elif args.dataset == "anu_travel_claims":
+
+    # ANU Corporate Travel Insurance Claims
+    # Samples: 2.1K
+    # Features: 7
+    # Target: Status
+    # link: https://datacommons.anu.edu.au/DataCommons/item/anudc:6164
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/ANUTravelClaims.csv"
+    output = "ANUTravelClaims.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    X = df.drop(columns=["Status"])
+    y = df["Status"]
+    print(df.head())
+elif args.dataset == "prudential":
+
+    # Prudential Life Insurance Assessment("Response" is an ordinal measure of risk that has 8 levels.)
+    # Samples: 59K
+    # Features: 127
+    # Target: Response
+    # link: https://www.kaggle.com/competitions/prudential-life-insurance-assessment
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
+    output = "PrudentialLifeInsuranceAssessment.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.drop(columns=["Id"])
+    df = df.sample(n=10000, random_state=42)
+    X = df.drop(columns=["Response"])
+    y = df["Response"]
+    print(df.head())
+elif args.dataset == "car_insurance_claim_prediction":
+
+    # Car Insurance Claim Prediction
+    # Samples: 58.6K
+    # Features: 43
+    # Target: is_claim
+    # link: https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
+    output = "CarInsuranceClaimPrediction.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.sample(n=10000, random_state=42)
+    X = df.drop(columns=["is_claim"])
+    y = df["is_claim"]
+    print(df.head())
+elif args.dataset == "car_insurance_claim":
+
+    # Car Insurance Claim Data
+    # Samples: 10K
+    # Features: 18
+    # Target: OUTCOME
+    # link: https://www.kaggle.com/datasets/sagnik1511/car-insurance-data
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/Car_Insurance_Claim.csv"
+    output = "CarInsuranceClaim.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    X = df.drop(columns=["OUTCOME"])
+    y = df["OUTCOME"]
+    df.head()
+elif args.dataset == "eudirectlapse":
+
+    # European lapse dataset from the direct channel(Lapse indicator)
+    # Samples: 23,060
+    # Features: 18
+    # Target: lapse
+    # Link: https://github.com/dutangc/CASdatasets/blob/master/man-md/eudirectlapse.md
+    # Download your dataset directly from GitHub
+    url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/eudirectlapse.csv"
+    output = "eudirectlapse.csv"
+    response = requests.get(url)
+    with open(output, "wb") as f:
+        f.write(response.content)
+    df = pd.read_csv(output)
+    df = df.sample(n=10000, random_state=42)
+    X = df.drop(columns=["lapse"])
+    y = df["lapse"]
+    print(df.head())
 
 # Compare different machine learning models by training each one multiple times
 # on different parts of the data and averaging their performance scores for a
@@ -243,7 +291,7 @@ for i in range(1, 13):
 # Create the results DataFrame
 results_df = pd.DataFrame({
     "Num_Features": list(range(1, 13)),
-    "Selected_Features": [", ".join(selected_features_full[i]) for i in range(0, 12)],
+    "Selected_Features": [", ".join(selected_features_full[:i]) for i in range(1, 13)],
     "ROC_AUC": roc_auc_scores
 })
 
@@ -261,11 +309,11 @@ plt.xticks(num_features)
 plt.grid(True)
 
 # Save the plot
-plt.savefig("roc_auc_vs_features.png", dpi=300, bbox_inches='tight')  # saves as PNG with high resolution
+plt.savefig(f"roc_auc_vs_features_{args.dataset}.png", dpi=300, bbox_inches='tight')  # saves as PNG with high resolution
 
 # Save to CSV
-results_df.to_csv("roc_auc_feature_results.csv", index=False)
-print("Results saved to 'roc_auc_feature_results.csv'")
+results_df.to_csv(f"roc_auc_feature_results_{args.dataset}.csv", index=False)
+print(f"Results saved to 'roc_auc_feature_results_{args.dataset}.csv'")
 
 
 
