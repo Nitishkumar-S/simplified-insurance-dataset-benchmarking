@@ -1,13 +1,13 @@
 Num_Features,Selected_Features,ROC_AUC
-1,Upper_Age,0.4761904761904762
-2,"Upper_Age, Holding_Policy_Duration",0.6666666666666666
-3,"Upper_Age, Is_Spouse, Holding_Policy_Duration",0.6190476190476191
-4,"Region_Code, Upper_Age, Is_Spouse, Holding_Policy_Duration",0.7142857142857143
-5,"Region_Code, Accomodation_Type, Upper_Age, Is_Spouse, Holding_Policy_Duration",0.6190476190476191
-6,"Region_Code, Accomodation_Type, Upper_Age, Is_Spouse, Holding_Policy_Duration, Reco_Policy_Premium",0.7619047619047619
-7,"Region_Code, Accomodation_Type, Upper_Age, Lower_Age, Is_Spouse, Holding_Policy_Duration, Reco_Policy_Premium",0.6190476190476191
-8,"Region_Code, Accomodation_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Reco_Policy_Premium",0.8095238095238095
-9,"City_Code, Region_Code, Accomodation_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Reco_Policy_Premium",0.7619047619047619
-10,"City_Code, Region_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Reco_Policy_Premium",0.7142857142857142
-11,"City_Code, Region_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Reco_Policy_Cat, Reco_Policy_Premium",0.6666666666666667
-12,"City_Code, Region_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.5238095238095238
+1,Reco_Policy_Cat,0.6279857713027939
+2,"City_Code, Reco_Policy_Cat",0.637450235061518
+3,"City_Code, Reco_Insurance_Type, Reco_Policy_Cat",0.6360746676587152
+4,"City_Code, Reco_Insurance_Type, Is_Spouse, Reco_Policy_Cat",0.638218272695362
+5,"City_Code, Reco_Insurance_Type, Is_Spouse, Holding_Policy_Type, Reco_Policy_Cat",0.6654306060996988
+6,"City_Code, Reco_Insurance_Type, Is_Spouse, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat",0.6681537395332371
+7,"City_Code, Reco_Insurance_Type, Is_Spouse, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.660501864591365
+8,"City_Code, Reco_Insurance_Type, Upper_Age, Is_Spouse, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.6547815842976307
+9,"City_Code, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.6588317827573551
+10,"City_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.6448365969932526
+11,"City_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.6620964427256936
+12,"City_Code, Region_Code, Accomodation_Type, Reco_Insurance_Type, Upper_Age, Lower_Age, Is_Spouse, Health Indicator, Holding_Policy_Duration, Holding_Policy_Type, Reco_Policy_Cat, Reco_Policy_Premium",0.6694313021338045
