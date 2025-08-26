@@ -264,14 +264,11 @@ roc_auc_scores = []
 selected_features_full = []
 """**Subset of data selected based on feature importance**"""
 for i in range(1, 13):
-    if i != 12:
-        selected_features = feature_selector(X, y, i)
-        selected_features_full.append(selected_features)
-        X_selected = X[selected_features]
-        X_enc = column_transformer.fit_transform(X_selected)
-    else:
-        X_enc = column_transformer.fit_transform(X)
-        selected_features_full.append(X.columns.tolist())
+    selected_features = feature_selector(X, y, i)
+    selected_features_full.append(selected_features)
+    X_selected = X[selected_features]
+    X_enc = column_transformer.fit_transform(X_selected)
+    
     X_train, X_test, y_train, y_test = train_test_split(
         X_enc, y, test_size=0.20, random_state=42
     )
@@ -291,7 +288,7 @@ for i in range(1, 13):
 # Create the results DataFrame
 results_df = pd.DataFrame({
     "Num_Features": list(range(1, 13)),
-    "Selected_Features": [", ".join(selected_features_full[:i]) for i in range(1, 13)],
+    "Selected_Features": [", ".join(selected_features_full[:i]) for i in range(0, 12)],
     "ROC_AUC": roc_auc_scores
 })
 
