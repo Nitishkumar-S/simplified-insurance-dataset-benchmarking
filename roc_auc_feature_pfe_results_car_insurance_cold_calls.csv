@@ -1,0 +1,13 @@
+Num_Features,Selected_Features,ROC_AUC
+1,HHInsurance,0.5994481640338948
+2,"HHInsurance, CarLoan",0.6073955173135264
+3,"HHInsurance, CarLoan, Default",0.6150257610628727
+4,"HHInsurance, CarLoan, Default, Balance",0.6287235851030442
+5,"HHInsurance, CarLoan, Default, Balance, NoOfContacts",0.6286320483314154
+6,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education",0.6336992624751543
+7,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart",0.6367461293022283
+8,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart, Communication",0.6873136572863272
+9,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart, Communication, LastContactDay",0.6942377602259651
+10,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart, Communication, LastContactDay, Age",0.7031887488230986
+11,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart, Communication, LastContactDay, Age, Job",0.7126301129825297
+12,"HHInsurance, CarLoan, Default, Balance, NoOfContacts, Education, CallStart, Communication, LastContactDay, Age, Job, LastContactMonth",0.7602750026153364

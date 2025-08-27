@@ -1,0 +1,13 @@
+Num_Features,Selected_Features,ROC_AUC
+1,insured_education_level,0.46927899686520375
+2,"insured_education_level, policy_deductable",0.52576802507837
+3,"insured_education_level, policy_deductable, auto_make",0.3497805642633229
+4,"insured_education_level, policy_deductable, auto_make, vehicle_claim",0.5847648902821316
+5,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year",0.6221316614420063
+6,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model",0.6112852664576803
+7,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim",0.6317241379310344
+8,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim, property_claim",0.6030094043887148
+9,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim, property_claim, total_claim_amount",0.6052664576802508
+10,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim, property_claim, total_claim_amount, police_report_available",0.5989341692789969
+11,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim, property_claim, total_claim_amount, police_report_available, property_damage",0.6089655172413793
+12,"insured_education_level, policy_deductable, auto_make, vehicle_claim, auto_year, auto_model, injury_claim, property_claim, total_claim_amount, police_report_available, property_damage, number_of_vehicles_involved",0.6156739811912226
