@@ -39,6 +39,7 @@ from xgboost import XGBClassifier, XGBRegressor
 import requests
 import argparse
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.inspection import permutation_importance
 
 # get dataset name from argument
 parser = argparse.ArgumentParser()
@@ -235,16 +236,16 @@ elif args.dataset == "eudirectlapse":
 # more reliable performance estimate
 
 # limit to 2000 samples for faster computation
-if len(df) > 2000:
-    n_samples = min(2000, len(df))
-    test_size = n_samples / len(df)
-    X, _, y, _ = train_test_split(
-        X, y,
-        test_size=test_size,
-        stratify=y,
-        random_state=42
-    )
-    df = pd.concat([X, y], axis=1)
+# if len(df) > 2000:
+#     n_samples = min(2000, len(df))
+#     test_size = n_samples / len(df)
+#     X, _, y, _ = train_test_split(
+#         X, y,
+#         test_size=test_size,
+#         stratify=y,
+#         random_state=42
+#     )
+#     df = pd.concat([X, y], axis=1)
 
 
 # def feature_selector(X, y, i):
@@ -272,19 +273,32 @@ if len(df) > 2000:
 #     for feature in selected_features:
 #         print(f"- {feature}")
 #     return selected_features
-X_rf = column_transformer.fit_transform(X)
-le = LabelEncoder()
-y_rf = le.fit_transform(y)
-rf = RandomForestClassifier(n_estimators=200, random_state=42)
-rf.fit(X_rf, y_rf)
 
-# get importances sorted in descending order
-importances = rf.feature_importances_
+# Random forest
+# X_rf = column_transformer.fit_transform(X)
+# le = LabelEncoder()
+# y_rf = le.fit_transform(y)
+# rf = RandomForestClassifier(n_estimators=200, random_state=42)
+# rf.fit(X_rf, y_rf)
+
+# # get importances sorted in descending order
+# importances = rf.feature_importances_
+# indices = importances.argsort()[::-1]
+
+# ranked_features = X.columns[indices]
+
+# Permutation feature importance
+X_enc = column_transformer.fit_transform(X)
+X_train, X_test, y_train, y_test = train_test_split(
+        X_enc, y, test_size=0.20, random_state=42
+)
+
+# Train and evaluate the TabPFN classifier
+tabpfn_classifier = TabPFNClassifier(random_state=42).fit(X_train, y_train)
+permutation_importance_results = permutation_importance(tabpfn_classifier, X_test, y_test, n_repeats=30, random_state=42)
+importances = permutation_importance_results.importances_mean
 indices = importances.argsort()[::-1]
-
 ranked_features = X.columns[indices]
-
-
 
 roc_auc_scores = []
 selected_features_full = []
