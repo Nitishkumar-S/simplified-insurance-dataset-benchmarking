@@ -1,0 +1,13 @@
+Num_Features,Selected_Features,ROC_AUC
+1,insured_education_level,0.46927899686520375
+2,"insured_education_level, policy_deductable",0.52576802507837
+3,"insured_education_level, policy_deductable, number_of_vehicles_involved",0.4962382445141066
+4,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model",0.4665203761755486
+5,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit",0.49385579937304075
+6,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state",0.4946081504702195
+7,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity",0.7125391849529781
+8,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity, months_as_customer",0.7132288401253918
+9,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity, months_as_customer, capital-gains",0.7168652037617553
+10,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity, months_as_customer, capital-gains, property_claim",0.7189341692789968
+11,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity, months_as_customer, capital-gains, property_claim, auto_make",0.7134796238244514
+12,"insured_education_level, policy_deductable, number_of_vehicles_involved, auto_model, umbrella_limit, incident_state, incident_severity, months_as_customer, capital-gains, property_claim, auto_make, vehicle_claim",0.7111598746081504
