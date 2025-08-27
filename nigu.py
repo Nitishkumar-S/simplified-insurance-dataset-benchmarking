@@ -234,15 +234,16 @@ elif args.dataset == "eudirectlapse":
 # more reliable performance estimate
 
 # limit to 2000 samples for faster computation
-n_samples = min(2000, len(df))
-test_size = n_samples / len(df)
-X, _, y, _ = train_test_split(
-    X, y,
-    test_size=test_size,
-    stratify=y,
-    random_state=42
-)
-df = pd.concat([X, y], axis=1)
+if len(df) > 2000:
+    n_samples = min(2000, len(df))
+    test_size = n_samples / len(df)
+    X, _, y, _ = train_test_split(
+        X, y,
+        test_size=test_size,
+        stratify=y,
+        random_state=42
+    )
+    df = pd.concat([X, y], axis=1)
 
 
 # def feature_selector(X, y, i):
@@ -270,9 +271,11 @@ df = pd.concat([X, y], axis=1)
 #     for feature in selected_features:
 #         print(f"- {feature}")
 #     return selected_features
-
+X_rf = column_transformer.fit_transform(X)
+le = LabelEncoder()
+y_rf = le.fit_transform(y)
 rf = RandomForestClassifier(n_estimators=200, random_state=42)
-rf.fit(X, y)
+rf.fit(X_rf, y_rf)
 
 # get importances sorted in descending order
 importances = rf.feature_importances_
@@ -311,7 +314,7 @@ for i in range(1, 13):
 # Create the results DataFrame
 results_df = pd.DataFrame({
     "Num_Features": list(range(1, 13)),
-    "Selected_Features": [", ".join(selected_features_full[:i]) for i in range(0, 12)],
+    "Selected_Features": [", ".join(selected_features_full[i]) for i in range(0, 12)],
     "ROC_AUC": roc_auc_scores
 })
 
