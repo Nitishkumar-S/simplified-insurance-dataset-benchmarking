@@ -1,0 +1,13 @@
+Num_Features,Selected_Features,ROC_AUC
+1,ChronicDiseases,0.5256781742417971
+2,"ChronicDiseases, FrequentFlyer",0.5777658194662914
+3,"ChronicDiseases, FrequentFlyer, FamilyMembers",0.6402709937356845
+4,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome",0.7907387476888263
+5,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot",0.7934845599801309
+6,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad",0.7805143913679389
+7,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age",0.8008941137511384
+8,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age, Employment Type",0.8048541545933714
+9,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age, Employment Type",0.8048541545933714
+10,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age, Employment Type",0.8048541545933714
+11,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age, Employment Type",0.8048541545933714
+12,"ChronicDiseases, FrequentFlyer, FamilyMembers, AnnualIncome, GraduateOrNot, EverTravelledAbroad, Age, Employment Type",0.8048541545933714
