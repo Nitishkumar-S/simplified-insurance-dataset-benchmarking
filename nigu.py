@@ -38,6 +38,7 @@ from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from xgboost import XGBClassifier, XGBRegressor
 import requests
 import argparse
+from sklearn.ensemble import RandomForestClassifier
 
 # get dataset name from argument
 parser = argparse.ArgumentParser()
@@ -232,39 +233,61 @@ elif args.dataset == "eudirectlapse":
 # on different parts of the data and averaging their performance scores for a
 # more reliable performance estimate
 
+# limit to 2000 samples for faster computation
+n_samples = min(2000, len(df))
+test_size = n_samples / len(df)
+X, _, y, _ = train_test_split(
+    X, y,
+    test_size=test_size,
+    stratify=y,
+    random_state=42
+)
+df = pd.concat([X, y], axis=1)
 
-def feature_selector(X, y, i):
-    le = LabelEncoder()
-    y = le.fit_transform(y)
 
-    X_enc = column_transformer.fit_transform(X)
+# def feature_selector(X, y, i):
+#     le = LabelEncoder()
+#     y = le.fit_transform(y)
 
-    feature_names = X.columns
-    n_features = i  #Number of features to select
+#     X_enc = column_transformer.fit_transform(X)
 
-    # Initialize model
-    clf = TabPFNClassifier(n_estimators=1)
+#     feature_names = X.columns
+#     n_features = i  #Number of features to select
 
-    # Feature selection
-    sfs = interpretability.feature_selection.feature_selection(
-        estimator=clf, X=X_enc, y=y, n_features_to_select=n_features, feature_names=feature_names
-    )
+#     # Initialize model
+#     clf = TabPFNClassifier(n_estimators=1)
 
-    # Print selected features
-    selected_features = [
-        feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
-    ]
-    print("\nSelected features:")
-    for feature in selected_features:
-        print(f"- {feature}")
-    return selected_features
+#     # Feature selection
+#     sfs = interpretability.feature_selection.feature_selection(
+#         estimator=clf, X=X_enc, y=y, n_features_to_select=n_features, feature_names=feature_names
+#     )
+
+#     # Print selected features
+#     selected_features = [
+#         feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
+#     ]
+#     print("\nSelected features:")
+#     for feature in selected_features:
+#         print(f"- {feature}")
+#     return selected_features
+
+rf = RandomForestClassifier(n_estimators=200, random_state=42)
+rf.fit(X, y)
+
+# get importances sorted in descending order
+importances = rf.feature_importances_
+indices = importances.argsort()[::-1]
+
+ranked_features = X.columns[indices]
+
 
 
 roc_auc_scores = []
 selected_features_full = []
 """**Subset of data selected based on feature importance**"""
 for i in range(1, 13):
-    selected_features = feature_selector(X, y, i)
+    # selected_features = feature_selector(X, y, i)
+    selected_features = ranked_features[:i]
     selected_features_full.append(selected_features)
     X_selected = X[selected_features]
     X_enc = column_transformer.fit_transform(X_selected)
