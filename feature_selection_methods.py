@@ -77,16 +77,18 @@ def sequential_feature_selector(X, y, i):
 if __name__ == "__main__":
     # get dataset name from argument
     parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", type=str, default="cross-sell")
     parser.add_argument("--method", type=str, default="sequential")
     args = parser.parse_args()
 
     # cross-sell dataset
-    df_test = pd.read_csv("data/test_kartik.csv")
-    df_train = pd.read_csv("data/train_kartik.csv")
-    df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
-    df = df.sample(n=50, random_state=42)
-    X = df.drop(columns=["Response"])
-    y = df["Response"]
+    if args.dataset == "cross-sell":
+        df_test = pd.read_csv("data/test_kartik.csv")
+        df_train = pd.read_csv("data/train_kartik.csv")
+        df = pd.concat([df_test, df_train]).sample(frac=1, random_state=42).reset_index(drop=True)
+        df = df.sample(n=50, random_state=42)
+        X = df.drop(columns=["Response"])
+        y = df["Response"]
 
     # For other datasets, ***note: edit the code below to suit your dataset***
     # url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv"

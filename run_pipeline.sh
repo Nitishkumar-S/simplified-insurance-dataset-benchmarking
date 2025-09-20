@@ -14,7 +14,7 @@ source tablab/bin/activate
 # python classification.py --dataset "$1"
 
 # Feature selection
-python nigu.py --dataset "$1"
+python nigu.py --dataset "$1" --method "$2"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml
