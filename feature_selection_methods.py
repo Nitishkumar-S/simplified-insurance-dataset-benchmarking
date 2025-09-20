@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # print(df.head())
 
     if args.method == "sequential":
-        selected_features = sequential_feature_selector(X, y, 12)
+        selected_features = sequential_feature_selector(X, y, 9)
     else:
         raise ValueError("Invalid method. Please choose 'sequential'.")
 
