@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import torch
+import logging
 
 # Notebook UI/Display
 from sklearn.compose import make_column_selector, make_column_transformer
@@ -75,6 +76,9 @@ def sequential_feature_selector(X, y, i):
     return selected_features
 
 if __name__ == "__main__":
+    # set up logging
+    logging.basicConfig(level=logging.INFO)
+
     # get dataset name from argument
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, default="cross-sell")
@@ -82,7 +86,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # cross-sell dataset
-    print("Using dataset:", args.dataset)
+    logging.info(f"Loading dataset: {args.dataset}")
     if args.dataset == "cross-sell":
         df_test = pd.read_csv("data/test_kartik.csv")
         df_train = pd.read_csv("data/train_kartik.csv")
