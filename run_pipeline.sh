@@ -14,7 +14,7 @@ source tablab/bin/activate
 # python classification.py --dataset "$1"
 
 # Feature selection
-python feature_selection_methods.py --dataset "$1" --method "$2"
+python interpretability.py --dataset "all" --method "all"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml

@@ -143,4 +143,85 @@ def get_data(name):
         X = df.drop(columns=["Lapse"])
         y = df["Lapse"]
 
-    return X, y
+    feature_names = X.columns
+    X = column_transformer.fit_transform(X)
+    # Split data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
+    return X_train, X_test, y_train, y_test, feature_names
+
+
+if __name__ == "__main__":
+    # set up logging
+    logging.basicConfig(level=logging.INFO)
+
+    # get dataset name from argument
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", type=str, default="all")
+    parser.add_argument("--method", type=str, default="all")
+    args = parser.parse_args()
+
+    dataset_list = [
+    "Caravan",
+    "TravelInsurance",
+    "CarInsuranceClaim",
+    "AutoInsuranceClaims",
+    "CarInsuranceColdCalls",
+    "GermanCredit",
+    "ANUTravelClaims",
+    "PrudentialLifeInsuranceAssessment",
+    "CarInsuranceClaimPrediction",
+    "EuropeanLapse"
+    ]
+
+    method_list = ["SHAP", "SHAP-IQ"]
+
+    # Parse dataset argument
+    if args.dataset == "all":
+        datasets_to_use = dataset_list
+    else:
+        datasets_to_use = [d.strip() for d in args.dataset.split(";")]
+
+    # Parse method argument
+    if args.method == "all":
+        methods_to_use = method_list
+    else:
+        methods_to_use = [m.strip() for m in args.method.split(";")]
+
+    for name in datasets_to_use:
+        logging.info(f"Processing dataset: {name}")
+
+        # Load dataset
+        X_train, X_test, y_train, y_test, feature_names = get_data(name)
+
+        # Initialize and train model
+        clf = TabPFNClassifier()
+        clf.fit(X_train, y_train)
+
+        for method in methods_to_use:
+            logging.info(f"Running method: {method} on dataset: {name}")
+
+            if method == "SHAP":
+                # Calculate SHAP values
+                shap_values = interpretability.shap.get_shap_values(
+                    estimator=clf,
+                    test_x=X_test,
+                    attribute_names=feature_names,
+                    algorithm="permutation",
+                )
+
+                # Create visualization
+                fig = interpretability.shap.plot_shap(shap_values)
+
+            elif method == "SHAP-IQ":
+                # Example placeholder for SHAP-IQ (replace with real call later)
+                pass
+
+            else:
+                raise ValueError(f"Invalid method: {method}")
+
+            # Save figure with dataset + method name
+            filename = f"{name}_{method}.png"
+            fig.savefig(filename, dpi=300, bbox_inches="tight")
+            plt.close(fig)
+
+            logging.info(f"Saved {method} plot as {filename}")
