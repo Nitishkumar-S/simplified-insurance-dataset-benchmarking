@@ -68,10 +68,10 @@ def sequential_feature_selector(X, y, i):
     )
 
     # Print selected features
-    # selected_features = [
-    #     feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
-    # ]
-    selected_features = sfs.get_feature_names_out().tolist()
+    selected_features = [
+        feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
+    ]
+    # selected_features = sfs.get_feature_names_out().tolist()
     
     return selected_features
 
