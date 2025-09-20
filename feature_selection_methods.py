@@ -82,6 +82,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # cross-sell dataset
+    print("Using dataset:", args.dataset)
     if args.dataset == "cross-sell":
         df_test = pd.read_csv("data/test_kartik.csv")
         df_train = pd.read_csv("data/train_kartik.csv")
