@@ -1,10 +1,10 @@
 sequential
-x0
-x1
-x2
-x4
-x5
-x6
-x7
-x8
-x11
+City_Code
+Region_Code
+Accomodation_Type
+Upper_Age
+Lower_Age
+Is_Spouse
+Health Indicator
+Holding_Policy_Duration
+Reco_Policy_Premium
