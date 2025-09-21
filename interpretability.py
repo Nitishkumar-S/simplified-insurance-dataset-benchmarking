@@ -217,8 +217,40 @@ if __name__ == "__main__":
                 plt.close(fig)
 
             elif method == "SHAP-IQ":
-                # Example placeholder for SHAP-IQ (replace with real call later)
-                pass
+                n_model_evals = 100
+                x_explain = X_test[0]
+                # Get a TabPFNExplainer
+                explainer = interpretability.shapiq.get_tabpfn_explainer(
+                    model=clf,
+                    data=X_train,
+                    labels=y_train,
+                    index="SV",  # SV: Shapley Value (like in shap)
+                    verbose=True,  # show a progress bar during explanation
+                )
+
+                # Get shap values
+                logging.info("Calculating SHAP values...")
+                shapley_values = explainer.explain(x=x_explain, budget=n_model_evals)
+
+                # plot the force plot
+                shapley_values.plot_force(feature_names=feature_names)
+
+                # Get an Shapley Interaction Explainer (here we use the Faithful Shapley Interaction Index)
+                explainer = interpretability.shapiq.get_tabpfn_explainer(
+                    model=clf,
+                    data=X_train,
+                    labels=y_train,
+                    index="FSII",  # SV: Shapley Value, FSII: Faithful Shapley Interaction Index
+                    max_order=2,  # maximum order of the Shapley interactions (2 for pairwise interactions)
+                    verbose=True,  # show a progress bar during explanation
+                )
+
+                # Get shapley interaction values
+                logging.info("Calculating Shapley interaction values...")
+                shapley_interaction_values = explainer.explain(x=x_explain, budget=n_model_evals)
+
+                # Plot the upset plot for visualizing the interactions
+                shapley_interaction_values.plot_upset(feature_names=feature_names)
 
             elif method == "PDP":
                 # 1D PD for the first 3 features + a 2D interaction plot
