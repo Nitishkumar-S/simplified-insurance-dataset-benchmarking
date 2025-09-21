@@ -173,7 +173,7 @@ if __name__ == "__main__":
     "EuropeanLapse"
     ]
 
-    method_list = ["SHAP", "SHAP-IQ", "PDP"]
+    method_list = ["SHAP", "SHAP-IQ", "PDP", "ICE"]
 
     # Parse dataset argument
     if args.dataset == "all":
@@ -260,6 +260,20 @@ if __name__ == "__main__":
                     features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
                     grid_resolution=30,
                     kind="average",
+                    target_class=1,
+                )
+                disp.figure_.suptitle("Partial dependence")
+
+                plt.savefig(filename)
+
+            elif method == "ICE":
+                # 1D PD for the first 3 features + a 2D interaction plot
+                disp = interpretability.pdp.partial_dependence_plots(
+                    estimator=clf,
+                    X=X_test,
+                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    grid_resolution=30,
+                    kind="individual",
                     target_class=1,
                 )
                 disp.figure_.suptitle("Partial dependence")
