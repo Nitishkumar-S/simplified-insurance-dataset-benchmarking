@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 import torch
 import logging
+import pickle 
 
 # Notebook UI/Display
 from sklearn.compose import make_column_selector, make_column_transformer
@@ -44,9 +45,10 @@ column_transformer = make_column_transformer(
 
 
 def get_data(name):
+    output = "data/"
     if name == "Caravan":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv"
-        output = "CaravanInsuranceChallenge.csv"
+        output += "CaravanInsuranceChallenge.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -56,7 +58,7 @@ def get_data(name):
         y = df["CARAVAN"]
     elif name == "TravelInsurance":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/TravelInsurancePrediction.csv"
-        output = "TravelInsurancePrediction.csv"
+        output += "TravelInsurancePrediction.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -66,7 +68,7 @@ def get_data(name):
         y = df["TravelInsurance"]
     elif name == "CarInsuranceClaim":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/Car_Insurance_Claim.csv"
-        output = "CarInsuranceClaim.csv"
+        output += "CarInsuranceClaim.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -75,7 +77,7 @@ def get_data(name):
         y = df["OUTCOME"]
     elif name == "AutoInsuranceClaims":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/insurance_claims.csv"
-        output = "insurance_claims.csv"
+        output += "insurance_claims.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -85,7 +87,7 @@ def get_data(name):
         y = df["fraud_reported"]
     elif name == "CarInsuranceColdCalls":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceColdCalls.csv"
-        output = "CarInsuranceColdCalls.csv"
+        output += "CarInsuranceColdCalls.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -95,7 +97,7 @@ def get_data(name):
         y = df["CarInsurance"]
     elif name == "GermanCredit":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/germancredit.csv"
-        output = "germancredit.csv"
+        output += "germancredit.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -104,7 +106,7 @@ def get_data(name):
         y = df["class"]
     elif name == "ANUTravelClaims":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/ANUTravelClaims.csv"
-        output = "ANUTravelClaims.csv"
+        output += "ANUTravelClaims.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -113,7 +115,7 @@ def get_data(name):
         y = df["Status"]
     elif name == "PrudentialLifeInsuranceAssessment":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
-        output = "PrudentialLifeInsuranceAssessment.csv"
+        output += "PrudentialLifeInsuranceAssessment.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -124,7 +126,7 @@ def get_data(name):
         y = df["Response"]
     elif name == "CarInsuranceClaimPrediction":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
-        output = "CarInsuranceClaimPrediction.csv"
+        output += "CarInsuranceClaimPrediction.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -134,7 +136,7 @@ def get_data(name):
         y = df["ClaimAmount"]
     elif name == "EuropeanLapse":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
-        output = "EuropeanLapse.csv"
+        output += "EuropeanLapse.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -144,6 +146,8 @@ def get_data(name):
         y = df["Lapse"]
 
     feature_names = X.columns
+    le = LabelEncoder()
+    y = le.fit_transform(y)
     X = column_transformer.fit_transform(X)
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
@@ -199,7 +203,7 @@ if __name__ == "__main__":
 
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
-            filename = f"{name}_{method}.png"
+            filename = f"results/{name}_{method}"
 
             if method == "SHAP":
                 # Calculate SHAP values
@@ -209,15 +213,19 @@ if __name__ == "__main__":
                     attribute_names=feature_names,
                     algorithm="permutation",
                 )
-
+                with open(f"{filename}_shap_values.pkl", "wb") as f:
+                    pickle.dump(shap_values, f)
+                
+                #with open(f"{filename}_shap_values.pkl", "rb") as f:
+                #    shap_values_loaded = pickle.load(f)
                 # Create visualization
-                fig = interpretability.shap.plot_shap(shap_values)
+                #fig = interpretability.shap.plot_shap(shap_values)
                 # Save figure with dataset + method name
-                fig.savefig(filename, dpi=300, bbox_inches="tight")
-                plt.close(fig)
+                #fig.savefig(filename, dpi=300, bbox_inches="tight")
+                #plt.close(fig)
 
             elif method == "SHAP-IQ":
-                n_model_evals = 100
+                n_model_evals = 10
                 x_explain = X_test[0]
                 # Get a TabPFNExplainer
                 explainer = interpretability.shapiq.get_tabpfn_explainer(
@@ -241,7 +249,7 @@ if __name__ == "__main__":
                     data=X_train,
                     labels=y_train,
                     index="FSII",  # SV: Shapley Value, FSII: Faithful Shapley Interaction Index
-                    max_order=2,  # maximum order of the Shapley interactions (2 for pairwise interactions)
+                    max_order=1,  # maximum order of the Shapley interactions (2 for pairwise interactions)
                     verbose=True,  # show a progress bar during explanation
                 )
 
@@ -257,28 +265,28 @@ if __name__ == "__main__":
                 disp = interpretability.pdp.partial_dependence_plots(
                     estimator=clf,
                     X=X_test,
-                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    features = [0, 1, 2, (0, 3)],#list(range(len(feature_names))) + [(1, len(feature_names)-1)],
                     grid_resolution=30,
                     kind="average",
                     target_class=1,
                 )
                 disp.figure_.suptitle("Partial dependence")
 
-                plt.savefig(filename)
+                plt.savefig(f"{filename}.png")
 
             elif method == "ICE":
                 # 1D PD for the first 3 features + a 2D interaction plot
                 disp = interpretability.pdp.partial_dependence_plots(
                     estimator=clf,
                     X=X_test,
-                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    features = list(range(len(feature_names))) + [(1, len(feature_names)-1)],
                     grid_resolution=30,
                     kind="individual",
                     target_class=1,
                 )
                 disp.figure_.suptitle("Partial dependence")
 
-                plt.savefig(filename)
+                plt.savefig(f"{filename}.png")
 
             else:
                 raise ValueError(f"Invalid method: {method}")
