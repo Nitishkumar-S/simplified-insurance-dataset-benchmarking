@@ -145,6 +145,8 @@ def get_data(name):
 
     feature_names = X.columns
     X = column_transformer.fit_transform(X)
+    X = X[:25]
+    y = y[:25]
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
     return X_train, X_test, y_train, y_test, feature_names
@@ -173,7 +175,7 @@ if __name__ == "__main__":
     "EuropeanLapse"
     ]
 
-    method_list = ["SHAP", "SHAP-IQ", "PDP", "ICE"]
+    method_list = ["SHAP", "SHAP-IQ", "PDP", "ICE", "SFS"]
 
     # Parse dataset argument
     if args.dataset == "all":
@@ -279,6 +281,34 @@ if __name__ == "__main__":
                 disp.figure_.suptitle("Partial dependence")
 
                 plt.savefig(filename)
+
+            elif method == "SFS":
+                le = LabelEncoder()
+                y_sfs = le.fit_transform(pd.concat([y_train, y_test], axis=0))
+
+                X_enc = column_transformer.fit_transform(pd.concat([X_train, X_test], axis=0))
+
+                n_features = 6  #Number of features to select
+
+                # Initialize model
+                clf = TabPFNClassifier(n_estimators=1)
+
+                # Feature selection
+                sfs = interpretability.feature_selection.feature_selection(
+                    estimator=clf, X=X_enc, y=y_sfs, n_features_to_select=n_features, feature_names=feature_names
+                )
+
+                # Print selected features
+                selected_features = [
+                    feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
+                ]
+                results_df = pd.DataFrame({
+                    "Sequential_feature_selection": selected_features
+                })
+
+                # Save the results to a CSV file
+                results_df.to_csv(f"results/selected_features_SFS.csv", index=False)
+
 
             else:
                 raise ValueError(f"Invalid method: {method}")
