@@ -173,7 +173,7 @@ if __name__ == "__main__":
     "EuropeanLapse"
     ]
 
-    method_list = ["SHAP", "SHAP-IQ"]
+    method_list = ["SHAP", "SHAP-IQ", "PDP"]
 
     # Parse dataset argument
     if args.dataset == "all":
@@ -199,6 +199,7 @@ if __name__ == "__main__":
 
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
+            filename = f"{name}_{method}.png"
 
             if method == "SHAP":
                 # Calculate SHAP values
@@ -211,17 +212,29 @@ if __name__ == "__main__":
 
                 # Create visualization
                 fig = interpretability.shap.plot_shap(shap_values)
+                # Save figure with dataset + method name
+                fig.savefig(filename, dpi=300, bbox_inches="tight")
+                plt.close(fig)
 
             elif method == "SHAP-IQ":
                 # Example placeholder for SHAP-IQ (replace with real call later)
                 pass
 
+            elif method == "PDP":
+                # 1D PD for the first 3 features + a 2D interaction plot
+                disp = interpretability.pdp.partial_dependence_plots(
+                    estimator=clf,
+                    X=X_test,
+                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    grid_resolution=30,
+                    kind="average",
+                    target_class=1,
+                )
+                disp.figure_.suptitle("Partial dependence")
+
+                plt.savefig(filename)
+
             else:
                 raise ValueError(f"Invalid method: {method}")
-
-            # Save figure with dataset + method name
-            filename = f"{name}_{method}.png"
-            fig.savefig(filename, dpi=300, bbox_inches="tight")
-            plt.close(fig)
 
             logging.info(f"Saved {method} plot as {filename}")
