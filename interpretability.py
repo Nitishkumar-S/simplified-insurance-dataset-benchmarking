@@ -225,7 +225,7 @@ if __name__ == "__main__":
                 #plt.close(fig)
 
             elif method == "SHAP-IQ":
-                n_model_evals = 10
+                n_model_evals = 100
                 x_explain = X_test[0]
                 # Get a TabPFNExplainer
                 explainer = interpretability.shapiq.get_tabpfn_explainer(
@@ -239,9 +239,11 @@ if __name__ == "__main__":
                 # Get shap values
                 logging.info("Calculating SHAP values...")
                 shapley_values = explainer.explain(x=x_explain, budget=n_model_evals)
+                with open(f"{filename}_shapley_values.pkl", "wb") as f:
+                    pickle.dump(shapley_values, f)
 
                 # plot the force plot
-                shapley_values.plot_force(feature_names=feature_names)
+                #shapley_values.plot_force(feature_names=feature_names)
 
                 # Get an Shapley Interaction Explainer (here we use the Faithful Shapley Interaction Index)
                 explainer = interpretability.shapiq.get_tabpfn_explainer(
@@ -257,8 +259,11 @@ if __name__ == "__main__":
                 logging.info("Calculating Shapley interaction values...")
                 shapley_interaction_values = explainer.explain(x=x_explain, budget=n_model_evals)
 
+                with open(f"{filename}_shapley_interaction_values.pkl", "wb") as f:
+                    pickle.dump(shapley_interaction_values, f)
+
                 # Plot the upset plot for visualizing the interactions
-                shapley_interaction_values.plot_upset(feature_names=feature_names)
+                #shapley_interaction_values.plot_upset(feature_names=feature_names)
 
             elif method == "PDP":
                 # 1D PD for the first 3 features + a 2D interaction plot
@@ -279,7 +284,8 @@ if __name__ == "__main__":
                 disp = interpretability.pdp.partial_dependence_plots(
                     estimator=clf,
                     X=X_test,
-                    features = list(range(len(feature_names))) + [(1, len(feature_names)-1)],
+                    #features = list(range(len(feature_names))) + [(1, len(feature_names)-1)],
+                    features = [0, 1, 2, (0, 3)],
                     grid_resolution=30,
                     kind="individual",
                     target_class=1,
