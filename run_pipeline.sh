@@ -14,7 +14,7 @@ source tablab/bin/activate
 # python classification.py --dataset "$1"
 
 # Feature selection
-python interpretability.py --dataset "all" --method "all"
+python interpretability.py --dataset "TravelInsurance;CarInsuranceClaim" --method "SHAP;SHAP-IQ"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml

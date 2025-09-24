@@ -16,7 +16,7 @@ echo "Started at $(date)";
 echo "Running job $SLURM_JOB_NAME using $SLURM_JOB_CPUS_PER_NODE cpus per node with given JID $SLURM_JOB_ID on queue $SLURM_JOB_PARTITION";
 
 # Job to perform
-cd /work/dlclarge2/solpuren-nitish/simplified-insurance-dataset-benchmarking
+cd /work/dlclarge2/nayakk-kartik/simplified-insurance-dataset-benchmarking
 
 # Set up venv (if not already created)
 # Create the venv if it doesn't exist
