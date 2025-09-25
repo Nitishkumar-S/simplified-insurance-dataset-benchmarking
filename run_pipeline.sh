@@ -5,7 +5,7 @@ echo "Running tablab pipeline"
 source tablab/bin/activate
 
 # install requirements.txt if not worked from job.slurm 'a fallback'
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Download the dataset
 # python regression.py --dataset "$1" --target "$2"
@@ -14,7 +14,7 @@ source tablab/bin/activate
 # python classification.py --dataset "$1"
 
 # Feature selection
-python interpretability.py --dataset "all" --method "all"
+python interpretability.py --dataset "$1" --method "$2"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml

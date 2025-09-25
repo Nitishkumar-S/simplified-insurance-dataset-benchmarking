@@ -32,6 +32,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 import requests
 import argparse
+import pickle
+import shap
 
 # This transformer will be used to handle categorical features for the baseline models
 column_transformer = make_column_transformer(
@@ -151,6 +153,66 @@ def get_data(name):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
     return X_train, X_test, y_train, y_test, feature_names
 
+def plot_shap(shap_values: np.ndarray) -> None:
+    """Plot SHAP values for the given test data.
+
+    This function creates several visualizations of SHAP values:
+    1. Aggregated feature importances across all examples
+    2. Per-sample feature importances
+    3. Important feature interactions (if multiple samples provided)
+
+    Args:
+        shap_values: The SHAP values to plot, typically from get_shap_values().
+
+    Returns:
+        None: This function only produces visualizations.
+    """
+    import shap
+
+    if len(shap_values.shape) == 3:
+        shap_values = shap_values[:, :, 0]
+
+    shap.plots.bar(shap_values=shap_values, show=False)
+    plt.title("Aggregate feature importances across the test examples")
+    plt.show()
+    shap.summary_plot(shap_values=shap_values, show=False)
+    # plot the distribution of importances for each feature over all samples
+    plt.title(
+        "Feature importances for each feature for each test example (a dot is one feature for one example)",
+    )
+    plt.show()
+
+    most_important = shap_values.abs.mean(0).values.argsort()[-1]
+    if len(shap_values) > 1:
+        plot_shap_feature(shap_values, most_important)
+
+def plot_shap_feature(
+    shap_values_: Any,
+    feature_name: int | str,
+    n_plots: int = 1,
+    save_prefix: str = "shap_plot",
+) -> None:
+
+    inds = shap.utils.potential_interactions(
+        shap_values_[:, feature_name],
+        shap_values_,
+    )
+
+    for i in range(n_plots):
+        shap.plots.scatter(
+            shap_values_[:, feature_name],
+            color=shap_values_[:, inds[i]],
+            show=False,  # stops it from trying to display
+        )
+        plt.title(
+            f"Feature {feature_name} with a color coding representing the value of ({inds[i]})",
+        )
+
+        # capture the figure instead of display
+        filename = f"{save_prefix}_{feature_name}_interaction{i+1}.png"
+        plt.savefig(filename, bbox_inches="tight", dpi=300)
+        plt.close()
+
 
 if __name__ == "__main__":
     # set up logging
@@ -213,7 +275,7 @@ if __name__ == "__main__":
                 )
 
                 # Create visualization
-                fig = interpretability.shap.plot_shap(shap_values)
+                fig = plot_shap(shap_values)
                 # Save figure with dataset + method name
                 fig.savefig(filename, dpi=300, bbox_inches="tight")
                 plt.close(fig)
