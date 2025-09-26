@@ -4,7 +4,7 @@
 # #SBATCH --nodelist=dlcgpu02,dlcgpu04,dlcgpu14
 # #SBATCH --mem 4000 # memory pool for each core (4GB)
 #SBATCH --mem-per-cpu 4000 # memory pool for each core (4GB)
-#SBATCH -t 0-24:00 # time (D-HH:MM)
+#SBATCH -t 0-48:00 # time (D-HH:MM)
 #SBATCH -c 1 # number of cores
 #SBATCH -o log/%x.%N.%j.out # STDOUT  (the folder log has to be created prior to running or this won't work)
 #SBATCH -e log/%x.%N.%j.err # STDERR  (the folder log has to be created prior to running or this won't work)
