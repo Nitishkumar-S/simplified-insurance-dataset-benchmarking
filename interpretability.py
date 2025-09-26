@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
-            filename = f"results/{name}_{method}"
+            filename = f"results/{name}/{name}_{method}"
 
             if method == "SHAP":
                 # Calculate SHAP values
