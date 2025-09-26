@@ -17,6 +17,7 @@ import pandas as pd
 import torch
 import logging
 import pickle 
+import os
 
 # Notebook UI/Display
 from sklearn.compose import make_column_selector, make_column_transformer
@@ -46,6 +47,7 @@ column_transformer = make_column_transformer(
 
 def get_data(name):
     output = "data/"
+    sampled_file = "data/"
     if name == "Caravan":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv"
         output += "CaravanInsuranceChallenge.csv"
@@ -114,34 +116,58 @@ def get_data(name):
         X = df.drop(columns=["Status"])
         y = df["Status"]
     elif name == "PrudentialLifeInsuranceAssessment":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
-        output += "PrudentialLifeInsuranceAssessment.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.drop(columns=["Id"])
-        df = df.sample(n=10000, random_state=42)
+        sampled_file += "PrudentialLifeInsuranceAssessment_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
+            output += "PrudentialLifeInsuranceAssessment.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df = df.drop(columns=["Id"])
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["Response"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
         X = df.drop(columns=["Response"])
         y = df["Response"]
     elif name == "CarInsuranceClaimPrediction":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
-        output += "CarInsuranceClaimPrediction.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.sample(n=10000, random_state=42)
+        sampled_file += "CarInsuranceClaimPrediction_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
+            output += "CarInsuranceClaimPrediction.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["ClaimAmount"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
         X = df.drop(columns=["ClaimAmount"])
         y = df["ClaimAmount"]
     elif name == "EuropeanLapse":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
-        output += "EuropeanLapse.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.sample(n=10000, random_state=42)
+        sampled_file += "EuropeanLapse_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
+            output += "EuropeanLapse.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["Lapse"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
         X = df.drop(columns=["Lapse"])
         y = df["Lapse"]
 
