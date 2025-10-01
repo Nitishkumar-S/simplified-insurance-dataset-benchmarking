@@ -1,0 +1,27 @@
+cpu-bind=MASK - dlcgpu13, task  0  0 [174821]: mask 0x100000001 set
+/var/spool/slurm/job24873770/slurm_script: line 19: cd: /work/dlclarge2/solpuren-nitish/simplified-insurance-dataset-benchmarking: No such file or directory
+  Running command git clone --filter=blob:none --quiet https://github.com/PriorLabs/tabpfn-extensions.git /tmp/pip-install-1er_0ssl/tabpfn-extensions_b964fb9b33c64ea1bc0fe6e35da7d60d
+/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/hyperopt/atpe.py:19: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/interpretability.py", line 308, in <module>
+    disp = interpretability.pdp.partial_dependence_plots(
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/tabpfn_common_utils/telemetry/core/decorators.py", line 139, in wrapped
+    return fn(*args, **kwargs)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/tabpfn_extensions/interpretability/pdp.py", line 55, in partial_dependence_plots
+    disp = PartialDependenceDisplay.from_estimator(
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/sklearn/inspection/_plot/partial_dependence.py", line 707, in from_estimator
+    pd_results = Parallel(n_jobs=n_jobs, verbose=verbose)(
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/joblib/parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/joblib/parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "/work/dlclarge1/solpuren-nitish/ANU/simplified-insurance-dataset-benchmarking/tablab/lib/python3.10/site-packages/sklearn/inspection/_partial_dependence.py", line 682, in partial_dependence
+    averaged_predictions = averaged_predictions.reshape(
+ValueError: cannot reshape array of size 1 into shape (2)
