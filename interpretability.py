@@ -295,13 +295,13 @@ if __name__ == "__main__":
 
             elif method == "PDP":
                 # important features (hard coded)
-                important_features = ['Outstanding Reserve', 'UW Year', 'Last Trans Date', 'Incurred Loss', 'Paid Loss', 'Reported Date']
+                important_features = ['ChronicDiseases', 'AnnualIncome', 'FamilyMembers', 'FrequentFlyer', 'Age', 'GraduateOrNot']
                 # indices of important features
                 important_feature_indices = [
                     feature_names.get_loc(feat) for feat in important_features
                 ]
                 # interactions between most important features and few other features (hard coded)
-                interaction_features = [(important_feature_indices[0], i) for i in [3, 5, 6]]
+                interaction_features = [(important_feature_indices[0], important_feature_indices[1]), (important_feature_indices[0], important_feature_indices[2])]
                 # combine both
                 features_to_plot = important_feature_indices + interaction_features
                 # 1D PD for the important features + a 2D interaction plot

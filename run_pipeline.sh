@@ -14,7 +14,7 @@ pip install -r requirements.txt
 # python classification.py --dataset "$1"
 
 # Feature selection
-python interpretability.py --dataset "$1" --method "$2"
+python interpretability.py --dataset "TravelInsurance" --method "PDP"
 
 # Run the main script
 # python -m scripts.run_benchmark --config configs/config-reg.yaml
