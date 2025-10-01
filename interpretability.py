@@ -16,6 +16,8 @@ import numpy as np
 import pandas as pd
 import torch
 import logging
+import pickle 
+import os
 
 # Notebook UI/Display
 from sklearn.compose import make_column_selector, make_column_transformer
@@ -32,8 +34,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 import requests
 import argparse
-import pickle
-import shap
 
 # This transformer will be used to handle categorical features for the baseline models
 column_transformer = make_column_transformer(
@@ -46,9 +46,11 @@ column_transformer = make_column_transformer(
 
 
 def get_data(name):
+    output = "data/"
+    sampled_file = "data/"
     if name == "Caravan":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/caravan-insurance-challenge.csv"
-        output = "CaravanInsuranceChallenge.csv"
+        output += "CaravanInsuranceChallenge.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -58,7 +60,7 @@ def get_data(name):
         y = df["CARAVAN"]
     elif name == "TravelInsurance":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/TravelInsurancePrediction.csv"
-        output = "TravelInsurancePrediction.csv"
+        output += "TravelInsurancePrediction.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -68,7 +70,7 @@ def get_data(name):
         y = df["TravelInsurance"]
     elif name == "CarInsuranceClaim":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/Car_Insurance_Claim.csv"
-        output = "CarInsuranceClaim.csv"
+        output += "CarInsuranceClaim.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -77,7 +79,7 @@ def get_data(name):
         y = df["OUTCOME"]
     elif name == "AutoInsuranceClaims":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/insurance_claims.csv"
-        output = "insurance_claims.csv"
+        output += "insurance_claims.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -87,7 +89,7 @@ def get_data(name):
         y = df["fraud_reported"]
     elif name == "CarInsuranceColdCalls":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceColdCalls.csv"
-        output = "CarInsuranceColdCalls.csv"
+        output += "CarInsuranceColdCalls.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -97,7 +99,7 @@ def get_data(name):
         y = df["CarInsurance"]
     elif name == "GermanCredit":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/germancredit.csv"
-        output = "germancredit.csv"
+        output += "germancredit.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -106,7 +108,7 @@ def get_data(name):
         y = df["class"]
     elif name == "ANUTravelClaims":
         url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/ANUTravelClaims.csv"
-        output = "ANUTravelClaims.csv"
+        output += "ANUTravelClaims.csv"
         response = requests.get(url)
         with open(output, "wb") as f:
             f.write(response.content)
@@ -114,104 +116,68 @@ def get_data(name):
         X = df.drop(columns=["Status"])
         y = df["Status"]
     elif name == "PrudentialLifeInsuranceAssessment":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
-        output = "PrudentialLifeInsuranceAssessment.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.drop(columns=["Id"])
-        df = df.sample(n=10000, random_state=42)
+        sampled_file += "PrudentialLifeInsuranceAssessment_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/PrudentialLifeInsuranceAssessment.csv"
+            output += "PrudentialLifeInsuranceAssessment.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df = df.drop(columns=["Id"])
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["Response"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
         X = df.drop(columns=["Response"])
         y = df["Response"]
     elif name == "CarInsuranceClaimPrediction":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
-        output = "CarInsuranceClaimPrediction.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.sample(n=10000, random_state=42)
-        X = df.drop(columns=["ClaimAmount"])
-        y = df["ClaimAmount"]
+        sampled_file += "CarInsuranceClaimPrediction_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/CarInsuranceClaimPrediction.csv"
+            output += "CarInsuranceClaimPrediction.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["is_claim"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
+        X = df.drop(columns=["is_claim"])
+        y = df["is_claim"]
     elif name == "EuropeanLapse":
-        url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
-        output = "EuropeanLapse.csv"
-        response = requests.get(url)
-        with open(output, "wb") as f:
-            f.write(response.content)
-        df = pd.read_csv(output)
-        df = df.sample(n=10000, random_state=42)
+        sampled_file += "EuropeanLapse_sampled.csv"
+        if os.path.exists(sampled_file):
+            df = pd.read_csv(sampled_file)
+        else:
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
+            output += "EuropeanLapse.csv"
+            response = requests.get(url)
+            with open(output, "wb") as f:
+                f.write(response.content)
+            df = pd.read_csv(output)
+            df_sampled, _ = train_test_split(
+                df, train_size=10000, random_state=42, stratify=df["Lapse"]
+            )
+            df_sampled.to_csv(sampled_file, index=False)
+            df = df_sampled
         X = df.drop(columns=["Lapse"])
         y = df["Lapse"]
 
     feature_names = X.columns
+    le = LabelEncoder()
+    y = le.fit_transform(y)
     X = column_transformer.fit_transform(X)
-    X = X[:25]
-    y = y[:25]
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
     return X_train, X_test, y_train, y_test, feature_names
-
-def plot_shap(shap_values: np.ndarray) -> None:
-    """Plot SHAP values for the given test data.
-
-    This function creates several visualizations of SHAP values:
-    1. Aggregated feature importances across all examples
-    2. Per-sample feature importances
-    3. Important feature interactions (if multiple samples provided)
-
-    Args:
-        shap_values: The SHAP values to plot, typically from get_shap_values().
-
-    Returns:
-        None: This function only produces visualizations.
-    """
-    import shap
-
-    if len(shap_values.shape) == 3:
-        shap_values = shap_values[:, :, 0]
-
-    shap.plots.bar(shap_values=shap_values, show=False)
-    plt.title("Aggregate feature importances across the test examples")
-    plt.show()
-    shap.summary_plot(shap_values=shap_values, show=False)
-    # plot the distribution of importances for each feature over all samples
-    plt.title(
-        "Feature importances for each feature for each test example (a dot is one feature for one example)",
-    )
-    plt.show()
-
-    most_important = shap_values.abs.mean(0).values.argsort()[-1]
-    if len(shap_values) > 1:
-        plot_shap_feature(shap_values, most_important)
-
-def plot_shap_feature(
-    shap_values_: Any,
-    feature_name: int | str,
-    n_plots: int = 1,
-    save_prefix: str = "shap_plot",
-) -> None:
-
-    inds = shap.utils.potential_interactions(
-        shap_values_[:, feature_name],
-        shap_values_,
-    )
-
-    for i in range(n_plots):
-        shap.plots.scatter(
-            shap_values_[:, feature_name],
-            color=shap_values_[:, inds[i]],
-            show=False,  # stops it from trying to display
-        )
-        plt.title(
-            f"Feature {feature_name} with a color coding representing the value of ({inds[i]})",
-        )
-
-        # capture the figure instead of display
-        filename = f"{save_prefix}_{feature_name}_interaction{i+1}.png"
-        plt.savefig(filename, bbox_inches="tight", dpi=300)
-        plt.close()
 
 
 if __name__ == "__main__":
@@ -237,7 +203,7 @@ if __name__ == "__main__":
     "EuropeanLapse"
     ]
 
-    method_list = ["SHAP", "SHAP-IQ", "PDP", "ICE", "SFS"]
+    method_list = ["SHAP", "SHAP-IQ", "PDP", "ICE"]
 
     # Parse dataset argument
     if args.dataset == "all":
@@ -263,7 +229,9 @@ if __name__ == "__main__":
 
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
-            filename = f"{name}_{method}.png"
+            filename = f"results/{name}/{name}_{method}"
+            # Make sure directory exists
+            os.makedirs(os.path.dirname(f"{filename}_shap_values.pkl"), exist_ok=True)
 
             if method == "SHAP":
                 # Calculate SHAP values
@@ -273,12 +241,16 @@ if __name__ == "__main__":
                     attribute_names=feature_names,
                     algorithm="permutation",
                 )
-
+                with open(f"{filename}_shap_values.pkl", "wb") as f:
+                    pickle.dump(shap_values, f)
+                
+                #with open(f"{filename}_shap_values.pkl", "rb") as f:
+                #    shap_values_loaded = pickle.load(f)
                 # Create visualization
-                fig = plot_shap(shap_values)
+                #fig = interpretability.shap.plot_shap(shap_values)
                 # Save figure with dataset + method name
-                fig.savefig(filename, dpi=300, bbox_inches="tight")
-                plt.close(fig)
+                #fig.savefig(filename, dpi=300, bbox_inches="tight")
+                #plt.close(fig)
 
             elif method == "SHAP-IQ":
                 n_model_evals = 100
@@ -295,9 +267,11 @@ if __name__ == "__main__":
                 # Get shap values
                 logging.info("Calculating SHAP values...")
                 shapley_values = explainer.explain(x=x_explain, budget=n_model_evals)
+                with open(f"{filename}_shapley_values.pkl", "wb") as f:
+                    pickle.dump(shapley_values, f)
 
                 # plot the force plot
-                shapley_values.plot_force(feature_names=feature_names)
+                #shapley_values.plot_force(feature_names=feature_names)
 
                 # Get an Shapley Interaction Explainer (here we use the Faithful Shapley Interaction Index)
                 explainer = interpretability.shapiq.get_tabpfn_explainer(
@@ -305,7 +279,7 @@ if __name__ == "__main__":
                     data=X_train,
                     labels=y_train,
                     index="FSII",  # SV: Shapley Value, FSII: Faithful Shapley Interaction Index
-                    max_order=2,  # maximum order of the Shapley interactions (2 for pairwise interactions)
+                    max_order=1,  # maximum order of the Shapley interactions (2 for pairwise interactions)
                     verbose=True,  # show a progress bar during explanation
                 )
 
@@ -313,64 +287,50 @@ if __name__ == "__main__":
                 logging.info("Calculating Shapley interaction values...")
                 shapley_interaction_values = explainer.explain(x=x_explain, budget=n_model_evals)
 
+                with open(f"{filename}_shapley_interaction_values.pkl", "wb") as f:
+                    pickle.dump(shapley_interaction_values, f)
+
                 # Plot the upset plot for visualizing the interactions
-                shapley_interaction_values.plot_upset(feature_names=feature_names)
+                #shapley_interaction_values.plot_upset(feature_names=feature_names)
 
             elif method == "PDP":
-                # 1D PD for the first 3 features + a 2D interaction plot
+                # important features (hard coded)
+                important_features = ['Outstanding Reserve', 'UW Year', 'Last Trans Date', 'Incurred Loss', 'Paid Loss', 'Reported Date']
+                # indices of important features
+                important_feature_indices = [
+                    feature_names.get_loc(feat) for feat in important_features
+                ]
+                # interactions between most important features and few other features (hard coded)
+                interaction_features = [(important_feature_indices[0], i) for i in [3, 5, 6]]
+                # combine both
+                features_to_plot = important_feature_indices + interaction_features
+                # 1D PD for the important features + a 2D interaction plot
                 disp = interpretability.pdp.partial_dependence_plots(
                     estimator=clf,
                     X=X_test,
-                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    features=features_to_plot,
                     grid_resolution=30,
                     kind="average",
                     target_class=1,
                 )
                 disp.figure_.suptitle("Partial dependence")
 
-                plt.savefig(filename)
+                plt.savefig(f"{filename}.png")
 
             elif method == "ICE":
                 # 1D PD for the first 3 features + a 2D interaction plot
                 disp = interpretability.pdp.partial_dependence_plots(
                     estimator=clf,
                     X=X_test,
-                    features=[range(len(feature_names))] + [(1, len(feature_names)-1)],
+                    #features = list(range(len(feature_names))) + [(1, len(feature_names)-1)],
+                    features = [0, 1, 2, (0, 3)],
                     grid_resolution=30,
                     kind="individual",
                     target_class=1,
                 )
                 disp.figure_.suptitle("Partial dependence")
 
-                plt.savefig(filename)
-
-            elif method == "SFS":
-                le = LabelEncoder()
-                y_sfs = le.fit_transform(pd.concat([y_train, y_test], axis=0))
-
-                X_enc = column_transformer.fit_transform(pd.concat([X_train, X_test], axis=0))
-
-                n_features = 6  #Number of features to select
-
-                # Initialize model
-                clf = TabPFNClassifier(n_estimators=1)
-
-                # Feature selection
-                sfs = interpretability.feature_selection.feature_selection(
-                    estimator=clf, X=X_enc, y=y_sfs, n_features_to_select=n_features, feature_names=feature_names
-                )
-
-                # Print selected features
-                selected_features = [
-                    feature_names[i] for i in range(len(feature_names)) if sfs.get_support()[i]
-                ]
-                results_df = pd.DataFrame({
-                    "Sequential_feature_selection": selected_features
-                })
-
-                # Save the results to a CSV file
-                results_df.to_csv(f"results/selected_features_SFS.csv", index=False)
-
+                plt.savefig(f"{filename}.png")
 
             else:
                 raise ValueError(f"Invalid method: {method}")
