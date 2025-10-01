@@ -146,12 +146,12 @@ def get_data(name):
                 f.write(response.content)
             df = pd.read_csv(output)
             df_sampled, _ = train_test_split(
-                df, train_size=10000, random_state=42, stratify=df["ClaimAmount"]
+                df, train_size=10000, random_state=42, stratify=df["is_claim"]
             )
             df_sampled.to_csv(sampled_file, index=False)
             df = df_sampled
-        X = df.drop(columns=["ClaimAmount"])
-        y = df["ClaimAmount"]
+        X = df.drop(columns=["is_claim"])
+        y = df["is_claim"]
     elif name == "EuropeanLapse":
         sampled_file += "EuropeanLapse_sampled.csv"
         if os.path.exists(sampled_file):
@@ -230,6 +230,8 @@ if __name__ == "__main__":
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
             filename = f"results/{name}/{name}_{method}"
+            # Make sure directory exists
+            os.makedirs(os.path.dirname(f"{filename}_shap_values.pkl"), exist_ok=True)
 
             if method == "SHAP":
                 # Calculate SHAP values
