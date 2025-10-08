@@ -188,6 +188,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, default="all")
     parser.add_argument("--method", type=str, default="all")
+    parser.add_argument("--part", type=int, default=1)
+    parser.add_argument("--y", type=str, default="None")
     args = parser.parse_args()
 
     dataset_list = [
@@ -221,7 +223,18 @@ if __name__ == "__main__":
         logging.info(f"Processing dataset: {name}")
 
         # Load dataset
-        X_train, X_test, y_train, y_test, feature_names = get_data(name)
+        if name in ["Caravan", "CarInsuranceClaim", "PrudentialLifeInsuranceAssessment", "CarInsuranceClaimPrediction", "EuropeanLapse"]:
+
+            train_df = pd.read_csv(f"data/{name}_train.csv")
+            X_train = train_df.drop(columns=[args.y])
+            y_train = train_df[args.y]
+
+            test_df = pd.read_csv(f"data/{name}_test_{args.part}.csv")
+            X_test = test_df.drop(columns=[args.y])
+            y_test = test_df[args.y]
+            feature_names = X_train.columns
+        else:
+            X_train, X_test, y_train, y_test, feature_names = get_data(name)
 
         # Initialize and train model
         clf = TabPFNClassifier()
@@ -241,7 +254,7 @@ if __name__ == "__main__":
                     attribute_names=feature_names,
                     algorithm="permutation",
                 )
-                with open(f"{filename}_shap_values.pkl", "wb") as f:
+                with open(f"{filename}_part{args.part}_shap_values.pkl", "wb") as f:
                     pickle.dump(shap_values, f)
                 
                 #with open(f"{filename}_shap_values.pkl", "rb") as f:
@@ -267,7 +280,7 @@ if __name__ == "__main__":
                 # Get shap values
                 logging.info("Calculating SHAP values...")
                 shapley_values = explainer.explain(x=x_explain, budget=n_model_evals)
-                with open(f"{filename}_shapley_values.pkl", "wb") as f:
+                with open(f"{filename}_part{args.part}_shapley_values.pkl", "wb") as f:
                     pickle.dump(shapley_values, f)
 
                 # plot the force plot
@@ -287,7 +300,7 @@ if __name__ == "__main__":
                 logging.info("Calculating Shapley interaction values...")
                 shapley_interaction_values = explainer.explain(x=x_explain, budget=n_model_evals)
 
-                with open(f"{filename}_shapley_interaction_values.pkl", "wb") as f:
+                with open(f"{filename}_part{args.part}_shapley_interaction_values.pkl", "wb") as f:
                     pickle.dump(shapley_interaction_values, f)
 
                 # Plot the upset plot for visualizing the interactions
