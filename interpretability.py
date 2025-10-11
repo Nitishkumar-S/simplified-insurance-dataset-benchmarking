@@ -233,6 +233,11 @@ if __name__ == "__main__":
             X_test = test_df.drop(columns=[args.y])
             y_test = test_df[args.y]
             feature_names = X_train.columns
+
+            le = LabelEncoder()
+            y_train = le.fit_transform(y_train)
+            X_train = column_transformer.fit_transform(X_train)
+            X_test = column_transformer.transform(X_test)
         else:
             X_train, X_test, y_train, y_test, feature_names = get_data(name)
 
