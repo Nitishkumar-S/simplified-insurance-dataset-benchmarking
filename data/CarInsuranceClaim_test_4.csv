@@ -1,0 +1,1001 @@
+ID,AGE,GENDER,RACE,DRIVING_EXPERIENCE,EDUCATION,INCOME,CREDIT_SCORE,VEHICLE_OWNERSHIP,VEHICLE_YEAR,MARRIED,CHILDREN,POSTAL_CODE,ANNUAL_MILEAGE,VEHICLE_TYPE,SPEEDING_VIOLATIONS,DUIS,PAST_ACCIDENTS,OUTCOME
+306823,26-39,male,majority,10-19y,high school,working class,,0.0,before 2015,1.0,0.0,32765,10000.0,sedan,4,0,1,0.0
+818830,26-39,male,majority,10-19y,high school,working class,0.6686394835300978,0.0,before 2015,0.0,0.0,10238,18000.0,sedan,0,0,0,1.0
+927179,40-64,female,majority,10-19y,none,poverty,0.3276112232724698,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,1,0,1.0
+696033,26-39,female,majority,0-9y,none,middle class,0.4561463191124842,0.0,before 2015,0.0,0.0,10238,,sports car,0,0,0,1.0
+449162,16-25,female,majority,0-9y,none,poverty,0.3472684535306251,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+26883,26-39,female,majority,0-9y,university,upper class,0.6183002944413831,1.0,after 2015,1.0,1.0,92101,13000.0,sedan,0,0,0,0.0
+299935,40-64,male,majority,20-29y,university,upper class,0.5263052647375484,1.0,before 2015,0.0,0.0,32765,14000.0,sedan,5,1,0,0.0
+270333,65+,male,majority,30y+,university,upper class,0.5832612783680788,1.0,after 2015,0.0,1.0,10238,9000.0,sedan,5,0,2,0.0
+442318,26-39,female,majority,10-19y,high school,middle class,0.6256430991610666,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,1,1,1,0.0
+308554,65+,male,majority,0-9y,university,upper class,0.5586852733840291,1.0,after 2015,1.0,1.0,32765,10000.0,sedan,0,0,0,0.0
+922572,26-39,male,majority,10-19y,university,working class,0.3164716661126049,1.0,before 2015,0.0,0.0,10238,19000.0,sports car,1,0,0,0.0
+788465,26-39,female,majority,10-19y,none,poverty,0.2983550594304999,0.0,before 2015,0.0,1.0,32765,10000.0,sedan,2,0,1,1.0
+202964,26-39,male,majority,10-19y,high school,poverty,0.3759100588244699,0.0,after 2015,1.0,1.0,10238,8000.0,sedan,0,1,2,0.0
+998932,26-39,male,majority,10-19y,high school,poverty,0.3132319641776033,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,1,0,1,0.0
+608297,26-39,male,majority,10-19y,none,poverty,,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,1,0,3,0.0
+406476,26-39,female,minority,10-19y,none,poverty,0.4296243313540997,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+843780,65+,female,majority,20-29y,high school,middle class,,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,2,1,2,0.0
+125877,40-64,female,majority,10-19y,university,upper class,0.6965068063635781,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,1,0,0,0.0
+237716,26-39,female,majority,0-9y,none,upper class,0.8194194033510579,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+930707,40-64,female,majority,20-29y,high school,upper class,0.5636298303010419,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,2,0,5,0.0
+327940,26-39,female,minority,10-19y,high school,upper class,0.7390951318308719,1.0,after 2015,1.0,1.0,10238,11000.0,sports car,0,0,0,0.0
+335376,16-25,male,majority,0-9y,none,poverty,0.2483990423713467,0.0,before 2015,0.0,0.0,32765,14000.0,sedan,0,0,0,1.0
+954381,16-25,female,majority,0-9y,high school,working class,,1.0,before 2015,0.0,1.0,92101,13000.0,sedan,0,0,0,1.0
+228114,26-39,male,majority,0-9y,high school,working class,0.4031472802313768,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+110283,40-64,female,majority,0-9y,university,upper class,0.5635661989200738,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+46953,16-25,female,majority,0-9y,high school,working class,0.3719966212360733,1.0,after 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,1.0
+696819,16-25,male,majority,0-9y,university,poverty,0.4892378962741979,0.0,before 2015,1.0,1.0,10238,7000.0,sports car,0,0,0,1.0
+348902,26-39,female,majority,10-19y,high school,upper class,0.6796795210746808,1.0,before 2015,1.0,1.0,32765,8000.0,sedan,1,1,0,0.0
+815572,65+,male,majority,30y+,high school,upper class,0.5905385436778711,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,7,0,6,0.0
+154109,40-64,female,majority,20-29y,high school,middle class,0.6154684595384661,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,4,0,1,0.0
+230454,26-39,male,majority,10-19y,high school,middle class,0.6675090203223778,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,2,0,3,0.0
+437274,26-39,male,majority,0-9y,university,upper class,0.6366828182690416,0.0,after 2015,1.0,1.0,32765,10000.0,sedan,0,0,0,1.0
+284742,40-64,male,majority,20-29y,high school,middle class,0.5359532868288144,1.0,after 2015,1.0,1.0,21217,12000.0,sedan,2,0,3,1.0
+771433,16-25,male,majority,0-9y,high school,poverty,0.2907925607872464,0.0,after 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+468466,16-25,male,majority,0-9y,high school,poverty,0.3547285539804473,0.0,before 2015,0.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+454040,16-25,female,majority,0-9y,high school,poverty,0.4566319871550529,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+230667,65+,male,majority,10-19y,university,upper class,0.7540484921180959,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,5,2,2,1.0
+622497,26-39,male,majority,0-9y,high school,middle class,0.4611558624028447,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,1.0
+59284,16-25,male,majority,0-9y,high school,poverty,0.3917113434432538,0.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+902008,40-64,female,minority,10-19y,high school,poverty,0.2893073879601041,0.0,before 2015,1.0,1.0,32765,8000.0,sedan,1,1,0,0.0
+696617,26-39,male,majority,10-19y,university,upper class,0.6060706124264509,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,3,1,1,0.0
+43321,26-39,male,majority,10-19y,university,middle class,0.4612065885950178,1.0,before 2015,0.0,0.0,92101,16000.0,sedan,2,0,1,1.0
+118620,26-39,male,majority,10-19y,university,upper class,,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,3,0,0,1.0
+511444,16-25,male,majority,0-9y,none,poverty,0.3658610998046321,0.0,before 2015,1.0,0.0,10238,,sedan,0,0,0,1.0
+181687,40-64,male,minority,20-29y,high school,middle class,0.4548693853003646,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,3,1,3,0.0
+663564,16-25,female,majority,0-9y,none,poverty,0.3698460345206058,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+986022,26-39,female,majority,10-19y,university,upper class,0.7790254492034814,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,1,0,0,0.0
+777879,26-39,female,majority,10-19y,high school,middle class,0.6251524522713268,0.0,after 2015,1.0,1.0,10238,9000.0,sedan,5,0,0,0.0
+754339,65+,male,majority,30y+,university,upper class,0.6185102473225245,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,4,1,8,0.0
+804470,26-39,female,majority,10-19y,university,poverty,,1.0,before 2015,0.0,0.0,32765,16000.0,sedan,0,2,1,0.0
+571017,26-39,male,majority,10-19y,high school,working class,0.2755272019603718,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,2,1,4,1.0
+203711,26-39,male,majority,10-19y,university,middle class,0.4728694285326513,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,0,4,0.0
+295488,26-39,male,majority,10-19y,high school,middle class,0.5074322843749791,0.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,1,0,1.0
+237732,26-39,male,majority,10-19y,university,working class,,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+775728,26-39,female,majority,10-19y,none,working class,0.4535986009456058,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,3,0.0
+769117,26-39,male,majority,0-9y,university,middle class,0.4895382002631103,0.0,before 2015,0.0,0.0,10238,15000.0,sports car,0,0,0,0.0
+136835,16-25,male,majority,0-9y,university,poverty,0.3026722151022247,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+560825,40-64,male,minority,0-9y,high school,middle class,0.4752262109815828,1.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+157268,26-39,female,majority,10-19y,high school,working class,0.4848242280816225,1.0,before 2015,0.0,0.0,32765,,sedan,0,0,0,0.0
+9905,40-64,female,majority,20-29y,high school,middle class,0.5178496298297631,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+263808,16-25,female,majority,0-9y,none,poverty,0.4502129449544528,1.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,0.0
+105877,40-64,male,majority,10-19y,university,upper class,0.4713075957689134,0.0,after 2015,0.0,1.0,10238,8000.0,sedan,1,0,2,0.0
+927765,26-39,female,majority,10-19y,none,poverty,0.4777488822974931,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+614223,65+,male,majority,30y+,university,upper class,0.5139334207398141,1.0,before 2015,1.0,1.0,10238,,sedan,2,0,3,0.0
+148676,40-64,male,minority,10-19y,high school,upper class,0.5678186917072966,1.0,after 2015,1.0,0.0,32765,7000.0,sedan,4,0,1,0.0
+893038,40-64,female,majority,0-9y,high school,upper class,0.5999650374288553,1.0,after 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+962680,40-64,female,minority,20-29y,none,poverty,0.4783533825965789,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+522259,26-39,female,minority,10-19y,high school,working class,0.4797181518341167,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,3,1,0,1.0
+861839,26-39,male,majority,10-19y,university,upper class,0.6754406974300349,1.0,after 2015,0.0,1.0,32765,,sedan,3,0,1,1.0
+59461,26-39,female,majority,10-19y,high school,working class,0.4765569117393476,0.0,before 2015,0.0,1.0,32765,12000.0,sports car,2,0,0,1.0
+563666,40-64,male,majority,20-29y,high school,upper class,0.5664168167346517,1.0,before 2015,0.0,1.0,32765,13000.0,sedan,6,0,1,1.0
+475525,16-25,male,minority,0-9y,none,poverty,0.3829853698679646,1.0,before 2015,0.0,0.0,32765,14000.0,sports car,0,0,0,1.0
+81923,40-64,female,majority,20-29y,high school,upper class,0.4316815860923179,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,0,0,3,0.0
+951251,40-64,female,minority,0-9y,none,upper class,0.5628390017690811,1.0,before 2015,1.0,0.0,32765,10000.0,sedan,0,0,0,0.0
+464241,65+,male,majority,20-29y,high school,upper class,0.3317126596291948,1.0,before 2015,1.0,1.0,10238,10000.0,sports car,5,0,3,0.0
+147148,26-39,female,majority,0-9y,high school,working class,0.5992673582536957,0.0,after 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+860089,26-39,female,majority,10-19y,university,middle class,0.4685045607790929,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,1,0,0,0.0
+486182,16-25,female,majority,0-9y,high school,poverty,0.3893812087842038,0.0,before 2015,0.0,1.0,10238,,sedan,0,0,0,1.0
+626709,26-39,female,majority,10-19y,none,working class,0.3854748679417675,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,2,0,0,0.0
+420995,16-25,female,minority,0-9y,none,poverty,0.3322852305538436,0.0,before 2015,0.0,1.0,10238,15000.0,sports car,0,0,0,0.0
+810070,26-39,male,majority,10-19y,university,working class,,1.0,before 2015,0.0,1.0,92101,13000.0,sedan,0,1,3,0.0
+378977,40-64,female,minority,10-19y,none,middle class,0.547224530238038,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,4,1,2,0.0
+658726,26-39,male,minority,10-19y,high school,working class,0.4960027855229831,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,2,0,1,0.0
+612494,65+,male,majority,10-19y,university,upper class,0.6254168939329904,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,1,2,0,0.0
+881302,40-64,female,majority,20-29y,high school,middle class,0.3319360250431987,1.0,before 2015,1.0,1.0,32765,13000.0,sedan,0,0,1,0.0
+960986,16-25,male,majority,0-9y,university,poverty,0.2387489728812516,1.0,before 2015,1.0,0.0,32765,,sedan,0,0,0,1.0
+933814,65+,female,majority,30y+,university,upper class,0.5859691100658124,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,2,1,0,0.0
+168698,26-39,male,minority,10-19y,university,middle class,0.5198664943388236,0.0,before 2015,1.0,1.0,92101,11000.0,sedan,1,0,1,1.0
+539454,16-25,female,majority,0-9y,high school,middle class,0.5702863779666819,1.0,after 2015,0.0,0.0,10238,,sedan,0,0,0,0.0
+695132,16-25,female,majority,0-9y,university,working class,0.3161664618349704,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+919113,40-64,female,majority,10-19y,none,middle class,,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,1,0,0,0.0
+141127,26-39,female,majority,10-19y,none,working class,0.3821163478434951,1.0,before 2015,1.0,0.0,10238,10000.0,sedan,1,0,1,0.0
+603489,26-39,male,majority,0-9y,none,working class,0.3267405510830184,0.0,before 2015,0.0,0.0,32765,10000.0,sedan,0,0,0,1.0
+980162,65+,female,majority,30y+,high school,upper class,0.5570043831736404,1.0,after 2015,0.0,0.0,10238,15000.0,sedan,1,0,3,0.0
+572194,26-39,male,majority,10-19y,university,middle class,0.5861477732391167,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,1,1,0,0.0
+610450,40-64,male,majority,0-9y,high school,upper class,0.6369108567946822,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+53685,26-39,male,majority,10-19y,high school,working class,0.3381122329748914,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,1,0.0
+375315,40-64,male,majority,10-19y,university,upper class,,1.0,before 2015,1.0,0.0,32765,13000.0,sports car,2,3,0,1.0
+99083,16-25,male,minority,0-9y,none,poverty,0.4248113800749469,0.0,before 2015,0.0,1.0,32765,,sedan,0,0,0,1.0
+196217,40-64,female,majority,0-9y,university,middle class,0.5270319560976119,0.0,before 2015,0.0,1.0,92101,12000.0,sedan,0,0,0,1.0
+703128,26-39,female,majority,10-19y,high school,upper class,0.7088267106506023,0.0,after 2015,1.0,1.0,10238,9000.0,sedan,2,0,0,0.0
+34015,26-39,male,majority,10-19y,university,working class,,1.0,after 2015,0.0,0.0,10238,11000.0,sedan,1,0,1,0.0
+396999,16-25,male,majority,0-9y,university,middle class,0.5632641347960722,1.0,after 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+397198,26-39,male,majority,0-9y,university,upper class,0.4456374212438535,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+625550,65+,male,majority,30y+,university,upper class,0.7129072845038024,1.0,before 2015,1.0,1.0,10238,,sedan,5,0,7,0.0
+952459,40-64,female,majority,20-29y,university,upper class,0.7093014071795433,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,6,0,1,0.0
+234567,40-64,female,majority,20-29y,none,middle class,0.5590663741166904,0.0,before 2015,1.0,1.0,32765,10000.0,sedan,1,0,3,0.0
+947579,26-39,female,majority,0-9y,high school,middle class,0.5468239401238333,1.0,after 2015,0.0,0.0,92101,14000.0,sedan,0,0,0,0.0
+555926,16-25,female,majority,0-9y,high school,working class,0.4478875309155912,0.0,after 2015,1.0,1.0,32765,8000.0,sedan,0,0,0,1.0
+148284,40-64,male,majority,10-19y,university,upper class,0.6056771604160297,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,2,1.0
+38241,26-39,female,majority,10-19y,university,middle class,0.3977828129568881,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,1,0,2,0.0
+260851,65+,male,majority,0-9y,university,upper class,0.4990552402742981,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+132013,65+,female,majority,30y+,high school,upper class,0.5801244602268175,1.0,before 2015,1.0,0.0,10238,12000.0,sedan,3,1,1,0.0
+348341,65+,male,majority,10-19y,university,upper class,0.7168125322882501,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+321248,65+,male,minority,0-9y,none,working class,0.2510187314845141,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,1.0
+195523,16-25,male,majority,0-9y,high school,poverty,0.514483730987584,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+40440,40-64,male,majority,10-19y,high school,upper class,0.4328086751781147,1.0,before 2015,1.0,1.0,32765,12000.0,sedan,2,0,0,0.0
+787379,26-39,female,majority,10-19y,none,working class,0.4639411087275576,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+359855,65+,female,majority,30y+,university,upper class,0.6850566210543733,1.0,before 2015,1.0,0.0,10238,15000.0,sedan,2,0,2,0.0
+680335,26-39,male,minority,10-19y,none,middle class,0.5041868550105627,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,1,1,2,0.0
+517241,65+,female,majority,30y+,university,upper class,0.5956938221197036,1.0,after 2015,1.0,1.0,10238,6000.0,sedan,4,0,5,0.0
+434244,26-39,female,majority,0-9y,high school,middle class,0.5590017940897738,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+949590,40-64,female,majority,20-29y,university,middle class,0.4185435108671473,1.0,before 2015,0.0,1.0,32765,12000.0,sedan,4,0,0,1.0
+393949,40-64,female,majority,0-9y,university,upper class,0.6953759783024743,1.0,after 2015,1.0,1.0,10238,6000.0,sedan,0,0,0,0.0
+766735,26-39,female,majority,0-9y,none,poverty,0.3553145629188305,1.0,before 2015,0.0,1.0,32765,,sedan,0,0,0,0.0
+88956,40-64,male,majority,20-29y,high school,working class,0.4623855547471761,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,2,0,3,0.0
+878774,26-39,female,majority,0-9y,none,poverty,,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+347806,40-64,female,majority,10-19y,high school,upper class,0.6980850959681614,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+386838,26-39,male,majority,10-19y,none,poverty,0.5387413138779961,0.0,before 2015,0.0,1.0,32765,9000.0,sedan,3,1,0,1.0
+709357,40-64,female,majority,10-19y,university,upper class,0.7697060280613082,1.0,before 2015,1.0,1.0,10238,15000.0,sedan,1,0,0,0.0
+653396,16-25,male,majority,0-9y,high school,poverty,0.2511179744609818,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+452090,16-25,female,majority,0-9y,none,poverty,0.3599244986413249,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+801455,40-64,female,majority,0-9y,high school,upper class,0.7622701434360871,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+995242,26-39,male,minority,10-19y,none,poverty,0.3754060474029069,0.0,before 2015,0.0,0.0,32765,12000.0,sedan,2,2,0,1.0
+562660,16-25,female,majority,0-9y,high school,poverty,0.2424003611667906,1.0,before 2015,1.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+154013,40-64,male,majority,10-19y,high school,upper class,0.6522098010358588,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,1,0,1,0.0
+745958,40-64,female,majority,20-29y,high school,middle class,0.5461994612154668,0.0,before 2015,0.0,0.0,10238,9000.0,sedan,4,0,4,0.0
+851568,40-64,female,minority,20-29y,none,upper class,0.8473246532148048,1.0,before 2015,0.0,1.0,10238,14000.0,sedan,2,1,1,0.0
+491673,16-25,male,majority,0-9y,university,upper class,0.636925632976282,1.0,after 2015,1.0,1.0,92101,11000.0,sedan,0,0,0,0.0
+784122,26-39,male,majority,10-19y,university,upper class,0.6364490959261638,1.0,before 2015,1.0,1.0,10238,,sedan,0,1,4,0.0
+554674,65+,female,majority,30y+,high school,upper class,0.5335402924435169,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,3,0,0,0.0
+760347,65+,female,majority,30y+,university,upper class,0.5302997451862774,1.0,after 2015,1.0,1.0,32765,,sedan,3,0,1,0.0
+962897,26-39,male,majority,10-19y,high school,poverty,0.2043133963128014,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,0,0,0.0
+726987,65+,male,majority,30y+,high school,upper class,0.6133628265829758,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,5,1,3,0.0
+627731,16-25,male,majority,0-9y,university,poverty,0.2852396653008388,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+321959,40-64,female,minority,10-19y,high school,upper class,0.5707340688945091,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,3,0,1,0.0
+986745,26-39,female,majority,10-19y,none,poverty,0.2528274652676732,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,1,0,1,0.0
+472475,16-25,female,majority,0-9y,high school,poverty,0.1592498162888258,1.0,before 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,1.0
+442423,16-25,male,majority,0-9y,high school,middle class,0.5413828314560829,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+156590,40-64,female,minority,20-29y,university,upper class,0.5783736526432853,1.0,before 2015,0.0,1.0,92101,10000.0,sedan,3,1,0,0.0
+940061,16-25,female,minority,0-9y,high school,working class,0.5357838703302212,1.0,after 2015,1.0,0.0,10238,12000.0,sedan,0,0,0,0.0
+442504,26-39,female,majority,0-9y,high school,upper class,,0.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+313597,26-39,female,majority,10-19y,high school,middle class,0.5188499074811044,1.0,before 2015,1.0,1.0,10238,,sedan,1,0,0,0.0
+625722,65+,female,majority,30y+,university,upper class,0.6610762676374178,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,7,0,3,0.0
+8618,26-39,female,minority,10-19y,university,upper class,0.7048714803406341,1.0,after 2015,0.0,0.0,32765,8000.0,sedan,1,0,0,0.0
+619374,40-64,female,majority,10-19y,high school,upper class,0.6671127983410179,1.0,after 2015,0.0,0.0,10238,10000.0,sedan,0,1,0,0.0
+639413,26-39,male,majority,0-9y,none,poverty,0.4073259361954053,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,1.0
+43974,16-25,male,majority,0-9y,university,poverty,0.434043018731049,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+675854,26-39,female,majority,10-19y,none,poverty,0.6314424296828578,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+85773,65+,male,majority,30y+,high school,upper class,0.6773942647724964,1.0,before 2015,0.0,1.0,32765,14000.0,sedan,3,1,4,1.0
+514828,26-39,female,majority,0-9y,none,working class,0.6027630037031885,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+375269,26-39,male,majority,10-19y,university,upper class,0.6426226826757341,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,3,0,3,0.0
+17397,26-39,female,majority,10-19y,university,upper class,0.6703646273576891,1.0,after 2015,0.0,0.0,32765,11000.0,sedan,0,0,1,0.0
+802187,65+,male,majority,0-9y,none,poverty,0.2783488243388086,0.0,before 2015,0.0,1.0,32765,11000.0,sedan,0,0,0,1.0
+84243,26-39,male,majority,0-9y,high school,middle class,0.4402008550887251,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+343102,26-39,female,majority,10-19y,none,poverty,0.3763502094705643,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,0,0,0.0
+583308,40-64,male,majority,20-29y,high school,upper class,0.6904046054483357,1.0,after 2015,0.0,1.0,10238,,sedan,1,1,0,0.0
+660400,16-25,male,majority,0-9y,high school,poverty,0.3749625006784157,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+54923,65+,female,majority,30y+,high school,middle class,0.4890026134251743,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,3,1,3,0.0
+585805,16-25,female,majority,0-9y,high school,upper class,0.5063018993150041,0.0,before 2015,0.0,0.0,32765,12000.0,sedan,0,0,0,1.0
+69295,40-64,male,majority,20-29y,university,middle class,0.4378821691036571,1.0,before 2015,0.0,0.0,10238,11000.0,sedan,2,0,7,0.0
+191254,16-25,male,majority,0-9y,university,upper class,0.647457995262823,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+564497,40-64,female,minority,20-29y,high school,middle class,0.5523185354505107,0.0,after 2015,0.0,1.0,32765,9000.0,sedan,5,0,2,0.0
+745009,26-39,male,majority,10-19y,high school,middle class,0.3934292195083172,1.0,after 2015,1.0,0.0,10238,12000.0,sedan,0,0,1,0.0
+117775,40-64,male,majority,20-29y,university,middle class,0.5600227347024963,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,4,0,2,0.0
+892723,26-39,female,majority,10-19y,university,upper class,0.4878230368490386,1.0,before 2015,1.0,1.0,32765,,sedan,4,2,0,0.0
+285501,16-25,female,majority,0-9y,none,poverty,0.4379223036779929,0.0,before 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,1.0
+145590,65+,male,majority,30y+,university,upper class,0.5769851119276853,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,2,0,3,0.0
+381569,26-39,male,majority,0-9y,high school,upper class,0.5606439846556083,1.0,after 2015,0.0,1.0,32765,10000.0,sedan,0,0,0,1.0
+537546,65+,male,majority,0-9y,university,upper class,,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+134022,65+,female,majority,20-29y,university,upper class,0.6863038567846291,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,2,0.0
+34995,40-64,female,majority,20-29y,high school,upper class,0.6727438741294436,1.0,before 2015,1.0,0.0,10238,15000.0,sedan,1,0,0,0.0
+582900,65+,female,majority,30y+,high school,middle class,0.4633068402079281,1.0,after 2015,1.0,1.0,32765,7000.0,sedan,2,1,1,0.0
+643559,40-64,female,majority,20-29y,university,upper class,0.5744525583313149,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,3,0,0,0.0
+826544,26-39,female,majority,0-9y,none,poverty,,0.0,before 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,0.0
+213996,26-39,female,majority,10-19y,university,upper class,0.6528140260579788,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,1,0,1,0.0
+379173,40-64,male,majority,20-29y,none,working class,0.4213727899199364,1.0,before 2015,0.0,1.0,10238,9000.0,sedan,5,0,3,0.0
+798839,40-64,male,majority,0-9y,high school,upper class,0.6594050196302074,0.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+311065,40-64,female,minority,20-29y,university,upper class,0.6243134411887635,0.0,before 2015,1.0,1.0,10238,11000.0,sedan,2,2,1,0.0
+286278,65+,male,majority,30y+,university,upper class,0.6665129812769737,1.0,after 2015,0.0,1.0,10238,8000.0,sedan,4,0,10,0.0
+282377,16-25,female,majority,0-9y,none,poverty,,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,1.0
+384360,16-25,male,majority,0-9y,high school,poverty,0.3989487648696198,0.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+329676,26-39,female,majority,10-19y,university,middle class,0.5938543280814313,0.0,after 2015,0.0,1.0,10238,11000.0,sports car,0,0,0,0.0
+74352,40-64,male,majority,20-29y,none,poverty,0.396508852675383,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,1,1,3,0.0
+577761,40-64,male,majority,20-29y,high school,upper class,0.5255285623050104,1.0,after 2015,1.0,1.0,10238,8000.0,sedan,7,0,2,0.0
+201110,26-39,male,majority,0-9y,high school,poverty,0.3565970805276302,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+791926,65+,female,majority,30y+,university,middle class,0.5307783036558016,1.0,after 2015,1.0,1.0,10238,,sedan,2,1,5,0.0
+133714,26-39,female,majority,10-19y,none,poverty,0.4343425302586593,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,1,0,0,1.0
+554007,16-25,male,minority,0-9y,university,middle class,0.3777896918646541,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+883534,16-25,male,majority,0-9y,high school,middle class,0.4294014793588944,0.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+357529,26-39,female,majority,0-9y,university,middle class,0.3570559747929416,1.0,before 2015,1.0,1.0,92101,9000.0,sedan,0,0,0,0.0
+728097,65+,female,majority,30y+,high school,upper class,0.6131527816300589,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,1,1,1,0.0
+918640,40-64,male,majority,20-29y,high school,upper class,0.61502467895473,1.0,before 2015,1.0,1.0,32765,7000.0,sedan,3,1,0,0.0
+207812,65+,male,majority,30y+,high school,upper class,0.6302280018895937,1.0,after 2015,0.0,1.0,32765,7000.0,sports car,16,0,3,0.0
+638512,16-25,female,majority,0-9y,none,poverty,0.3455421925452009,1.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+901924,26-39,female,minority,10-19y,university,upper class,,1.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+67445,26-39,male,majority,10-19y,university,upper class,0.7052284304707389,1.0,after 2015,0.0,0.0,10238,15000.0,sedan,0,0,1,0.0
+813442,40-64,male,majority,10-19y,none,working class,0.3798229504651137,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,1,1,1,0.0
+711515,65+,female,majority,20-29y,high school,upper class,0.5939283315924071,1.0,after 2015,1.0,1.0,32765,6000.0,sports car,6,1,3,0.0
+97800,40-64,male,minority,20-29y,none,middle class,0.5543950016032893,0.0,after 2015,0.0,0.0,10238,16000.0,sedan,0,0,4,0.0
+26510,40-64,female,majority,20-29y,university,upper class,0.6595263330733947,1.0,after 2015,1.0,1.0,32765,7000.0,sedan,2,0,0,0.0
+823828,40-64,female,majority,20-29y,high school,working class,0.5250591110723005,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,1,0.0
+622531,65+,female,majority,30y+,university,upper class,0.5908404008481608,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,2,1,2,0.0
+30606,40-64,male,majority,20-29y,high school,working class,,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,7,0,3,0.0
+871587,26-39,male,minority,0-9y,university,upper class,0.6095435879936103,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+218173,65+,female,majority,0-9y,university,upper class,0.5545891740790019,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+364434,40-64,male,majority,20-29y,university,middle class,0.5371791958990768,1.0,after 2015,0.0,0.0,92101,12000.0,sedan,5,0,1,0.0
+704112,16-25,male,majority,0-9y,high school,poverty,0.4022623338912225,0.0,before 2015,0.0,1.0,92101,12000.0,sedan,0,0,0,1.0
+520159,65+,female,majority,30y+,none,working class,0.5029382551910931,0.0,before 2015,1.0,0.0,10238,15000.0,sedan,1,0,2,0.0
+950296,65+,female,majority,30y+,high school,upper class,0.5458900735115071,1.0,after 2015,0.0,1.0,21217,15000.0,sedan,1,0,0,1.0
+694257,26-39,female,majority,10-19y,university,middle class,0.4946314596097509,1.0,before 2015,1.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+806638,26-39,female,majority,10-19y,none,middle class,0.5921887867818202,1.0,after 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,0.0
+942949,65+,male,majority,10-19y,university,upper class,0.4678288191596727,1.0,before 2015,0.0,1.0,32765,8000.0,sedan,4,1,0,0.0
+407164,40-64,male,majority,10-19y,high school,middle class,,0.0,before 2015,1.0,1.0,10238,7000.0,sedan,1,0,3,0.0
+875174,40-64,female,majority,20-29y,high school,upper class,0.5564760604506076,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,1,0,2,0.0
+75945,26-39,male,majority,10-19y,university,middle class,0.5463710149869366,1.0,before 2015,1.0,1.0,10238,11000.0,sports car,2,0,2,1.0
+325554,16-25,male,majority,0-9y,university,upper class,0.6345771810275116,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+608830,26-39,male,majority,0-9y,high school,working class,0.3931459761617712,0.0,before 2015,0.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+550573,26-39,female,majority,10-19y,high school,working class,0.6265712548186319,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,1,0,0,0.0
+118367,65+,female,majority,20-29y,university,upper class,0.5945300649371015,1.0,after 2015,1.0,1.0,10238,,sedan,1,1,4,0.0
+683370,65+,male,majority,20-29y,university,upper class,0.7283465539759247,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,3,0,0,0.0
+444813,40-64,male,majority,20-29y,university,upper class,,1.0,after 2015,1.0,1.0,10238,7000.0,sedan,2,0,4,0.0
+110908,40-64,male,majority,10-19y,university,upper class,0.6412933802203664,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,2,0,0,0.0
+792966,65+,female,minority,10-19y,none,middle class,0.5687019891446795,1.0,before 2015,0.0,1.0,32765,9000.0,sedan,2,0,0,0.0
+204181,65+,male,majority,20-29y,high school,upper class,0.6220425478140679,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,3,0,6,0.0
+319953,26-39,female,minority,0-9y,none,poverty,0.2828694808711571,0.0,before 2015,1.0,0.0,10238,13000.0,sports car,0,0,0,1.0
+759577,40-64,male,majority,20-29y,high school,working class,0.4379041892640281,1.0,before 2015,1.0,1.0,10238,15000.0,sports car,4,2,4,0.0
+879618,26-39,male,majority,0-9y,university,middle class,0.6247668180201081,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+241812,65+,male,majority,30y+,high school,upper class,0.6285286315416291,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,3,0,3,0.0
+750937,40-64,female,majority,20-29y,university,upper class,0.7744583614588328,1.0,before 2015,0.0,1.0,10238,,sedan,3,0,0,0.0
+956534,16-25,female,majority,0-9y,none,poverty,,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+382343,65+,female,majority,10-19y,high school,upper class,0.6971250545224917,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,0,0,1,0.0
+81498,40-64,male,majority,20-29y,none,working class,0.3493872235356677,0.0,before 2015,0.0,1.0,10238,16000.0,sedan,3,1,0,0.0
+170435,16-25,female,majority,0-9y,high school,poverty,0.4126367860235233,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+340246,26-39,male,majority,10-19y,university,middle class,0.4085155263018246,1.0,before 2015,0.0,1.0,21217,10000.0,sedan,1,0,2,1.0
+193311,26-39,female,majority,10-19y,high school,upper class,0.4619364619995056,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,2,0,0,0.0
+636174,65+,male,majority,20-29y,university,upper class,0.6681364777157869,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,6,1,4,0.0
+946635,16-25,female,majority,0-9y,high school,working class,0.5884194055987398,0.0,before 2015,0.0,0.0,32765,7000.0,sedan,0,0,0,1.0
+32252,16-25,female,minority,0-9y,high school,poverty,0.5028991268615003,0.0,before 2015,0.0,0.0,92101,13000.0,sedan,0,0,0,1.0
+969436,16-25,female,majority,0-9y,none,poverty,0.4816521872538263,1.0,before 2015,0.0,0.0,10238,18000.0,sedan,0,0,0,0.0
+287540,40-64,female,majority,20-29y,high school,upper class,0.5682407176327693,0.0,before 2015,1.0,0.0,32765,11000.0,sedan,3,0,0,0.0
+558920,16-25,female,majority,0-9y,high school,poverty,0.4398834257875427,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+38769,40-64,female,majority,20-29y,high school,upper class,0.6705928629488258,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+877603,40-64,male,majority,20-29y,university,upper class,0.6365452038481185,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,2,0,2,0.0
+699275,26-39,female,majority,10-19y,high school,upper class,0.8011892267006169,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,2,0,0,0.0
+189740,26-39,female,majority,10-19y,high school,middle class,0.5817211016124444,0.0,before 2015,1.0,0.0,32765,13000.0,sedan,2,0,0,0.0
+686900,26-39,female,majority,10-19y,university,working class,0.4992473095659585,0.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,1,1.0
+397560,65+,male,majority,10-19y,university,upper class,0.2558368788769217,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,3,0.0
+74669,16-25,female,minority,0-9y,high school,middle class,0.5790357095035605,1.0,after 2015,0.0,0.0,32765,14000.0,sedan,0,0,0,0.0
+65734,40-64,female,majority,20-29y,high school,middle class,,1.0,before 2015,1.0,1.0,10238,5000.0,sedan,1,0,3,0.0
+743449,65+,male,majority,20-29y,high school,upper class,0.5745601199336416,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,0,2,0.0
+140816,26-39,female,majority,10-19y,university,middle class,,1.0,before 2015,0.0,1.0,32765,14000.0,sedan,2,0,0,0.0
+928354,26-39,female,majority,10-19y,university,upper class,0.6079535739684157,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,1,0.0
+702884,65+,male,majority,0-9y,university,upper class,,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+520318,16-25,female,majority,0-9y,none,poverty,0.4029123672351339,0.0,before 2015,0.0,0.0,32765,15000.0,sedan,0,0,0,1.0
+906223,26-39,female,majority,0-9y,high school,upper class,0.7627979410816134,0.0,after 2015,1.0,0.0,10238,,sedan,0,0,0,0.0
+368643,40-64,male,majority,20-29y,university,upper class,0.4463351888977299,1.0,before 2015,1.0,1.0,32765,8000.0,sedan,2,0,4,1.0
+802405,26-39,female,majority,10-19y,university,middle class,0.4542549282321106,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,1,0.0
+530813,40-64,female,majority,10-19y,university,middle class,0.6417202482487389,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+75718,26-39,female,majority,0-9y,high school,middle class,0.5847023883755701,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+583749,16-25,male,majority,0-9y,high school,working class,0.3700495619279837,0.0,after 2015,0.0,0.0,92101,16000.0,sedan,0,0,0,1.0
+853929,65+,male,majority,0-9y,high school,upper class,0.5514128274320477,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,0.0
+664333,26-39,male,majority,10-19y,high school,poverty,0.3955453580326143,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,3,0,1,0.0
+224037,65+,female,majority,20-29y,university,upper class,0.6569945322053279,1.0,after 2015,0.0,1.0,32765,10000.0,sedan,5,2,1,0.0
+493739,65+,male,majority,10-19y,university,upper class,0.499660137787076,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,2,0,6,0.0
+767246,26-39,female,majority,0-9y,university,upper class,0.5241476818484826,1.0,before 2015,1.0,1.0,92101,9000.0,sedan,0,0,0,1.0
+862679,65+,female,majority,30y+,university,upper class,0.8275166511075266,0.0,before 2015,0.0,1.0,10238,,sedan,3,1,3,0.0
+906776,26-39,female,majority,10-19y,university,upper class,0.5389030722256323,1.0,before 2015,1.0,0.0,32765,6000.0,sedan,1,0,1,0.0
+529498,16-25,male,majority,0-9y,none,poverty,,0.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+149383,16-25,male,majority,0-9y,none,poverty,,1.0,before 2015,0.0,0.0,32765,12000.0,sedan,0,0,0,1.0
+733410,16-25,female,majority,0-9y,none,poverty,0.3989693971730201,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+176958,40-64,female,majority,10-19y,university,upper class,0.5883649716073385,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,1,0,1,0.0
+960136,16-25,female,majority,0-9y,high school,middle class,0.5390647928946241,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+929532,26-39,male,majority,10-19y,university,middle class,0.4778462941216112,0.0,before 2015,1.0,1.0,32765,7000.0,sedan,6,2,3,1.0
+370044,65+,male,majority,20-29y,university,upper class,0.5531007570628673,0.0,after 2015,1.0,1.0,32765,7000.0,sedan,9,0,1,0.0
+492855,26-39,male,majority,10-19y,none,poverty,0.3197847735270822,0.0,before 2015,1.0,1.0,10238,11000.0,sedan,2,0,2,0.0
+21746,40-64,female,majority,20-29y,high school,middle class,0.4524536326300834,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,1,0,0,0.0
+824793,26-39,male,majority,10-19y,none,working class,0.4466473449579012,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,5,0,1,0.0
+846279,40-64,male,majority,20-29y,high school,upper class,0.7522696539225138,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,2,2,0,0.0
+571957,65+,female,majority,0-9y,none,upper class,0.7575663430503009,1.0,after 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+305486,16-25,male,majority,0-9y,high school,poverty,0.3565218570875531,0.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,1.0
+374706,40-64,male,majority,0-9y,high school,upper class,0.6036277666982275,1.0,after 2015,1.0,1.0,10238,8000.0,sedan,0,0,0,0.0
+511639,40-64,female,majority,20-29y,high school,upper class,0.6504176835900062,1.0,before 2015,1.0,1.0,32765,,sedan,2,0,0,0.0
+209117,26-39,female,majority,10-19y,university,upper class,0.5836102270313487,1.0,before 2015,1.0,1.0,92101,11000.0,sedan,0,0,0,0.0
+200558,40-64,male,majority,20-29y,high school,upper class,0.4911101856426221,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,4,2,4,0.0
+226461,16-25,female,majority,0-9y,none,working class,0.4336723313868529,0.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,1.0
+94746,16-25,male,majority,0-9y,none,poverty,0.3329839492906544,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+104918,40-64,male,majority,20-29y,high school,upper class,0.6277294055932903,1.0,after 2015,0.0,1.0,32765,8000.0,sedan,6,1,0,0.0
+229896,40-64,male,majority,20-29y,university,upper class,0.6190838779834634,1.0,after 2015,0.0,1.0,32765,11000.0,sedan,3,0,1,0.0
+660862,26-39,female,minority,10-19y,university,working class,0.5032346205187044,0.0,after 2015,1.0,1.0,10238,10000.0,sedan,1,0,1,0.0
+601107,26-39,male,majority,10-19y,high school,working class,0.4318023987009185,0.0,before 2015,0.0,1.0,32765,12000.0,sports car,0,0,2,1.0
+809451,40-64,male,majority,20-29y,none,working class,0.3392888504833096,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,4,0,5,0.0
+904204,26-39,female,majority,10-19y,none,working class,,1.0,before 2015,0.0,0.0,10238,,sedan,0,0,0,0.0
+472268,65+,female,majority,20-29y,none,upper class,0.6916361229171694,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,4,0,0,0.0
+335937,65+,female,majority,0-9y,university,upper class,0.5448183748224494,0.0,after 2015,0.0,0.0,32765,10000.0,sedan,0,0,0,1.0
+259052,26-39,male,majority,0-9y,high school,middle class,0.3833508257351754,0.0,after 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+864534,65+,male,majority,30y+,high school,upper class,0.5212741542242593,0.0,before 2015,1.0,1.0,10238,8000.0,sedan,5,1,8,0.0
+665048,65+,female,majority,30y+,university,upper class,0.5797122446155127,1.0,after 2015,1.0,1.0,10238,,sedan,2,0,4,0.0
+701507,65+,female,majority,0-9y,university,upper class,0.6595566695934808,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+579525,40-64,male,majority,20-29y,university,upper class,0.7510668440453718,1.0,before 2015,1.0,1.0,10238,9000.0,sports car,1,1,2,0.0
+98072,40-64,female,majority,10-19y,university,upper class,0.7182464696448215,0.0,after 2015,0.0,1.0,10238,14000.0,sedan,0,1,0,0.0
+903686,65+,female,majority,0-9y,high school,middle class,0.5677020303309737,1.0,before 2015,1.0,1.0,92101,,sedan,0,0,0,1.0
+779491,26-39,male,majority,10-19y,high school,working class,0.5297430054333819,1.0,before 2015,1.0,1.0,32765,6000.0,sedan,6,1,1,1.0
+75918,40-64,female,majority,0-9y,university,upper class,0.7593098696029942,1.0,after 2015,0.0,0.0,10238,8000.0,sedan,0,0,0,0.0
+324785,26-39,female,majority,0-9y,none,poverty,0.3688983699474711,0.0,before 2015,0.0,0.0,10238,,sedan,0,0,0,1.0
+921816,40-64,female,majority,20-29y,high school,upper class,0.8336684211611398,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,2,0,0,0.0
+688793,40-64,male,majority,20-29y,university,upper class,0.5606888443344202,1.0,after 2015,1.0,1.0,32765,10000.0,sedan,4,2,0,0.0
+11860,40-64,female,majority,20-29y,high school,middle class,0.4873775188543629,0.0,before 2015,1.0,1.0,92101,9000.0,sedan,3,0,2,0.0
+800279,26-39,male,majority,10-19y,university,middle class,0.6076688719748496,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,3,1,0,1.0
+955804,40-64,female,majority,10-19y,university,upper class,0.6511049385549011,0.0,before 2015,1.0,1.0,10238,10000.0,sports car,1,0,1,0.0
+804745,16-25,female,majority,0-9y,university,middle class,,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+814672,40-64,female,majority,0-9y,none,working class,0.5955911027102082,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+272107,40-64,male,majority,20-29y,none,poverty,0.4252781870544744,0.0,before 2015,0.0,1.0,10238,12000.0,sports car,4,1,0,0.0
+764678,26-39,female,majority,0-9y,university,upper class,0.5574748514861921,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+43148,40-64,female,majority,20-29y,none,working class,0.3776521180272241,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,2,0.0
+312573,40-64,male,majority,20-29y,high school,middle class,0.4752935737544261,0.0,before 2015,0.0,1.0,32765,9000.0,sedan,6,1,2,1.0
+939343,40-64,male,majority,20-29y,university,upper class,0.6020918870265246,1.0,before 2015,0.0,1.0,10238,19000.0,sedan,1,0,2,1.0
+77030,65+,female,majority,30y+,high school,upper class,,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+732956,26-39,female,minority,10-19y,high school,middle class,0.5527408665056415,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,3,1.0
+257758,26-39,female,majority,10-19y,high school,middle class,0.5833326355879223,1.0,before 2015,1.0,0.0,21217,12000.0,sports car,0,0,1,1.0
+212760,16-25,female,majority,0-9y,none,poverty,0.40109256010844,0.0,before 2015,1.0,0.0,10238,10000.0,sedan,0,0,0,0.0
+217068,65+,male,majority,30y+,university,upper class,0.4909724942222815,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,4,1,9,0.0
+331767,40-64,female,minority,20-29y,high school,middle class,,1.0,before 2015,1.0,1.0,92101,11000.0,sedan,2,0,0,0.0
+310988,40-64,female,majority,20-29y,high school,working class,0.3296752876443378,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,5,0.0
+801171,40-64,male,majority,20-29y,none,poverty,0.2976349057535113,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,1,0,0,0.0
+429844,16-25,female,majority,0-9y,high school,middle class,,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,0,0,0,1.0
+914808,65+,female,majority,10-19y,university,upper class,0.5848934178934408,1.0,after 2015,1.0,0.0,10238,12000.0,sedan,2,0,0,0.0
+139099,40-64,female,majority,20-29y,university,middle class,0.5451437806503545,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,2,0,2,0.0
+578825,26-39,female,majority,10-19y,high school,middle class,0.4814822599879622,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,1,1,0,0.0
+424145,65+,male,majority,30y+,university,upper class,0.5919273073990756,1.0,after 2015,1.0,1.0,32765,9000.0,sedan,14,2,3,0.0
+210290,65+,female,majority,30y+,university,upper class,0.6120679452933288,1.0,before 2015,0.0,1.0,10238,9000.0,sedan,4,0,2,0.0
+270343,26-39,female,majority,10-19y,university,upper class,0.7338838668548553,1.0,after 2015,0.0,0.0,10238,13000.0,sedan,2,0,2,0.0
+609931,40-64,female,majority,20-29y,none,middle class,0.4060931476593959,1.0,before 2015,1.0,0.0,32765,14000.0,sedan,2,1,0,0.0
+693279,40-64,male,minority,20-29y,none,upper class,0.740385435273135,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,1,0,2,0.0
+105009,16-25,female,majority,0-9y,high school,poverty,0.2299027004575464,0.0,before 2015,1.0,0.0,10238,10000.0,sedan,0,0,0,1.0
+3643,16-25,male,majority,0-9y,high school,poverty,0.3277602763703803,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+810823,40-64,male,majority,20-29y,university,upper class,0.6051532270537233,1.0,before 2015,1.0,0.0,32765,,sedan,4,0,2,0.0
+313409,40-64,female,majority,20-29y,university,upper class,0.6720095267316407,1.0,after 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+937716,65+,male,majority,30y+,university,upper class,0.6738113407942623,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,4,0,3,0.0
+82595,26-39,male,majority,0-9y,university,middle class,0.5006817071845615,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+296948,40-64,male,majority,10-19y,university,upper class,0.6704645467899408,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+672216,26-39,female,majority,10-19y,high school,poverty,0.4964996457402483,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,1,0,1,1.0
+504565,16-25,male,majority,0-9y,university,poverty,0.3680826213706068,0.0,before 2015,0.0,0.0,10238,15000.0,sports car,0,0,0,1.0
+378620,16-25,male,majority,0-9y,high school,poverty,0.3919416002202052,0.0,before 2015,0.0,0.0,32765,,sports car,0,0,0,1.0
+913111,26-39,female,majority,0-9y,high school,poverty,0.3589323014822048,0.0,before 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+876329,26-39,male,majority,10-19y,university,upper class,0.4726774065248298,1.0,after 2015,1.0,1.0,10238,,sedan,3,0,1,0.0
+617387,26-39,male,majority,10-19y,high school,middle class,0.4069958243881594,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,1,0.0
+32551,16-25,male,majority,0-9y,none,poverty,0.2469505160422721,0.0,before 2015,0.0,1.0,10238,9000.0,sedan,0,0,0,1.0
+241658,26-39,female,majority,10-19y,high school,upper class,0.6609209294591889,0.0,before 2015,1.0,0.0,10238,12000.0,sedan,0,0,0,0.0
+989711,40-64,male,majority,20-29y,university,upper class,0.496045020174952,0.0,after 2015,1.0,1.0,32765,7000.0,sedan,5,0,2,0.0
+770433,26-39,male,majority,10-19y,high school,working class,0.3259248427333523,0.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,4,0.0
+973996,16-25,female,majority,0-9y,none,poverty,0.5190632839502705,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+378321,26-39,male,majority,10-19y,high school,poverty,0.4109957752574935,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,2,0,1,0.0
+639522,40-64,male,majority,20-29y,university,upper class,0.679081839307075,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,5,0,2,0.0
+347626,16-25,male,majority,0-9y,high school,middle class,0.3374011594935631,0.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+200691,16-25,male,majority,0-9y,high school,poverty,0.2619796286414177,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+966856,26-39,female,majority,10-19y,high school,upper class,0.6620563984361967,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+252056,26-39,female,majority,10-19y,university,working class,0.3131253353296388,0.0,before 2015,0.0,0.0,32765,14000.0,sedan,4,1,0,1.0
+754780,40-64,female,minority,20-29y,high school,upper class,,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+27524,26-39,male,majority,10-19y,high school,middle class,,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,1,0,1,1.0
+288172,65+,female,majority,10-19y,high school,upper class,0.5111929995274689,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,1,0,1,0.0
+579130,26-39,male,majority,10-19y,high school,working class,0.3755947075424601,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,1,0,0,1.0
+37612,16-25,female,majority,0-9y,high school,middle class,,1.0,after 2015,1.0,1.0,32765,13000.0,sedan,0,0,0,1.0
+897299,26-39,male,majority,0-9y,university,working class,0.4464763201282089,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+659990,26-39,male,majority,10-19y,university,middle class,0.6720414032404887,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,1,0,4,0.0
+782760,26-39,female,majority,10-19y,none,middle class,0.5601350545835889,1.0,before 2015,1.0,1.0,32765,,sedan,0,0,1,0.0
+11280,16-25,female,majority,0-9y,university,middle class,,1.0,after 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+810638,65+,male,majority,20-29y,high school,upper class,0.6008357672813958,1.0,after 2015,0.0,1.0,10238,7000.0,sedan,2,1,0,0.0
+868060,65+,female,majority,30y+,high school,middle class,0.6272582619884957,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,2,0,3,0.0
+475662,40-64,female,majority,10-19y,university,upper class,0.6000842789359292,0.0,before 2015,1.0,1.0,10238,13000.0,sports car,1,0,1,0.0
+199901,16-25,female,majority,0-9y,high school,working class,0.4931457852181982,1.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,0.0
+902497,40-64,female,majority,20-29y,none,working class,0.4114280683133329,1.0,after 2015,0.0,0.0,32765,10000.0,sedan,4,0,0,0.0
+62005,26-39,female,majority,0-9y,high school,working class,0.3909113322714408,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+709084,26-39,male,majority,10-19y,high school,middle class,,1.0,before 2015,1.0,0.0,10238,7000.0,sedan,2,0,1,0.0
+167407,40-64,female,majority,20-29y,high school,middle class,,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,2,1,1,0.0
+93333,40-64,female,majority,10-19y,high school,upper class,0.6027829997778529,1.0,after 2015,1.0,1.0,32765,7000.0,sports car,4,0,0,0.0
+131881,26-39,male,majority,10-19y,university,working class,0.5501250875743224,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,1,0,0.0
+565255,16-25,male,majority,0-9y,university,working class,0.4814229489382434,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+640977,40-64,male,minority,20-29y,university,upper class,0.6591537948789903,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,1,1,0.0
+378176,65+,male,majority,30y+,high school,upper class,,1.0,after 2015,0.0,1.0,92101,10000.0,sports car,6,0,2,1.0
+143498,40-64,female,majority,0-9y,high school,upper class,0.6762361696241946,0.0,before 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+845482,16-25,female,majority,0-9y,university,poverty,0.5355008932084144,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,0.0
+384134,26-39,female,majority,10-19y,none,working class,0.4284473775577626,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,1,0,0,0.0
+357589,16-25,female,majority,0-9y,high school,working class,0.4960458324575569,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+186642,40-64,male,majority,10-19y,university,upper class,0.5532878649453684,1.0,before 2015,1.0,1.0,32765,,sedan,5,1,0,1.0
+102549,26-39,female,majority,10-19y,high school,working class,0.2449353696592061,0.0,before 2015,0.0,1.0,10238,8000.0,sedan,1,0,2,0.0
+946971,40-64,female,minority,20-29y,none,middle class,0.3680392190787867,0.0,before 2015,1.0,1.0,10238,13000.0,sedan,0,1,2,0.0
+76344,40-64,female,majority,20-29y,none,upper class,0.5548420461404064,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,2,0,0,0.0
+695036,16-25,female,majority,0-9y,none,poverty,,0.0,before 2015,0.0,0.0,10238,18000.0,sedan,0,0,0,1.0
+951670,16-25,female,majority,0-9y,university,middle class,0.4846957120746186,1.0,before 2015,0.0,0.0,32765,8000.0,sedan,0,0,0,0.0
+968846,26-39,female,majority,10-19y,none,working class,0.467247833928757,0.0,before 2015,0.0,1.0,32765,10000.0,sedan,1,0,1,1.0
+435829,26-39,female,majority,10-19y,high school,working class,0.6440329844790397,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,1,0.0
+888614,65+,male,majority,30y+,high school,upper class,0.4837328021662435,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,3,3,8,0.0
+695044,26-39,female,minority,10-19y,none,poverty,0.3095910627747428,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,1,1,0.0
+918756,65+,male,majority,30y+,university,upper class,0.6218131488421985,1.0,before 2015,1.0,0.0,10238,10000.0,sedan,1,1,8,0.0
+577466,26-39,female,majority,10-19y,high school,middle class,0.5014188486086891,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,2,1,0.0
+342957,40-64,female,minority,0-9y,university,upper class,0.5411543588314012,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,0.0
+450776,40-64,male,majority,10-19y,none,poverty,0.3759157719833919,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,1,2,0.0
+455923,26-39,female,majority,10-19y,university,middle class,0.5940034089231788,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,3,0.0
+951842,40-64,male,majority,20-29y,university,upper class,0.4563708821483924,1.0,before 2015,0.0,0.0,32765,8000.0,sedan,8,1,0,0.0
+459304,16-25,male,majority,0-9y,none,working class,0.4192330497534948,1.0,before 2015,0.0,0.0,32765,12000.0,sedan,0,0,0,1.0
+311955,16-25,female,majority,0-9y,high school,middle class,,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+384021,16-25,female,majority,0-9y,high school,working class,0.3928280180316749,1.0,before 2015,0.0,0.0,92101,16000.0,sedan,0,0,0,1.0
+748443,40-64,female,majority,20-29y,high school,middle class,0.6373835703783101,1.0,after 2015,0.0,0.0,32765,13000.0,sedan,2,0,0,0.0
+462465,16-25,male,majority,0-9y,high school,working class,,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+105220,40-64,female,majority,0-9y,none,working class,0.4958652916452254,0.0,after 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+351854,26-39,male,majority,10-19y,high school,upper class,0.5492042682629945,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,0,0,3,0.0
+232363,26-39,female,majority,10-19y,high school,working class,0.4016314373783455,0.0,before 2015,0.0,1.0,32765,9000.0,sedan,3,1,0,1.0
+217333,16-25,male,majority,0-9y,university,working class,0.5321012540018394,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+511463,65+,male,majority,0-9y,high school,middle class,0.3782370465113373,0.0,after 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+624324,40-64,female,majority,0-9y,university,upper class,,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,0.0
+184376,40-64,female,majority,20-29y,high school,upper class,0.4815552473106616,1.0,before 2015,0.0,1.0,32765,13000.0,sedan,4,0,1,0.0
+26248,40-64,male,majority,20-29y,high school,upper class,0.6305716881715939,1.0,after 2015,1.0,1.0,92101,10000.0,sports car,4,1,4,1.0
+676033,65+,female,majority,30y+,university,upper class,0.6064975567709211,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,1,0.0
+367026,40-64,female,minority,10-19y,high school,working class,0.5326613280250595,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+355304,40-64,male,majority,20-29y,university,upper class,0.5458554706287139,1.0,before 2015,1.0,1.0,32765,,sedan,12,2,0,0.0
+243870,26-39,male,majority,10-19y,none,poverty,0.3984239777077409,0.0,before 2015,1.0,1.0,10238,6000.0,sedan,0,0,1,0.0
+428914,40-64,male,majority,20-29y,university,upper class,0.7640953328310807,1.0,before 2015,0.0,1.0,10238,17000.0,sedan,2,0,3,0.0
+650607,26-39,female,majority,10-19y,high school,working class,0.2918006114647601,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,2,0.0
+880036,26-39,male,majority,0-9y,high school,poverty,0.2307432643975241,0.0,before 2015,0.0,1.0,92101,9000.0,sports car,0,0,0,1.0
+786140,26-39,male,majority,10-19y,university,middle class,0.4734694426803175,1.0,before 2015,0.0,0.0,10238,,sedan,1,0,1,0.0
+896224,65+,female,minority,30y+,high school,upper class,0.661958533171895,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,4,0,2,0.0
+394404,40-64,male,majority,20-29y,university,upper class,0.5503647277916662,1.0,after 2015,1.0,1.0,10238,8000.0,sedan,5,0,3,0.0
+438810,26-39,female,majority,10-19y,high school,upper class,0.6919818981488954,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+426507,65+,male,majority,0-9y,university,upper class,0.5944077812909544,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,0.0
+769768,16-25,female,majority,0-9y,none,poverty,0.3485104683249054,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+732342,65+,female,majority,30y+,high school,upper class,0.5743148525471706,1.0,before 2015,0.0,1.0,10238,9000.0,sedan,2,0,1,0.0
+974832,40-64,female,majority,0-9y,none,working class,0.6013294710042193,0.0,before 2015,1.0,0.0,92101,12000.0,sedan,0,0,0,1.0
+618377,40-64,female,majority,10-19y,university,middle class,0.5045828282314394,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,1,0,1,0.0
+105199,26-39,male,majority,10-19y,university,middle class,0.5607959096127864,1.0,before 2015,0.0,1.0,10238,9000.0,sedan,2,0,1,0.0
+949028,16-25,male,majority,0-9y,university,upper class,0.7020436831211672,1.0,after 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+297877,65+,female,majority,20-29y,high school,upper class,0.5952325907713841,1.0,after 2015,0.0,1.0,92101,11000.0,sedan,0,0,1,0.0
+820579,40-64,male,majority,20-29y,university,upper class,0.4033992451737849,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,2,1,3,0.0
+75820,65+,male,majority,30y+,university,upper class,0.6242329315836803,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,0,3,0.0
+856747,16-25,male,majority,0-9y,high school,working class,,1.0,before 2015,1.0,1.0,92101,10000.0,sedan,0,0,0,1.0
+854391,40-64,female,minority,20-29y,none,working class,0.3644138664579334,0.0,before 2015,1.0,1.0,10238,7000.0,sedan,0,0,1,0.0
+250086,65+,female,minority,20-29y,high school,upper class,0.4882145204143449,1.0,before 2015,1.0,1.0,32765,9000.0,sports car,4,1,0,0.0
+945734,16-25,male,majority,0-9y,high school,working class,0.3361848660197581,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+92173,16-25,female,majority,0-9y,university,middle class,,1.0,before 2015,0.0,0.0,32765,12000.0,sedan,0,0,0,1.0
+337899,26-39,female,majority,10-19y,high school,middle class,0.7119888047926283,0.0,before 2015,0.0,1.0,10238,,sedan,1,0,0,0.0
+599432,26-39,female,majority,10-19y,university,upper class,0.4775235133805459,1.0,before 2015,1.0,0.0,10238,12000.0,sedan,1,0,1,0.0
+103124,40-64,male,majority,0-9y,high school,middle class,0.5535588872675963,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,0,0,0,1.0
+959688,65+,female,minority,10-19y,high school,upper class,0.7594636399904836,1.0,before 2015,1.0,1.0,10238,,sedan,1,0,1,0.0
+239854,16-25,male,majority,0-9y,high school,poverty,,1.0,before 2015,0.0,0.0,32765,14000.0,sports car,0,0,0,0.0
+442340,26-39,male,majority,10-19y,none,working class,0.5209094741954858,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,2,0,1,1.0
+649769,65+,female,majority,30y+,university,upper class,0.6183141634928766,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,3,0,3,0.0
+200687,26-39,male,majority,10-19y,high school,middle class,0.3555810756161334,1.0,before 2015,1.0,1.0,10238,,sedan,2,0,3,0.0
+658335,16-25,female,majority,0-9y,high school,middle class,0.4768263725093603,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+378747,26-39,female,majority,0-9y,university,middle class,0.5434608543700327,1.0,before 2015,1.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+452365,16-25,female,majority,0-9y,high school,working class,,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+643778,16-25,female,majority,0-9y,none,poverty,0.438476101317694,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,1.0
+402240,65+,male,majority,0-9y,university,upper class,0.4153303916861797,0.0,after 2015,1.0,1.0,32765,10000.0,sedan,0,0,0,1.0
+500209,26-39,female,majority,10-19y,none,poverty,0.2229377578003164,0.0,before 2015,0.0,1.0,32765,12000.0,sports car,1,0,1,0.0
+915799,40-64,male,majority,20-29y,high school,middle class,0.4377567029047853,1.0,after 2015,1.0,1.0,10238,6000.0,sedan,3,1,8,0.0
+849572,26-39,female,majority,0-9y,university,upper class,,1.0,after 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+253594,26-39,male,majority,10-19y,high school,working class,0.3698699218943409,0.0,before 2015,1.0,1.0,32765,4000.0,sedan,7,0,0,1.0
+364101,65+,female,majority,30y+,university,upper class,0.563548802365458,0.0,after 2015,0.0,1.0,10238,11000.0,sedan,1,2,0,0.0
+32066,26-39,female,majority,10-19y,high school,middle class,0.6269408658287202,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,1,1.0
+86162,16-25,male,minority,0-9y,none,poverty,0.1795257577369365,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,0.0
+501479,26-39,male,majority,10-19y,university,working class,0.5168173024205648,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,1,2,1.0
+438567,40-64,female,majority,20-29y,high school,working class,0.3081124927383421,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,0,2,0,0.0
+182161,16-25,male,majority,0-9y,high school,poverty,0.160804993390916,0.0,before 2015,0.0,1.0,10238,,sedan,0,0,0,1.0
+802200,26-39,female,minority,10-19y,high school,working class,0.4284905011321014,0.0,before 2015,0.0,0.0,32765,12000.0,sedan,1,0,0,0.0
+834076,40-64,female,majority,20-29y,high school,middle class,0.5494719371093274,0.0,after 2015,1.0,1.0,10238,7000.0,sedan,1,2,3,0.0
+456102,26-39,male,majority,10-19y,university,middle class,0.328671664213881,1.0,after 2015,0.0,1.0,10238,,sedan,3,0,1,0.0
+833888,40-64,male,majority,0-9y,university,upper class,,0.0,after 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+429212,16-25,female,majority,0-9y,high school,working class,,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+428019,26-39,female,majority,0-9y,university,middle class,0.6749346402678857,0.0,after 2015,1.0,0.0,10238,,sedan,0,0,0,1.0
+455333,16-25,female,majority,0-9y,high school,middle class,0.6672969565631758,0.0,after 2015,1.0,1.0,32765,9000.0,sedan,0,0,0,0.0
+17502,26-39,female,majority,10-19y,high school,middle class,0.5435232653967891,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,0,0,1,0.0
+296063,40-64,female,majority,10-19y,university,upper class,,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,2,0,0,0.0
+994304,65+,male,minority,30y+,high school,middle class,0.4998196522603397,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,6,1,3,0.0
+158268,26-39,female,majority,10-19y,university,upper class,0.6427669540672473,1.0,after 2015,0.0,0.0,32765,13000.0,sedan,2,1,0,0.0
+205125,40-64,male,majority,10-19y,university,middle class,,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,2,0,0,0.0
+412652,65+,female,majority,30y+,none,upper class,,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,7,0,2,0.0
+21970,26-39,female,majority,10-19y,none,poverty,0.3198665683858178,0.0,before 2015,0.0,1.0,10238,9000.0,sports car,0,0,2,0.0
+43317,16-25,female,majority,0-9y,high school,poverty,0.4204690769573473,0.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+197533,40-64,female,majority,20-29y,university,middle class,0.6362568375561625,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,1,0,1,0.0
+695020,40-64,female,majority,20-29y,high school,upper class,,0.0,before 2015,1.0,0.0,10238,11000.0,sedan,0,0,0,0.0
+754878,40-64,female,majority,20-29y,high school,upper class,,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,3,0,1,0.0
+252639,16-25,male,majority,0-9y,none,poverty,0.2308881760595769,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+634428,16-25,female,majority,0-9y,high school,poverty,0.25244026019421,0.0,after 2015,1.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+329391,40-64,female,majority,20-29y,university,upper class,,1.0,after 2015,0.0,1.0,32765,7000.0,sedan,1,1,2,0.0
+615030,26-39,female,majority,0-9y,high school,middle class,0.4170365371162503,0.0,before 2015,1.0,1.0,32765,3000.0,sedan,0,0,0,1.0
+197052,16-25,female,majority,0-9y,high school,poverty,0.2937707747457808,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+260428,16-25,male,majority,0-9y,none,poverty,0.3525599589743549,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+818328,16-25,female,majority,0-9y,high school,poverty,0.3910631302545065,0.0,before 2015,0.0,0.0,32765,14000.0,sedan,0,0,0,1.0
+594938,40-64,female,majority,0-9y,high school,middle class,0.4410032673401329,1.0,after 2015,0.0,1.0,32765,13000.0,sedan,0,0,0,1.0
+635894,65+,male,majority,10-19y,high school,upper class,0.3902936364061164,1.0,after 2015,1.0,1.0,10238,,sedan,1,0,1,0.0
+4968,16-25,female,minority,0-9y,high school,poverty,0.4470360578482436,0.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+384974,40-64,male,majority,20-29y,university,middle class,0.5010180026077341,0.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,0,3,0.0
+66367,26-39,male,majority,10-19y,high school,poverty,0.1566679166032045,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+295959,26-39,male,minority,10-19y,university,upper class,0.6412962528138639,1.0,before 2015,1.0,1.0,10238,7000.0,sedan,3,0,2,0.0
+534988,40-64,female,minority,10-19y,university,upper class,0.6710704950139322,1.0,after 2015,1.0,1.0,32765,6000.0,sedan,2,0,2,0.0
+456703,40-64,female,majority,20-29y,none,poverty,0.5076361069588037,0.0,before 2015,1.0,1.0,32765,7000.0,sedan,6,0,0,0.0
+726508,40-64,female,majority,0-9y,university,upper class,0.6447543548298714,1.0,after 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+124037,40-64,female,majority,20-29y,high school,upper class,0.7042622621769039,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,2,0,5,0.0
+360802,40-64,female,minority,0-9y,university,upper class,0.5596127262430464,0.0,before 2015,0.0,1.0,10238,8000.0,sedan,0,0,0,1.0
+221358,40-64,female,majority,10-19y,university,upper class,0.6157910390587044,1.0,after 2015,0.0,1.0,10238,20000.0,sedan,0,0,1,0.0
+916128,40-64,male,majority,20-29y,university,upper class,0.4808531465764049,1.0,after 2015,1.0,1.0,92101,10000.0,sedan,3,1,2,0.0
+260884,40-64,male,majority,0-9y,high school,upper class,0.5885745201264703,0.0,after 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+314079,26-39,female,majority,10-19y,high school,middle class,,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,0,0,1,0.0
+518694,40-64,male,majority,10-19y,high school,upper class,0.6391950289541595,1.0,after 2015,0.0,1.0,32765,10000.0,sedan,6,1,1,0.0
+542539,65+,female,majority,30y+,high school,upper class,,1.0,after 2015,1.0,1.0,10238,,sedan,1,2,1,0.0
+777762,16-25,female,majority,0-9y,high school,middle class,0.5216683640376003,1.0,before 2015,1.0,1.0,32765,,sedan,0,0,0,1.0
+635692,26-39,female,majority,10-19y,high school,middle class,0.5938877797636894,1.0,before 2015,0.0,1.0,10238,14000.0,sedan,1,0,0,0.0
+993124,65+,male,majority,10-19y,university,upper class,0.4941094310431823,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,3,0,1,0.0
+462574,16-25,male,majority,0-9y,none,poverty,0.3171971946467171,0.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+595512,65+,male,majority,10-19y,university,upper class,0.5978279623546928,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,7,0,1,0.0
+271313,65+,male,majority,20-29y,high school,upper class,0.6572762925654707,0.0,before 2015,1.0,1.0,10238,7000.0,sedan,3,0,3,0.0
+918079,16-25,male,majority,0-9y,high school,poverty,0.4016022303600121,1.0,before 2015,1.0,1.0,92101,8000.0,sedan,0,0,0,1.0
+910531,16-25,male,majority,0-9y,high school,poverty,0.3322031062528092,1.0,before 2015,0.0,1.0,10238,15000.0,sports car,0,0,0,1.0
+734041,40-64,male,majority,10-19y,university,upper class,0.7281988113253196,0.0,before 2015,1.0,1.0,10238,7000.0,sedan,1,0,2,0.0
+73625,16-25,female,majority,0-9y,none,poverty,0.3188544980703689,1.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,0.0
+45566,40-64,male,majority,0-9y,high school,working class,0.6161387381357157,1.0,before 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,0.0
+566824,26-39,female,majority,0-9y,high school,poverty,0.4366559332018472,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+33658,40-64,female,majority,20-29y,university,upper class,,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,1,1,0,0.0
+453895,65+,female,majority,20-29y,high school,upper class,0.6426937467690333,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,1,0,3,0.0
+368897,40-64,female,majority,20-29y,none,middle class,0.5434086774169474,1.0,after 2015,0.0,1.0,92101,13000.0,sedan,0,0,1,0.0
+290516,65+,female,majority,20-29y,none,upper class,0.6736612645600645,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,1,0,1,0.0
+52584,40-64,female,majority,20-29y,university,upper class,0.5030899604313637,1.0,after 2015,0.0,0.0,10238,16000.0,sports car,1,0,0,0.0
+932512,65+,male,majority,30y+,university,upper class,0.6150164518767631,1.0,after 2015,1.0,1.0,92101,12000.0,sedan,7,1,2,0.0
+109656,16-25,female,majority,0-9y,none,poverty,0.2925649739369065,0.0,before 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,0.0
+315405,65+,female,majority,30y+,university,upper class,,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,4,1,6,0.0
+835303,16-25,female,majority,0-9y,high school,poverty,0.2176539374362534,1.0,after 2015,0.0,0.0,32765,11000.0,sedan,0,0,0,0.0
+87915,40-64,male,majority,20-29y,high school,upper class,0.7351527213384134,1.0,before 2015,0.0,0.0,10238,,sedan,1,1,0,0.0
+131400,40-64,male,majority,20-29y,university,upper class,0.7484736559983464,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,0,0,6,0.0
+969703,40-64,male,majority,10-19y,high school,upper class,0.7270552312687804,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+785751,26-39,male,majority,10-19y,university,upper class,0.6047259268007431,1.0,after 2015,0.0,1.0,10238,16000.0,sedan,1,0,0,0.0
+108958,65+,female,majority,10-19y,university,upper class,0.7213187073836898,0.0,before 2015,1.0,1.0,10238,12000.0,sedan,1,0,0,0.0
+706731,65+,female,majority,0-9y,university,upper class,0.5442840095847793,1.0,before 2015,1.0,1.0,32765,,sedan,0,0,0,1.0
+227830,65+,female,majority,10-19y,high school,upper class,0.6533333041615769,0.0,after 2015,1.0,0.0,10238,13000.0,sedan,0,1,1,0.0
+668924,16-25,female,majority,0-9y,high school,working class,0.2927542812589402,1.0,before 2015,0.0,1.0,10238,,sedan,0,0,0,0.0
+183967,65+,female,majority,10-19y,university,upper class,0.5912125916787476,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+58735,40-64,male,majority,20-29y,high school,upper class,0.4897024062963834,0.0,after 2015,0.0,0.0,10238,,sedan,3,0,1,0.0
+806194,65+,male,majority,30y+,university,upper class,0.7550240929770979,0.0,after 2015,1.0,1.0,10238,8000.0,sedan,3,1,10,0.0
+386944,16-25,male,minority,0-9y,high school,poverty,0.2699928074692025,0.0,before 2015,0.0,1.0,32765,15000.0,sedan,0,0,0,1.0
+198079,65+,male,majority,30y+,university,upper class,0.5701210004814511,1.0,before 2015,1.0,1.0,32765,5000.0,sedan,22,0,6,0.0
+14977,26-39,male,majority,10-19y,high school,middle class,0.5366566783666077,1.0,after 2015,0.0,0.0,32765,13000.0,sedan,1,0,1,0.0
+769065,40-64,male,majority,10-19y,high school,middle class,0.4433984296773094,1.0,before 2015,0.0,1.0,92101,12000.0,sedan,1,1,3,1.0
+396740,40-64,female,majority,10-19y,university,upper class,0.6911864135719332,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,2,0,1,0.0
+443302,26-39,female,majority,10-19y,high school,middle class,0.6797949082598349,0.0,before 2015,0.0,0.0,32765,15000.0,sedan,1,0,0,1.0
+754668,40-64,female,majority,10-19y,none,poverty,,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,2,0.0
+218011,40-64,female,majority,20-29y,university,upper class,,1.0,before 2015,1.0,0.0,10238,,sedan,0,0,2,0.0
+432167,26-39,female,majority,0-9y,university,upper class,,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+592029,16-25,female,majority,0-9y,high school,middle class,0.6303596053783685,1.0,after 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+842781,40-64,female,majority,20-29y,high school,upper class,0.7130791317570622,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,3,0,1,0.0
+162030,65+,male,majority,20-29y,high school,middle class,0.7197700650360803,1.0,before 2015,1.0,0.0,10238,15000.0,sedan,1,0,3,0.0
+202978,26-39,male,majority,10-19y,none,working class,0.5822851794425411,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,4,0.0
+179805,65+,female,majority,30y+,university,upper class,0.6318072663348004,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,1,2,3,0.0
+335501,16-25,female,majority,0-9y,high school,middle class,0.6030758483342629,1.0,before 2015,0.0,1.0,10238,,sedan,0,0,0,1.0
+499894,65+,male,majority,0-9y,university,upper class,0.4630504280385862,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+930990,26-39,female,majority,10-19y,high school,middle class,0.4637010602419435,1.0,after 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+713565,26-39,male,minority,10-19y,university,working class,0.4563629649443308,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,1,0,1,1.0
+742574,40-64,female,majority,10-19y,high school,upper class,0.5456914757249995,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,4,0,0,0.0
+199021,40-64,male,majority,20-29y,university,upper class,0.4544469195392025,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,2,0,1,0.0
+729740,65+,female,majority,0-9y,university,upper class,0.5334791090547961,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,0,0,0,1.0
+615159,40-64,female,majority,20-29y,high school,middle class,0.500920320199425,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,1,0,4,0.0
+926422,65+,male,majority,20-29y,high school,upper class,0.6563902910921708,1.0,after 2015,0.0,0.0,32765,15000.0,sedan,5,0,1,0.0
+760653,40-64,male,majority,20-29y,university,upper class,0.6432436735838899,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+261156,65+,female,majority,0-9y,high school,upper class,0.6605664252234276,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+150711,40-64,male,majority,0-9y,university,upper class,0.7225487582439879,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+538163,65+,male,majority,0-9y,high school,middle class,0.4096811698714886,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,1.0
+317151,65+,female,majority,30y+,university,upper class,,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,1,0,2,0.0
+276256,40-64,female,majority,10-19y,high school,upper class,0.6027617226896056,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,1,0.0
+550420,26-39,female,minority,10-19y,high school,upper class,0.6100646961488712,1.0,after 2015,0.0,1.0,32765,9000.0,sedan,2,1,1,0.0
+352099,26-39,male,majority,10-19y,none,middle class,0.5042469291759577,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,1,0.0
+156460,65+,female,majority,30y+,university,upper class,0.6510544208498562,1.0,after 2015,1.0,1.0,32765,10000.0,sedan,3,0,1,0.0
+692983,26-39,female,majority,0-9y,high school,working class,0.4786910984227911,1.0,before 2015,1.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+831721,65+,female,majority,0-9y,university,upper class,0.6518330966057846,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+66528,26-39,male,minority,10-19y,none,poverty,0.1902502054363816,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,1,1.0
+73809,26-39,male,majority,0-9y,university,middle class,,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+437930,40-64,female,majority,20-29y,none,middle class,0.4611964118866654,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,4,0,1,0.0
+752227,40-64,male,majority,20-29y,university,upper class,0.6734220340248892,1.0,after 2015,0.0,0.0,10238,12000.0,sedan,6,1,1,0.0
+435242,16-25,female,majority,0-9y,none,poverty,0.4414838220962519,0.0,before 2015,1.0,0.0,10238,,sedan,0,0,0,1.0
+372474,40-64,female,majority,20-29y,high school,upper class,0.432834683124666,1.0,after 2015,1.0,0.0,10238,13000.0,sedan,1,0,0,0.0
+613325,16-25,female,majority,0-9y,none,poverty,0.11914479835417,0.0,before 2015,1.0,0.0,10238,,sedan,0,0,0,1.0
+532841,26-39,male,majority,10-19y,university,middle class,0.5338073973882299,1.0,before 2015,0.0,0.0,32765,14000.0,sedan,1,0,2,1.0
+437044,40-64,male,minority,0-9y,university,upper class,0.575874058444159,0.0,after 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+792693,16-25,female,majority,0-9y,none,poverty,0.5391018376969258,1.0,before 2015,0.0,1.0,92101,9000.0,sedan,0,0,0,1.0
+345254,65+,male,majority,0-9y,university,upper class,0.8000044065279952,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+826934,26-39,male,majority,10-19y,high school,middle class,0.4794426637305649,0.0,after 2015,1.0,1.0,32765,10000.0,sedan,3,0,0,1.0
+611990,16-25,female,majority,0-9y,university,middle class,0.5137678770981265,1.0,before 2015,0.0,1.0,10238,17000.0,sedan,0,0,0,1.0
+511559,40-64,male,majority,20-29y,high school,upper class,,1.0,after 2015,1.0,0.0,32765,11000.0,sedan,5,1,2,0.0
+943321,26-39,male,majority,10-19y,high school,working class,0.4471403217193705,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,1,0.0
+144092,40-64,female,majority,0-9y,high school,middle class,0.6759014187945687,0.0,before 2015,0.0,0.0,21217,15000.0,sedan,0,0,0,1.0
+965945,16-25,female,majority,0-9y,high school,poverty,0.2993852450184929,0.0,before 2015,0.0,0.0,32765,,sedan,0,0,0,1.0
+146059,26-39,female,majority,10-19y,none,poverty,0.2527169536874629,0.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,2,0.0
+695203,26-39,female,majority,0-9y,high school,middle class,0.5532095143612934,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+378303,40-64,female,majority,0-9y,university,middle class,0.5814284168094358,0.0,after 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+63648,26-39,female,majority,10-19y,high school,poverty,0.2902069116355317,0.0,before 2015,0.0,0.0,10238,16000.0,sports car,1,0,0,1.0
+326697,16-25,male,majority,0-9y,high school,poverty,,0.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+277895,26-39,male,majority,10-19y,high school,poverty,0.4321065815267404,1.0,before 2015,0.0,1.0,10238,18000.0,sedan,1,0,1,1.0
+633661,40-64,female,minority,20-29y,high school,middle class,0.4983949335821834,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,3,0.0
+113052,26-39,male,majority,0-9y,high school,middle class,0.7347001277334391,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+55029,65+,male,majority,30y+,university,upper class,0.6366241137464022,1.0,after 2015,1.0,1.0,10238,,sedan,5,0,5,0.0
+150339,26-39,male,majority,10-19y,none,working class,0.4505246603167246,1.0,before 2015,1.0,1.0,10238,11000.0,sports car,1,0,1,0.0
+514856,65+,female,majority,10-19y,university,upper class,0.57331559900259,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,1,0,0.0
+281586,65+,male,minority,30y+,none,middle class,0.4516310746402034,1.0,before 2015,1.0,1.0,10238,,sedan,4,0,3,0.0
+740498,16-25,male,majority,0-9y,high school,poverty,0.2157278264088223,0.0,before 2015,0.0,0.0,32765,10000.0,sedan,0,0,0,1.0
+489922,26-39,female,majority,10-19y,university,upper class,0.6718568497511987,1.0,before 2015,1.0,0.0,10238,12000.0,sedan,1,0,2,0.0
+619701,65+,male,majority,30y+,high school,upper class,0.6634971777551828,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,3,0,5,0.0
+325157,16-25,female,majority,0-9y,none,poverty,0.3510593815269549,0.0,after 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+478336,40-64,male,majority,20-29y,university,upper class,0.6595254905875941,1.0,after 2015,0.0,1.0,10238,16000.0,sedan,4,0,2,0.0
+443332,65+,male,majority,30y+,university,upper class,0.5663226663241003,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,8,1,1,0.0
+858902,40-64,female,majority,20-29y,university,upper class,0.7071368241291672,0.0,after 2015,0.0,0.0,10238,17000.0,sedan,0,1,1,0.0
+15689,40-64,female,minority,20-29y,high school,upper class,0.6731139341682015,1.0,after 2015,1.0,1.0,10238,7000.0,sedan,1,0,0,0.0
+323683,26-39,male,majority,10-19y,university,upper class,0.6146055541785024,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,2,0,2,0.0
+418555,26-39,female,minority,10-19y,none,working class,,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,1,0,1,0.0
+707069,26-39,male,majority,10-19y,high school,upper class,0.5601753532231943,1.0,after 2015,1.0,1.0,32765,14000.0,sedan,3,0,0,0.0
+819383,16-25,female,majority,0-9y,none,poverty,0.1968910724089191,0.0,after 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,0.0
+602588,26-39,female,majority,10-19y,none,poverty,0.3942650149428709,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,1,0.0
+766042,40-64,male,majority,20-29y,high school,working class,0.3808724962351173,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,2,1,0,0.0
+143750,16-25,female,majority,0-9y,none,poverty,0.4690807869675105,0.0,before 2015,0.0,0.0,10238,18000.0,sedan,0,0,0,1.0
+555274,16-25,female,majority,0-9y,none,poverty,0.1529721602255696,1.0,before 2015,1.0,0.0,10238,10000.0,sedan,0,0,0,0.0
+251082,16-25,female,majority,0-9y,high school,working class,0.4615080079476523,0.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+855822,16-25,male,majority,0-9y,none,poverty,0.5135702694991496,0.0,before 2015,0.0,0.0,10238,9000.0,sedan,0,0,0,1.0
+515068,26-39,male,majority,10-19y,university,middle class,0.5601355746697445,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,0,3,0.0
+977402,65+,female,majority,30y+,university,upper class,0.470541767873757,1.0,after 2015,1.0,1.0,10238,7000.0,sedan,3,1,2,0.0
+149874,40-64,male,majority,10-19y,none,middle class,0.4769429942150982,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,1,0,3,0.0
+892754,40-64,male,majority,20-29y,none,poverty,0.3309502618581893,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,3,1,1,0.0
+683505,40-64,female,majority,20-29y,university,upper class,0.7464614409921647,1.0,before 2015,0.0,0.0,32765,13000.0,sedan,1,0,0,0.0
+331819,65+,female,majority,10-19y,university,upper class,0.615268901119859,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,1,1,0,0.0
+190804,26-39,female,majority,0-9y,high school,working class,0.3339028271934227,0.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+517351,40-64,female,majority,0-9y,none,middle class,0.5321389282217026,0.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+155779,40-64,female,majority,20-29y,none,working class,,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,0,0,0.0
+57811,65+,female,majority,30y+,none,working class,0.260393118704904,0.0,after 2015,1.0,1.0,10238,12000.0,sedan,0,3,1,0.0
+230575,40-64,male,majority,10-19y,university,middle class,0.5599870637233466,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,1,0,0.0
+433410,16-25,male,majority,0-9y,none,poverty,0.2323534203469195,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+938070,40-64,female,majority,10-19y,high school,middle class,0.6260582248737127,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,1,1,0,0.0
+188650,40-64,female,majority,20-29y,high school,middle class,0.5732018403359646,0.0,before 2015,1.0,1.0,32765,,sedan,4,0,1,0.0
+818522,65+,female,majority,20-29y,university,upper class,0.4972300723518808,1.0,after 2015,1.0,1.0,10238,15000.0,sedan,3,0,2,0.0
+339312,65+,female,majority,30y+,high school,middle class,0.3354459824186667,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,4,1,5,0.0
+277190,26-39,male,majority,0-9y,none,poverty,0.3655378886767161,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,1.0
+650235,26-39,female,majority,10-19y,university,middle class,0.5428523404936632,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,1,0,2,0.0
+58945,40-64,male,majority,10-19y,university,working class,0.3292438617147633,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,2,0,0,0.0
+911239,16-25,female,majority,0-9y,none,poverty,0.3755467226111664,1.0,before 2015,0.0,0.0,10238,,sedan,0,0,0,1.0
+706405,65+,male,majority,10-19y,high school,middle class,0.4654205894960517,1.0,before 2015,0.0,0.0,32765,13000.0,sedan,4,0,0,1.0
+605525,26-39,female,majority,0-9y,high school,working class,0.5125749545613042,1.0,before 2015,1.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+66436,40-64,female,majority,20-29y,none,middle class,0.6969278624817129,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,2,0,1,0.0
+191160,26-39,female,majority,10-19y,university,poverty,0.3574223756379198,0.0,before 2015,0.0,0.0,10238,13000.0,sports car,0,0,0,0.0
+733794,26-39,male,majority,10-19y,none,middle class,,0.0,before 2015,1.0,1.0,92101,,sedan,2,0,1,1.0
+314241,16-25,male,majority,0-9y,university,poverty,0.4093076060130435,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+674689,40-64,male,majority,20-29y,high school,upper class,0.7158624172055517,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,4,0,1,0.0
+817350,65+,female,majority,30y+,university,upper class,0.7139680839498174,1.0,after 2015,1.0,1.0,10238,,sedan,3,1,0,0.0
+748256,16-25,male,majority,0-9y,high school,poverty,,0.0,before 2015,0.0,1.0,32765,,sedan,0,0,0,1.0
+605650,65+,female,majority,10-19y,university,upper class,0.7807289784606327,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,0,2,0.0
+221484,26-39,male,minority,10-19y,university,upper class,,1.0,after 2015,1.0,1.0,32765,11000.0,sedan,2,1,2,0.0
+985516,40-64,female,majority,20-29y,university,upper class,0.6334004735306085,1.0,before 2015,1.0,1.0,32765,,sedan,5,2,0,0.0
+480896,40-64,female,majority,10-19y,none,working class,,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,1,0.0
+831517,40-64,male,minority,0-9y,high school,middle class,0.4496283666115848,0.0,before 2015,1.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+544652,40-64,female,majority,20-29y,high school,upper class,0.5012161027503177,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,1,0,1,0.0
+458705,16-25,male,majority,0-9y,none,poverty,0.2095355658756037,0.0,before 2015,0.0,0.0,32765,14000.0,sedan,0,0,0,1.0
+118986,65+,male,majority,30y+,university,upper class,0.6243246515669466,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,6,0,6,0.0
+572609,26-39,male,majority,10-19y,none,poverty,0.4128149890162617,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,1,0.0
+807428,40-64,female,majority,0-9y,high school,upper class,0.6223099193283916,1.0,before 2015,1.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+314777,65+,male,majority,30y+,high school,upper class,0.5987565032533735,1.0,after 2015,0.0,0.0,32765,10000.0,sedan,11,0,1,0.0
+418062,65+,female,majority,30y+,university,upper class,0.6824651070901286,0.0,before 2015,0.0,1.0,32765,8000.0,sedan,2,0,5,0.0
+673660,65+,female,majority,30y+,high school,upper class,0.6830407984824192,0.0,after 2015,1.0,1.0,10238,10000.0,sedan,4,1,3,0.0
+503289,65+,female,majority,30y+,none,upper class,0.5984477801924861,1.0,before 2015,1.0,0.0,32765,14000.0,sedan,1,1,1,0.0
+467990,16-25,female,majority,0-9y,none,poverty,0.3349652062752788,1.0,before 2015,0.0,1.0,10238,,sedan,0,0,0,1.0
+3131,26-39,female,majority,10-19y,high school,middle class,0.4137739689907644,1.0,after 2015,1.0,0.0,10238,11000.0,sedan,0,1,1,0.0
+698178,16-25,male,majority,0-9y,high school,middle class,,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+461175,40-64,male,majority,20-29y,high school,middle class,0.5846008675834956,1.0,after 2015,0.0,1.0,10238,,sedan,3,2,1,0.0
+412334,16-25,male,majority,0-9y,university,working class,0.4571102179576068,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+509238,40-64,female,majority,0-9y,high school,working class,0.5590702903683684,0.0,before 2015,0.0,1.0,32765,11000.0,sedan,0,0,0,1.0
+138861,26-39,male,minority,0-9y,high school,middle class,0.463003266668667,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,0,0,0,1.0
+868876,65+,male,majority,30y+,university,upper class,0.3256331426506953,1.0,before 2015,0.0,1.0,32765,15000.0,sedan,3,1,0,0.0
+278557,26-39,female,majority,10-19y,none,poverty,0.3186947648911332,0.0,before 2015,0.0,1.0,32765,,sports car,1,2,0,0.0
+877892,40-64,female,majority,0-9y,high school,upper class,0.7044732697996905,1.0,after 2015,0.0,1.0,10238,8000.0,sedan,0,0,0,0.0
+105423,65+,male,majority,30y+,high school,upper class,0.3016195849865694,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,5,1,8,0.0
+559604,40-64,male,majority,20-29y,high school,upper class,0.6975714838326199,0.0,before 2015,1.0,1.0,10238,13000.0,sedan,2,1,4,0.0
+514007,26-39,female,majority,10-19y,university,middle class,0.5302993039700095,1.0,before 2015,1.0,1.0,32765,,sedan,1,0,1,0.0
+37552,40-64,female,majority,10-19y,high school,upper class,0.6770587526543413,0.0,before 2015,1.0,1.0,10238,7000.0,sedan,1,0,3,0.0
+99606,26-39,female,majority,10-19y,high school,working class,0.4782278836498901,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,0,0,1,0.0
+454069,26-39,male,majority,10-19y,none,poverty,0.3993721682161127,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,3,1.0
+40972,65+,female,majority,30y+,university,upper class,0.4333321199941906,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,3,0,2,0.0
+297130,16-25,male,majority,0-9y,none,poverty,0.3909633860367781,0.0,before 2015,1.0,0.0,32765,9000.0,sedan,0,0,0,1.0
+796795,65+,female,majority,30y+,high school,upper class,0.7265427548472954,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,1,0,0,0.0
+559890,40-64,female,majority,0-9y,university,upper class,0.7666604791991664,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,0,0,0,1.0
+36667,26-39,female,majority,10-19y,high school,middle class,0.4711356183608628,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,4,0,1,0.0
+1924,65+,female,minority,30y+,high school,upper class,0.627568733571934,1.0,after 2015,0.0,1.0,10238,17000.0,sedan,1,1,1,0.0
+749627,40-64,male,majority,20-29y,high school,middle class,0.6264570219896365,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,4,1,3,0.0
+511404,40-64,female,majority,20-29y,high school,middle class,0.4588386634619821,1.0,before 2015,0.0,1.0,10238,10000.0,sedan,4,0,4,0.0
+840011,40-64,female,majority,0-9y,university,upper class,0.5318404446861559,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+836552,40-64,female,majority,0-9y,university,upper class,0.7031062628787716,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+195959,40-64,male,majority,10-19y,university,upper class,0.6749718971794846,1.0,after 2015,1.0,1.0,92101,12000.0,sedan,2,0,0,0.0
+991847,65+,female,majority,0-9y,high school,upper class,0.6514305997168591,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+615002,40-64,male,majority,10-19y,high school,middle class,0.5428697966105621,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,1,0,1,1.0
+869489,40-64,female,majority,10-19y,university,upper class,0.6646112638037833,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+477129,26-39,male,majority,0-9y,none,poverty,0.4344016803120741,0.0,before 2015,0.0,0.0,92101,15000.0,sedan,0,0,0,1.0
+671756,26-39,male,majority,10-19y,university,middle class,0.515197471464652,1.0,after 2015,1.0,1.0,32765,10000.0,sports car,7,0,1,0.0
+541183,26-39,female,majority,10-19y,high school,working class,0.508515717330417,0.0,after 2015,0.0,1.0,10238,9000.0,sedan,0,0,1,0.0
+88614,26-39,female,majority,0-9y,university,upper class,0.5345576129748951,0.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+220771,65+,female,majority,30y+,high school,upper class,0.6519445619523178,1.0,before 2015,1.0,1.0,32765,6000.0,sedan,4,0,1,0.0
+607957,65+,male,majority,10-19y,university,upper class,0.597930261239771,0.0,after 2015,1.0,1.0,10238,8000.0,sedan,1,1,2,0.0
+696360,16-25,female,majority,0-9y,high school,poverty,,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+424112,65+,female,majority,30y+,university,upper class,0.6819567520526453,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,6,0,1,0.0
+228541,16-25,female,majority,0-9y,none,poverty,0.3919921473665901,0.0,before 2015,0.0,0.0,32765,10000.0,sedan,0,0,0,1.0
+762569,65+,female,majority,10-19y,university,upper class,0.6307167645609398,1.0,before 2015,0.0,1.0,32765,12000.0,sedan,1,0,0,1.0
+854406,40-64,male,majority,20-29y,university,upper class,0.708576850672757,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,3,0,6,0.0
+245852,65+,male,majority,10-19y,high school,middle class,0.5839314559764571,1.0,after 2015,0.0,1.0,32765,11000.0,sedan,3,1,1,0.0
+359123,40-64,male,majority,20-29y,university,upper class,0.6870748566737084,1.0,after 2015,1.0,1.0,10238,11000.0,sports car,1,0,4,0.0
+671195,26-39,female,majority,10-19y,high school,poverty,0.4479815391901505,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,2,1,1,1.0
+155248,16-25,female,majority,0-9y,high school,poverty,0.2771533281319701,1.0,before 2015,1.0,0.0,21217,15000.0,sedan,0,0,0,1.0
+881876,26-39,male,majority,10-19y,high school,working class,,1.0,before 2015,0.0,0.0,92101,14000.0,sedan,1,0,0,0.0
+533785,40-64,male,majority,20-29y,high school,upper class,0.6291201591283238,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,5,2,7,0.0
+841092,26-39,male,majority,10-19y,high school,middle class,0.4118152950314071,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,0,0,1.0
+836104,26-39,male,majority,10-19y,high school,middle class,0.4595574011249364,1.0,before 2015,1.0,1.0,10238,,sedan,3,1,3,0.0
+298448,26-39,male,majority,0-9y,university,upper class,0.4284759689219815,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,0,0,0,0.0
+505284,65+,male,majority,30y+,high school,working class,0.6014435614074801,1.0,after 2015,0.0,0.0,32765,11000.0,sedan,10,0,5,0.0
+794541,26-39,female,majority,10-19y,none,poverty,0.4437392139614944,0.0,before 2015,0.0,0.0,10238,,sports car,1,1,2,0.0
+931786,40-64,female,majority,20-29y,none,working class,0.4141748435485591,1.0,before 2015,1.0,0.0,32765,,sedan,2,1,2,0.0
+13660,65+,female,majority,10-19y,none,upper class,0.5394124481549094,1.0,after 2015,1.0,0.0,10238,11000.0,sedan,2,0,1,0.0
+592338,16-25,male,majority,0-9y,none,poverty,0.4131038499681497,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+120540,40-64,female,majority,20-29y,university,upper class,0.6061807103298329,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,3,1,3,0.0
+188850,40-64,female,majority,20-29y,none,middle class,0.5104519008425812,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,2,0,0,0.0
+412534,65+,female,majority,10-19y,high school,upper class,0.6748467584014937,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,0,0,1,0.0
+194925,16-25,female,majority,0-9y,high school,poverty,0.2912344134674337,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+468732,26-39,male,majority,0-9y,high school,working class,0.528242677579548,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+809541,65+,female,majority,20-29y,university,upper class,0.6858763279385587,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,2,0,1,0.0
+559584,16-25,male,majority,0-9y,none,poverty,0.6132568376998419,0.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+551055,65+,male,majority,0-9y,university,upper class,0.5540804042745787,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+111182,16-25,female,minority,0-9y,none,poverty,0.4236274025393176,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+6708,26-39,female,majority,10-19y,none,middle class,0.6955855054281478,1.0,after 2015,0.0,1.0,32765,15000.0,sedan,2,0,0,1.0
+626247,65+,female,majority,30y+,none,middle class,0.473658782390129,1.0,before 2015,1.0,1.0,10238,7000.0,sedan,1,0,1,0.0
+203166,26-39,male,majority,0-9y,university,middle class,0.4789172761106194,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+323571,26-39,female,majority,10-19y,none,poverty,0.5225219977867602,0.0,before 2015,0.0,0.0,10238,,sedan,1,0,0,1.0
+802909,26-39,female,minority,0-9y,none,middle class,0.3642412378627409,0.0,after 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+788907,65+,male,majority,20-29y,high school,upper class,0.6220664431382967,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,3,0,2,0.0
+371426,26-39,female,minority,0-9y,high school,middle class,0.4453243532193456,1.0,before 2015,0.0,0.0,10238,20000.0,sedan,0,0,0,1.0
+763891,65+,female,majority,30y+,university,upper class,0.6409488031039333,1.0,after 2015,1.0,1.0,10238,,sedan,2,1,4,0.0
+990642,65+,male,majority,30y+,none,middle class,0.449235268668988,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,1,5,0.0
+210484,16-25,male,majority,0-9y,high school,poverty,0.2052827746067424,0.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+977326,16-25,female,majority,0-9y,none,working class,0.3829703656842234,1.0,after 2015,1.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+600608,16-25,male,majority,0-9y,high school,middle class,0.3840554262356353,0.0,before 2015,0.0,0.0,21217,17000.0,sedan,0,0,0,1.0
+634665,26-39,female,majority,10-19y,high school,upper class,0.5981802762565531,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,1,0,2,0.0
+659705,16-25,female,majority,0-9y,high school,poverty,0.1584752834539108,0.0,before 2015,0.0,1.0,32765,10000.0,sports car,0,0,0,1.0
+435122,65+,male,majority,30y+,university,upper class,0.6115255635879427,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,6,1,9,0.0
+574071,65+,male,majority,0-9y,high school,upper class,0.5877826133380222,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+253649,40-64,male,majority,10-19y,university,upper class,0.4876152902483951,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,1,0,2,0.0
+256125,26-39,male,minority,10-19y,high school,working class,0.3151728953354386,0.0,before 2015,0.0,1.0,32765,,sedan,5,0,2,1.0
+279012,16-25,female,majority,0-9y,none,poverty,0.4335349732716725,0.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+397446,16-25,male,majority,0-9y,none,poverty,0.4064824253974476,0.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,1.0
+584824,40-64,male,majority,20-29y,high school,upper class,0.6693697824531121,1.0,before 2015,1.0,1.0,32765,8000.0,sedan,11,0,1,0.0
+712569,26-39,male,majority,10-19y,none,working class,0.4837379873205136,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,1,0,0,1.0
+621010,16-25,male,majority,0-9y,high school,poverty,0.3627913211631439,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+578232,65+,male,majority,30y+,high school,middle class,,0.0,before 2015,0.0,1.0,32765,11000.0,sedan,2,0,0,0.0
+47113,65+,female,majority,30y+,university,upper class,0.6073189894709127,0.0,before 2015,1.0,1.0,10238,17000.0,sedan,2,0,2,0.0
+112647,40-64,female,majority,0-9y,high school,middle class,,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+123941,40-64,female,majority,20-29y,university,middle class,0.5701572256616224,1.0,after 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+451123,16-25,male,majority,0-9y,none,poverty,0.3528605617419292,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,0,0,0,1.0
+186796,16-25,male,minority,0-9y,university,middle class,0.4039707635734866,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+700222,65+,male,majority,20-29y,university,upper class,0.6268194740895368,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,3,0,2,0.0
+569721,40-64,female,majority,10-19y,high school,middle class,,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,0,0,1,0.0
+654722,40-64,male,majority,20-29y,none,middle class,0.5870584176189222,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,4,1,1,0.0
+453538,65+,male,majority,20-29y,university,upper class,0.6121332221514818,1.0,after 2015,0.0,1.0,10238,11000.0,sedan,7,0,4,0.0
+946088,40-64,male,majority,20-29y,university,upper class,0.5442289471637797,0.0,before 2015,1.0,1.0,32765,7000.0,sedan,12,0,6,0.0
+983202,16-25,female,majority,0-9y,high school,poverty,0.125876021475771,0.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+198413,40-64,female,majority,20-29y,none,middle class,0.6127658125044906,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,3,0,1,0.0
+622657,40-64,female,majority,20-29y,high school,upper class,,0.0,before 2015,1.0,1.0,32765,8000.0,sedan,2,1,1,0.0
+34367,16-25,female,majority,0-9y,none,poverty,0.3577661962837313,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+53008,16-25,female,majority,0-9y,university,middle class,0.4656737871227648,0.0,before 2015,0.0,0.0,21217,18000.0,sedan,0,0,0,1.0
+826053,65+,male,majority,30y+,university,upper class,0.7244869628614676,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,6,1,3,0.0
+218230,16-25,female,majority,0-9y,high school,poverty,0.3331167885747105,0.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+901502,16-25,male,majority,0-9y,high school,middle class,0.5999885146956511,1.0,after 2015,0.0,1.0,10238,12000.0,sports car,0,0,0,0.0
+229520,26-39,male,majority,10-19y,university,upper class,0.6014565461344432,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,1,0,2,0.0
+412229,26-39,male,majority,10-19y,university,upper class,0.5784680141147303,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,1,0.0
+165623,26-39,male,majority,10-19y,none,poverty,0.2947974807719967,1.0,before 2015,1.0,0.0,10238,15000.0,sedan,0,0,1,0.0
+490664,65+,male,majority,10-19y,university,upper class,0.6530763483634806,1.0,before 2015,1.0,1.0,10238,14000.0,sedan,0,0,0,0.0
+661337,40-64,female,majority,20-29y,none,middle class,,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,1,0,0.0
+62050,16-25,female,majority,0-9y,high school,poverty,0.3431036233243319,1.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,0.0
+505481,40-64,female,majority,10-19y,none,poverty,,1.0,before 2015,1.0,1.0,92101,8000.0,sedan,1,0,0,0.0
+257230,40-64,female,minority,20-29y,university,middle class,0.4461930791702037,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,0,0,0.0
+900230,26-39,female,majority,10-19y,high school,middle class,0.5360271863656086,0.0,after 2015,1.0,1.0,32765,7000.0,sedan,3,2,0,0.0
+767456,26-39,female,majority,0-9y,none,poverty,0.4415319215110355,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+834450,40-64,male,majority,20-29y,none,middle class,0.4266656103620529,1.0,before 2015,1.0,1.0,10238,7000.0,sedan,2,0,9,0.0
+12333,40-64,male,majority,20-29y,university,upper class,0.584162066396573,1.0,before 2015,1.0,0.0,10238,11000.0,sedan,4,0,0,0.0
+407888,16-25,female,majority,0-9y,none,poverty,0.4676023520407617,0.0,before 2015,0.0,0.0,32765,12000.0,sedan,0,0,0,1.0
+843573,26-39,female,minority,0-9y,university,working class,0.3415769205431839,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+946205,26-39,female,minority,10-19y,high school,middle class,0.5947499468018604,1.0,after 2015,1.0,0.0,10238,11000.0,sedan,1,0,0,0.0
+428377,40-64,male,majority,20-29y,none,middle class,0.5341854066381309,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,0,1,0.0
+419527,26-39,female,majority,10-19y,high school,upper class,0.6708348740013614,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,2,0,0.0
+641737,40-64,female,majority,10-19y,university,upper class,0.5797829400692501,1.0,after 2015,0.0,1.0,10238,9000.0,sedan,1,0,0,0.0
+108122,16-25,male,minority,0-9y,high school,poverty,0.2522091360163383,0.0,after 2015,0.0,0.0,32765,16000.0,sedan,0,0,0,1.0
+826785,16-25,male,majority,0-9y,none,poverty,0.2552489780402014,0.0,after 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+647951,16-25,male,majority,0-9y,none,poverty,0.3719180738581397,0.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+9204,26-39,female,majority,10-19y,university,upper class,0.7454201673636555,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+906536,26-39,male,majority,10-19y,university,working class,0.5008680670175222,0.0,before 2015,1.0,1.0,10238,12000.0,sedan,2,0,1,1.0
+186517,26-39,male,majority,10-19y,university,upper class,0.4563461760361606,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+328612,40-64,female,majority,20-29y,high school,working class,0.4688958725441862,1.0,before 2015,0.0,1.0,10238,8000.0,sedan,4,0,0,0.0
+321859,26-39,female,majority,10-19y,university,working class,0.3566916562731372,0.0,after 2015,1.0,0.0,32765,10000.0,sedan,1,0,2,0.0
+656485,16-25,female,majority,0-9y,none,poverty,,0.0,before 2015,0.0,0.0,32765,9000.0,sedan,0,0,0,1.0
+690265,40-64,female,majority,0-9y,university,upper class,0.6381265840341901,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+717824,40-64,female,majority,10-19y,university,upper class,0.6677167788370204,1.0,after 2015,1.0,0.0,10238,12000.0,sedan,1,0,0,0.0
+103722,40-64,female,majority,20-29y,high school,middle class,0.5750947360282379,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,2,0.0
+657437,26-39,male,majority,10-19y,none,working class,0.1999177653736918,0.0,before 2015,0.0,0.0,10238,,sedan,0,0,0,0.0
+864007,16-25,female,majority,0-9y,none,poverty,0.2729819143341314,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,1.0
+537205,26-39,female,majority,10-19y,none,poverty,0.2989742861548093,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,1,0.0
+542940,26-39,male,majority,10-19y,high school,upper class,0.5129415095468454,1.0,after 2015,1.0,0.0,10238,16000.0,sedan,0,0,1,0.0
+32500,26-39,male,majority,10-19y,university,upper class,0.5029442922316367,1.0,before 2015,1.0,1.0,92101,13000.0,sedan,0,1,0,0.0
+767446,26-39,male,minority,10-19y,high school,middle class,0.5338681732205112,1.0,after 2015,0.0,1.0,32765,10000.0,sedan,2,0,0,1.0
+435893,16-25,male,majority,0-9y,high school,middle class,0.4602202743066808,1.0,after 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+690238,16-25,female,majority,0-9y,none,poverty,0.4542164593661432,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+949933,40-64,male,minority,10-19y,none,poverty,,0.0,before 2015,0.0,1.0,10238,9000.0,sedan,0,0,0,1.0
+661119,65+,female,majority,30y+,university,upper class,0.6072563389717687,0.0,before 2015,0.0,1.0,32765,11000.0,sedan,8,4,5,1.0
+940396,40-64,male,majority,0-9y,high school,upper class,0.6792984756022082,1.0,after 2015,1.0,1.0,32765,7000.0,sports car,0,0,0,0.0
+383222,16-25,male,majority,0-9y,university,middle class,0.3502694027084785,1.0,after 2015,0.0,1.0,10238,,sedan,0,0,0,0.0
+756417,40-64,female,majority,20-29y,university,upper class,0.5638124626423421,1.0,before 2015,1.0,1.0,92101,13000.0,sedan,0,0,1,0.0
+833873,65+,male,majority,10-19y,high school,upper class,0.6276026441084511,1.0,after 2015,1.0,1.0,10238,13000.0,sedan,1,0,2,0.0
+927587,40-64,male,majority,10-19y,university,middle class,,1.0,after 2015,0.0,1.0,10238,12000.0,sedan,2,0,2,0.0
+49284,26-39,female,majority,0-9y,university,working class,0.4729607741056473,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,0,1.0
+62619,40-64,male,majority,20-29y,university,middle class,0.4692112924855094,1.0,before 2015,1.0,1.0,10238,,sedan,3,0,5,0.0
+578173,26-39,female,majority,0-9y,none,working class,0.5833816792751652,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,0.0
+268247,16-25,male,majority,0-9y,university,middle class,0.4589791271064004,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,1.0
+49143,26-39,male,majority,10-19y,university,upper class,0.6049537979222093,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,1,1,0,0.0
+556694,40-64,female,majority,20-29y,none,poverty,0.2419678099526762,1.0,before 2015,0.0,1.0,32765,13000.0,sedan,1,3,0,0.0
+830400,65+,male,majority,30y+,university,upper class,,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,1,0,3,0.0
+60966,65+,female,majority,30y+,none,upper class,0.5389856325423991,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,1,1,6,0.0
+902883,16-25,male,majority,0-9y,university,upper class,0.6154318618450819,1.0,before 2015,0.0,0.0,92101,14000.0,sedan,0,0,0,0.0
+813027,40-64,male,majority,20-29y,high school,upper class,0.8145502937682847,0.0,after 2015,1.0,1.0,10238,8000.0,sedan,4,1,4,0.0
+295048,65+,male,majority,10-19y,high school,upper class,0.7045096686066962,1.0,after 2015,0.0,1.0,32765,,sedan,2,0,1,0.0
+45659,40-64,male,majority,20-29y,high school,middle class,0.4514965749749725,0.0,after 2015,0.0,1.0,10238,12000.0,sedan,3,0,7,0.0
+298912,65+,female,majority,30y+,university,upper class,0.7265435592483527,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,1,1,0,0.0
+444919,26-39,male,majority,0-9y,high school,middle class,0.4703422702789483,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+837798,65+,male,majority,0-9y,university,upper class,0.5601214583158738,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,1.0
+450086,40-64,female,majority,10-19y,high school,middle class,,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,2,0,0,1.0
+345979,65+,male,majority,30y+,university,upper class,0.567420445945503,0.0,after 2015,1.0,1.0,10238,9000.0,sedan,5,1,7,0.0
+888398,40-64,female,majority,20-29y,university,upper class,,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,2,0,3,0.0
+163840,40-64,male,majority,20-29y,none,poverty,0.2039498393815561,0.0,before 2015,0.0,1.0,10238,,sedan,2,1,2,1.0
+395393,40-64,female,majority,10-19y,none,upper class,0.5479344934453008,1.0,before 2015,0.0,0.0,32765,10000.0,sedan,2,0,0,0.0
+12392,16-25,female,majority,0-9y,high school,poverty,0.3261357349177448,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,0.0
+28477,40-64,male,majority,20-29y,high school,working class,,0.0,before 2015,0.0,1.0,10238,12000.0,sedan,3,0,6,0.0
+672971,65+,male,majority,30y+,high school,middle class,0.5998608909858046,1.0,after 2015,1.0,1.0,10238,8000.0,sedan,4,1,5,0.0
+481678,65+,male,majority,30y+,university,upper class,0.5862739821585983,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,3,1,5,0.0
+765652,65+,female,majority,30y+,none,upper class,0.5612694270227846,1.0,before 2015,0.0,1.0,10238,15000.0,sports car,3,0,4,0.0
+843068,40-64,female,majority,20-29y,university,upper class,,1.0,before 2015,0.0,1.0,32765,9000.0,sedan,2,0,0,0.0
+360059,16-25,male,majority,0-9y,none,middle class,0.5562364476839974,0.0,before 2015,0.0,0.0,32765,11000.0,sedan,0,0,0,1.0
+10119,65+,female,majority,0-9y,high school,upper class,0.4494562548465213,0.0,before 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+609610,16-25,female,majority,0-9y,none,poverty,0.3621758273699106,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+57631,26-39,female,majority,10-19y,none,poverty,0.4342217990572816,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,2,0.0
+436399,16-25,female,minority,0-9y,high school,poverty,0.2359715462607108,1.0,before 2015,0.0,0.0,10238,18000.0,sedan,0,0,0,0.0
+590416,65+,male,majority,10-19y,none,middle class,,1.0,before 2015,1.0,1.0,32765,4000.0,sedan,6,0,2,1.0
+641934,40-64,male,majority,20-29y,high school,working class,0.5152516178220097,0.0,before 2015,1.0,1.0,32765,10000.0,sports car,4,0,1,0.0
+249658,26-39,male,majority,10-19y,high school,upper class,0.5221705443776188,1.0,before 2015,0.0,1.0,32765,9000.0,sedan,6,0,3,0.0
+215397,65+,male,majority,30y+,university,upper class,0.6486291459700178,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,5,2,7,0.0
+344025,26-39,male,majority,0-9y,high school,middle class,,0.0,before 2015,0.0,1.0,10238,10000.0,sedan,0,0,0,1.0
+474755,65+,male,majority,30y+,university,upper class,0.6597562707205796,1.0,before 2015,1.0,1.0,32765,3000.0,sedan,14,0,3,0.0
+393344,40-64,male,majority,0-9y,none,poverty,0.4449921214724386,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+649702,40-64,female,majority,0-9y,high school,upper class,,1.0,before 2015,1.0,1.0,32765,7000.0,sedan,0,0,0,0.0
+322824,26-39,female,majority,10-19y,university,upper class,,1.0,before 2015,0.0,0.0,32765,15000.0,sedan,0,1,1,1.0
+159094,16-25,female,majority,0-9y,none,poverty,0.3454662054878971,0.0,before 2015,0.0,1.0,32765,6000.0,sedan,0,0,0,1.0
+731314,65+,female,majority,20-29y,university,upper class,0.6119055041598039,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,1,0,3,0.0
+463428,26-39,male,majority,0-9y,university,middle class,0.5421610427901323,1.0,after 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+992200,16-25,female,majority,0-9y,none,poverty,0.4618114150413273,1.0,before 2015,1.0,0.0,32765,14000.0,sedan,0,0,0,1.0
+171578,26-39,male,majority,10-19y,university,upper class,,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,2,0,1,0.0
+581015,26-39,female,majority,10-19y,university,upper class,0.4863354995528417,1.0,after 2015,1.0,1.0,10238,,sedan,0,0,1,0.0
+741059,16-25,male,majority,0-9y,high school,middle class,0.3506626683042913,1.0,before 2015,0.0,0.0,10238,11000.0,sedan,0,0,0,1.0
+387154,40-64,male,majority,10-19y,high school,upper class,,1.0,after 2015,1.0,1.0,32765,9000.0,sports car,3,0,3,0.0
+627888,40-64,female,majority,20-29y,none,working class,0.4516222015627826,1.0,before 2015,1.0,1.0,32765,11000.0,sedan,4,1,0,0.0
+624500,40-64,male,majority,0-9y,none,working class,0.4764828551296845,1.0,before 2015,1.0,1.0,10238,8000.0,sedan,0,0,0,0.0
+798631,26-39,female,majority,0-9y,university,upper class,0.5764420898857827,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+142274,65+,male,majority,20-29y,university,upper class,0.538423701629647,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,1,1,2,0.0
+746285,65+,male,majority,30y+,university,upper class,0.5579938528070139,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,11,2,0,0.0
+676920,65+,male,majority,0-9y,university,upper class,0.5664919828432731,1.0,before 2015,1.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+236094,26-39,female,minority,0-9y,high school,upper class,,1.0,after 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+548888,40-64,female,majority,20-29y,university,upper class,0.5488939939280708,0.0,after 2015,1.0,1.0,10238,12000.0,sedan,1,0,1,0.0
+562090,26-39,female,minority,10-19y,high school,middle class,0.432893532501654,1.0,before 2015,0.0,0.0,10238,,sedan,1,0,0,1.0
+511284,65+,female,majority,0-9y,university,upper class,0.6194783739193893,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,1.0
+736323,26-39,female,minority,0-9y,none,poverty,0.336185325210513,0.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,1.0
+328200,65+,female,majority,10-19y,university,upper class,0.4240644177961019,0.0,after 2015,1.0,1.0,32765,11000.0,sedan,0,0,0,0.0
+963221,26-39,male,minority,10-19y,university,middle class,0.6247336298349684,1.0,before 2015,1.0,1.0,10238,12000.0,sedan,2,0,1,0.0
+947354,40-64,female,minority,20-29y,high school,working class,0.436520236197445,1.0,before 2015,0.0,1.0,10238,15000.0,sedan,3,0,2,0.0
+325771,40-64,male,majority,0-9y,high school,middle class,,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+286318,40-64,female,majority,20-29y,university,middle class,0.5268062926565421,0.0,after 2015,1.0,0.0,10238,15000.0,sedan,0,0,3,0.0
+893542,40-64,male,minority,10-19y,high school,upper class,0.7928853742076165,1.0,before 2015,0.0,1.0,10238,,sedan,1,0,1,0.0
+34082,16-25,male,majority,0-9y,university,working class,0.371964912767888,0.0,before 2015,1.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+695059,40-64,male,majority,10-19y,university,upper class,0.3835885249830328,1.0,before 2015,0.0,1.0,32765,6000.0,sedan,7,1,1,0.0
+781385,26-39,male,majority,10-19y,high school,working class,0.3275191653599587,1.0,before 2015,0.0,1.0,10238,14000.0,sedan,2,1,0,1.0
+442822,65+,male,majority,10-19y,high school,upper class,0.7030881161802514,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,4,0,2,0.0
+754211,26-39,male,majority,10-19y,university,upper class,0.4136760985676918,0.0,before 2015,0.0,1.0,10238,14000.0,sedan,0,0,3,1.0
+182414,26-39,female,majority,10-19y,none,poverty,0.2050783981630432,0.0,before 2015,0.0,1.0,10238,,sedan,3,0,0,1.0
+187551,26-39,male,majority,0-9y,university,middle class,0.5890046463385534,1.0,before 2015,1.0,0.0,10238,10000.0,sedan,0,0,0,1.0
+796287,65+,male,majority,30y+,university,upper class,0.5117106202618351,1.0,after 2015,0.0,1.0,10238,16000.0,sedan,4,0,3,0.0
+891460,16-25,female,minority,0-9y,none,poverty,0.4140194915050581,1.0,before 2015,0.0,0.0,10238,16000.0,sedan,0,0,0,0.0
+155974,65+,female,majority,30y+,university,upper class,0.6511117017505379,1.0,after 2015,1.0,1.0,32765,7000.0,sports car,4,1,0,0.0
+201973,65+,female,majority,0-9y,high school,middle class,0.5364084591026463,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,0.0
+582771,26-39,female,majority,10-19y,university,middle class,0.4764298214336605,0.0,before 2015,0.0,1.0,10238,15000.0,sedan,0,1,0,0.0
+23638,40-64,female,majority,10-19y,none,working class,,1.0,before 2015,1.0,1.0,21217,14000.0,sports car,0,0,2,1.0
+959164,16-25,male,majority,0-9y,university,middle class,0.5783712166428834,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,1.0
+757136,40-64,female,majority,10-19y,university,upper class,0.6902691770071121,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,0,1,0.0
+35525,65+,female,majority,0-9y,university,upper class,0.613068136056496,1.0,before 2015,0.0,1.0,32765,8000.0,sedan,0,0,0,1.0
+20455,40-64,female,majority,10-19y,university,upper class,0.72851460888228,1.0,before 2015,1.0,1.0,32765,,sedan,1,0,0,0.0
+933768,40-64,male,majority,20-29y,university,upper class,0.6614527533619113,1.0,before 2015,0.0,0.0,32765,11000.0,sedan,7,1,2,0.0
+481960,40-64,female,majority,0-9y,high school,working class,0.4138142523036839,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+229417,16-25,male,majority,0-9y,high school,middle class,0.3429919679805145,1.0,before 2015,0.0,0.0,32765,11000.0,sedan,0,0,0,0.0
+489335,65+,female,majority,30y+,university,upper class,0.5636668854459116,1.0,after 2015,0.0,1.0,10238,14000.0,sedan,3,0,0,0.0
+985811,65+,male,majority,30y+,university,upper class,0.6012662894827044,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,12,1,1,0.0
+972020,65+,female,majority,30y+,high school,upper class,0.639626053228194,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,1,0,0.0
+996737,26-39,female,majority,10-19y,high school,working class,0.4755018969121138,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,2,0,2,0.0
+754299,16-25,female,majority,0-9y,none,poverty,,1.0,before 2015,0.0,0.0,10238,,sedan,0,0,0,1.0
+784778,40-64,male,majority,20-29y,university,upper class,0.492497095519908,1.0,before 2015,1.0,1.0,32765,12000.0,sedan,7,1,2,0.0
+45047,26-39,female,majority,10-19y,high school,working class,0.4702667725463446,1.0,before 2015,0.0,1.0,10238,8000.0,sedan,1,0,0,0.0
+934754,65+,female,majority,10-19y,high school,upper class,0.7246438662273011,1.0,after 2015,1.0,1.0,92101,10000.0,sedan,1,0,0,0.0
+584185,26-39,male,minority,10-19y,university,middle class,0.4809404543943058,0.0,before 2015,1.0,1.0,32765,9000.0,sedan,5,0,5,1.0
+766854,40-64,female,majority,20-29y,high school,working class,0.4180525498107537,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,0,0,1,0.0
+284609,26-39,female,majority,10-19y,university,middle class,0.629040794332527,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+24512,26-39,male,minority,10-19y,high school,working class,0.5604130114765153,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,1,0,0,0.0
+869862,40-64,male,majority,20-29y,high school,upper class,0.6819981116362914,0.0,before 2015,1.0,1.0,32765,6000.0,sedan,11,1,2,1.0
+43340,16-25,male,majority,0-9y,none,poverty,0.2981062600049791,0.0,before 2015,0.0,0.0,32765,11000.0,sedan,0,0,0,1.0
+659481,65+,female,minority,30y+,university,upper class,0.6488774970733033,1.0,before 2015,1.0,1.0,10238,10000.0,sedan,3,1,4,0.0
+77981,26-39,female,majority,0-9y,high school,upper class,0.6705723025037389,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,0,0,0,1.0
+498232,16-25,male,minority,0-9y,high school,middle class,0.4086866980912735,1.0,before 2015,0.0,1.0,32765,9000.0,sedan,0,0,0,1.0
+824944,26-39,female,majority,0-9y,university,upper class,0.7485600858791863,1.0,after 2015,1.0,0.0,32765,,sedan,0,0,0,0.0
+115809,26-39,male,majority,10-19y,university,working class,0.3868939198714247,1.0,before 2015,0.0,0.0,10238,,sports car,3,0,1,0.0
+780494,40-64,female,minority,0-9y,university,upper class,0.7704573192127384,0.0,before 2015,1.0,1.0,10238,8000.0,sedan,0,0,0,1.0
+753664,26-39,female,majority,10-19y,high school,middle class,0.5863205459035753,1.0,after 2015,1.0,1.0,32765,8000.0,sedan,2,2,0,0.0
+333933,16-25,female,majority,0-9y,high school,working class,0.3399678397076847,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,0.0
+570990,65+,male,majority,30y+,university,upper class,0.6043395755162021,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,9,3,4,0.0
+890456,40-64,male,majority,20-29y,high school,upper class,0.7416076470188465,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,6,0,4,0.0
+418585,16-25,male,majority,0-9y,none,poverty,0.2651500868611133,0.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+133216,40-64,female,majority,0-9y,high school,poverty,0.3219845293205334,0.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+120206,26-39,female,majority,0-9y,high school,working class,0.4691015417651202,1.0,before 2015,0.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+481291,65+,male,majority,0-9y,high school,upper class,0.6782368413012284,1.0,after 2015,1.0,1.0,10238,10000.0,sedan,0,0,0,0.0
+293280,40-64,female,majority,10-19y,high school,middle class,0.5492598792249295,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+732295,40-64,female,majority,20-29y,university,upper class,0.6862027857536264,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,3,0.0
+834997,26-39,male,majority,10-19y,university,upper class,0.5043915324742732,0.0,before 2015,1.0,0.0,32765,10000.0,sedan,2,0,2,1.0
+83127,26-39,male,majority,10-19y,university,upper class,0.5914525540747789,1.0,after 2015,1.0,1.0,10238,14000.0,sedan,1,0,2,0.0
+54272,40-64,female,majority,0-9y,high school,upper class,0.6870544048107581,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+920514,26-39,female,majority,10-19y,none,poverty,0.3455182524386938,0.0,before 2015,0.0,0.0,10238,19000.0,sedan,0,0,0,1.0
+413274,26-39,male,majority,10-19y,high school,working class,,0.0,before 2015,1.0,1.0,32765,,sedan,4,0,2,0.0
+496158,40-64,male,majority,10-19y,high school,upper class,0.6024901864339096,1.0,after 2015,1.0,1.0,32765,6000.0,sedan,5,0,1,0.0
+913337,40-64,male,majority,10-19y,none,working class,0.3777495472101263,1.0,before 2015,0.0,0.0,32765,11000.0,sedan,2,0,2,1.0
+81087,40-64,male,majority,10-19y,university,upper class,0.6480905975191704,1.0,before 2015,0.0,1.0,32765,8000.0,sedan,1,0,2,0.0
+375862,65+,female,majority,20-29y,university,upper class,0.5756575676623218,1.0,before 2015,1.0,1.0,32765,12000.0,sedan,4,0,1,0.0
+66601,26-39,female,majority,0-9y,high school,upper class,0.677983680244089,0.0,after 2015,0.0,1.0,10238,15000.0,sedan,0,0,0,0.0
+779758,26-39,female,majority,0-9y,high school,middle class,,1.0,before 2015,1.0,1.0,10238,,sedan,0,0,0,0.0
+680298,40-64,male,majority,10-19y,university,working class,0.536084231219858,1.0,before 2015,0.0,1.0,10238,18000.0,sedan,1,0,2,0.0
+756603,26-39,female,majority,10-19y,high school,poverty,0.3837809456894412,0.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,0,0,1.0
+600813,16-25,male,majority,0-9y,high school,working class,0.3209510595021805,1.0,before 2015,0.0,1.0,21217,16000.0,sedan,0,0,0,1.0
+934637,40-64,male,majority,20-29y,university,upper class,0.7228069444299715,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,5,0,2,0.0
+266301,26-39,male,majority,10-19y,university,working class,,1.0,before 2015,1.0,0.0,10238,10000.0,sedan,3,0,1,0.0
+614546,65+,female,majority,20-29y,university,upper class,0.6236973075026354,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,1,0,1,0.0
+972309,40-64,female,majority,0-9y,university,upper class,0.6602273781790129,0.0,before 2015,1.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+183176,16-25,male,majority,0-9y,high school,poverty,0.3600050510656812,0.0,after 2015,0.0,1.0,10238,,sedan,0,0,0,0.0
+923366,40-64,male,majority,10-19y,university,middle class,0.5326129835682918,1.0,before 2015,0.0,1.0,10238,11000.0,sedan,1,0,3,0.0
+838898,65+,female,majority,0-9y,high school,upper class,0.5845541538211065,1.0,after 2015,1.0,1.0,10238,12000.0,sports car,0,0,0,0.0
+992656,16-25,male,majority,0-9y,university,middle class,0.4543114590508771,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,1.0
+290427,16-25,female,majority,0-9y,none,middle class,0.4474047668287038,1.0,before 2015,0.0,1.0,32765,10000.0,sedan,0,0,0,0.0
+817281,65+,male,majority,10-19y,high school,upper class,0.6493051965795881,1.0,after 2015,1.0,0.0,10238,,sedan,0,0,2,0.0
+277281,40-64,female,majority,20-29y,high school,middle class,0.6048092117828341,1.0,before 2015,1.0,1.0,10238,13000.0,sedan,1,0,1,0.0
+208179,40-64,male,majority,20-29y,university,upper class,0.6992068026332687,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,4,2,0,0.0
+518429,26-39,female,majority,10-19y,high school,working class,0.4390949268814289,0.0,before 2015,1.0,0.0,10238,,sedan,0,0,1,0.0
+895871,16-25,female,majority,0-9y,none,working class,0.3974832419886633,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,1.0
+142709,40-64,female,majority,10-19y,high school,poverty,0.4057523426788669,0.0,before 2015,1.0,0.0,10238,10000.0,sedan,4,0,0,0.0
+728169,26-39,male,majority,0-9y,high school,poverty,0.4261745228265034,0.0,before 2015,0.0,1.0,32765,13000.0,sedan,0,0,0,1.0
+303552,26-39,female,majority,10-19y,high school,middle class,0.469221801432757,1.0,before 2015,0.0,0.0,32765,,sedan,2,0,2,1.0
+626587,40-64,female,majority,20-29y,university,upper class,0.6831496294142616,1.0,after 2015,0.0,1.0,32765,9000.0,sedan,2,0,1,0.0
+416994,65+,male,majority,0-9y,high school,upper class,0.6498380486598201,1.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,0,0,0.0
+290962,26-39,male,majority,0-9y,high school,middle class,,0.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+648831,26-39,female,majority,10-19y,high school,upper class,0.5478841635869207,1.0,before 2015,0.0,0.0,10238,14000.0,sedan,0,0,0,0.0
+458864,26-39,female,majority,10-19y,university,upper class,0.5501791491994638,1.0,before 2015,1.0,1.0,10238,9000.0,sedan,0,0,0,0.0
+570855,40-64,male,majority,20-29y,high school,upper class,0.5656002831268322,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,1,0,4,0.0
+64259,16-25,female,majority,0-9y,high school,working class,0.4102339632201258,1.0,before 2015,0.0,0.0,10238,12000.0,sedan,0,0,0,0.0
+735160,65+,male,majority,0-9y,university,upper class,0.6482954425862152,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+593321,26-39,male,majority,10-19y,university,upper class,,1.0,after 2015,1.0,0.0,10238,11000.0,sedan,2,0,1,0.0
+967160,16-25,male,majority,0-9y,high school,working class,0.3308445835946743,1.0,after 2015,0.0,0.0,32765,13000.0,sedan,0,0,0,0.0
+822206,26-39,female,majority,10-19y,none,poverty,,0.0,before 2015,0.0,0.0,10238,12000.0,sedan,1,0,3,0.0
+230742,16-25,female,majority,0-9y,university,middle class,0.6002715507045969,1.0,before 2015,0.0,1.0,32765,11000.0,sedan,0,0,0,1.0
+235541,26-39,male,majority,10-19y,none,poverty,0.3554484102410427,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,6,1,1,0.0
+368915,16-25,male,majority,0-9y,high school,working class,0.4005849078660153,1.0,before 2015,0.0,0.0,10238,15000.0,sedan,0,0,0,1.0
+466860,26-39,male,majority,10-19y,high school,middle class,0.5656845974670317,1.0,before 2015,0.0,1.0,10238,16000.0,sedan,0,1,0,0.0
+853634,26-39,female,majority,10-19y,high school,working class,0.3686683909632152,1.0,before 2015,0.0,0.0,10238,17000.0,sedan,0,0,0,0.0
+982824,26-39,female,majority,10-19y,university,upper class,0.6491841156367637,1.0,before 2015,1.0,1.0,32765,9000.0,sedan,2,0,3,0.0
+37701,26-39,male,minority,10-19y,high school,poverty,0.3502986756122059,0.0,before 2015,0.0,1.0,10238,13000.0,sedan,0,1,1,1.0
+118207,65+,male,majority,30y+,university,upper class,,1.0,after 2015,1.0,1.0,10238,12000.0,sedan,8,1,1,0.0
+892200,26-39,male,majority,10-19y,university,upper class,0.487077886333249,1.0,before 2015,1.0,1.0,10238,11000.0,sedan,1,0,2,1.0
+609363,40-64,male,majority,20-29y,none,middle class,0.4338164827342213,1.0,after 2015,0.0,1.0,92101,13000.0,sedan,4,2,1,0.0
+46460,16-25,male,majority,0-9y,university,middle class,0.4965500328738285,0.0,before 2015,0.0,1.0,10238,11000.0,sedan,0,0,0,1.0
+717793,26-39,female,minority,10-19y,none,upper class,0.7062826762241365,1.0,after 2015,1.0,0.0,10238,13000.0,sedan,1,2,2,0.0
+367131,65+,male,minority,30y+,university,upper class,0.507556856864905,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,4,1,4,0.0
+406803,16-25,male,majority,0-9y,university,middle class,0.4754719949134253,1.0,before 2015,0.0,0.0,10238,13000.0,sedan,0,0,0,0.0
+581500,65+,female,majority,30y+,university,upper class,,0.0,after 2015,1.0,1.0,10238,12000.0,sedan,0,0,0,0.0
+750382,16-25,male,majority,0-9y,high school,poverty,0.4086313086464988,0.0,before 2015,1.0,0.0,10238,,sedan,0,0,0,1.0
+286646,16-25,male,majority,0-9y,university,working class,0.3627705566964328,0.0,before 2015,1.0,1.0,32765,8000.0,sedan,0,0,0,1.0
+616755,16-25,male,majority,0-9y,high school,poverty,0.3311444080390952,0.0,before 2015,0.0,0.0,92101,15000.0,sedan,0,0,0,1.0
+55670,26-39,male,majority,10-19y,university,upper class,,1.0,after 2015,1.0,1.0,10238,11000.0,sedan,3,1,0,0.0
+333970,40-64,male,majority,20-29y,university,middle class,0.5159345016123729,1.0,after 2015,0.0,1.0,10238,13000.0,sedan,0,0,2,0.0
+421596,65+,male,majority,30y+,university,upper class,0.5032225392796313,1.0,after 2015,1.0,1.0,10238,9000.0,sedan,6,2,10,0.0
+358849,65+,male,majority,20-29y,university,upper class,0.4937823113643486,1.0,before 2015,1.0,1.0,32765,10000.0,sedan,4,1,0,0.0
