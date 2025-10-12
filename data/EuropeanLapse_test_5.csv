@@ -1,0 +1,1001 @@
+polholder_age,polholder_BMCevol,polholder_diffdriver,polholder_gender,polholder_job,policy_age,policy_caruse,policy_nbcontract,prem_final,prem_freqperyear,prem_last,prem_market,prem_pure,vehicl_age,vehicl_agepurchase,vehicl_garage,vehicl_powerkw,vehicl_region,lapse
+71,stable,same,Male,normal,8,unknown,1,254.75,1 per year,252.35,257.86,254.75,15,1,private garage,75 kW,Reg14,0
+43,stable,only partner,Male,normal,1,private or freelance work,1,297.26,1 per year,297.28,409.0,308.65,18,10,street,75 kW,Reg9,0
+58,stable,all drivers > 24,Female,normal,4,private or freelance work,1,330.57,2 per year,330.59,254.3,330.59,18,8,unknown,75 kW,Reg7,0
+43,stable,only partner,Male,normal,0,private or freelance work,1,279.14,2 per year,279.15,284.04,279.15,5,0,private garage,125-300 kW,Reg4,1
+66,stable,all drivers > 24,Male,medical,0,private or freelance work,2,234.79,4 per year,234.8,331.18,239.24,11,4,private garage,75 kW,Reg5,0
+50,stable,same,Male,normal,2,private or freelance work,1,373.51,4 per year,373.53,442.12,373.53,13,13,private garage,100 kW,Reg9,0
+32,stable,same,Female,normal,2,private or freelance work,1,360.37,4 per year,343.22,294.44,380.51,11,10,private garage,25-50 kW,Reg3,0
+38,stable,only partner,Female,medical,5,private or freelance work,1,151.82,2 per year,151.84,231.69,145.35,18,8,private garage,25-50 kW,Reg3,0
+47,down,only partner,Male,medical,6,unknown,1,521.54,2 per year,532.19,348.09,443.35,18,13,unknown,75 kW,Reg4,0
+79,stable,only partner,Male,normal,5,unknown,2,491.84,1 per year,491.85,401.31,443.81,18,0,unknown,175 kW,Reg8,0
+62,stable,same,Male,normal,2,private or freelance work,1,212.64,4 per year,212.65,204.33,206.8,13,6,private garage,75 kW,Reg13,0
+37,stable,only partner,Female,normal,2,private or freelance work,1,300.85,1 per year,300.86,311.55,300.86,7,3,parking deck,25-50 kW,Reg6,0
+37,stable,same,Female,normal,7,private or freelance work,1,206.42,1 per year,206.44,186.95,195.35,7,0,private garage,100 kW,Reg6,1
+30,down,same,Female,medical,0,private or freelance work,1,482.26,2 per year,560.2,433.79,438.38,8,1,street,75 kW,Reg7,0
+24,up,same,Female,medical,1,private or freelance work,2,1543.38,12 per year,957.96,1046.42,1543.37,12,11,street,125-300 kW,Reg5,0
+35,down,all drivers > 24,Male,normal,1,private or freelance work,1,200.75,1 per year,204.85,233.56,184.34,10,8,other,75 kW,Reg14,0
+50,stable,same,Male,normal,9,private or freelance work,1,243.05,1 per year,243.05,226.18,243.05,10,8,parking deck,100 kW,Reg5,0
+45,stable,only partner,Male,normal,8,unknown,2,406.21,4 per year,406.23,236.95,395.37,15,6,street,75 kW,Reg12,1
+30,down,same,Female,medical,2,private or freelance work,2,347.56,1 per year,354.65,328.52,319.19,11,5,street,75 kW,Reg4,0
+62,down,only partner,Female,normal,0,private or freelance work,2,342.6,1 per year,349.59,412.49,314.62,5,0,private garage,175 kW,Reg8,0
+50,down,all drivers > 24,Female,medical,2,private or freelance work,1,306.25,4 per year,312.5,296.14,281.24,10,9,private garage,75 kW,Reg7,0
+47,up,only partner,Male,medical,0,private or freelance work,1,352.93,1 per year,247.05,394.65,352.94,11,7,street,75 kW,Reg5,0
+26,down,same,Male,normal,1,private or freelance work,1,471.61,1 per year,481.24,382.79,412.49,9,7,private garage,75 kW,Reg3,1
+62,down,same,Male,normal,0,private or freelance work,1,738.19,1 per year,951.45,719.5,618.96,12,4,parking deck,125-300 kW,Reg7,0
+43,down,same,Male,normal,1,private or freelance work,1,160.24,1 per year,163.51,148.94,140.25,18,10,street,25-50 kW,Reg7,0
+33,down,same,Male,medical,2,private or freelance work,2,368.59,1 per year,376.11,341.0,320.39,16,11,street,75 kW,Reg11,0
+37,down,only partner,Male,normal,1,private or freelance work,1,513.48,1 per year,523.96,436.71,489.03,14,13,private garage,100 kW,Reg14,0
+48,down,young drivers,Male,normal,0,private or freelance work,1,346.14,4 per year,353.2,492.0,338.99,13,10,other,75 kW,Reg11,0
+35,stable,all drivers > 24,Male,medical,3,private or freelance work,1,260.41,1 per year,260.42,262.04,260.42,16,5,street,75 kW,Reg4,0
+49,stable,same,Female,medical,11,private or freelance work,2,351.97,1 per year,351.99,323.79,351.99,12,1,private garage,75 kW,Reg6,0
+28,down,same,Female,medical,0,private or freelance work,1,458.11,12 per year,467.46,434.7,400.68,12,12,other,75 kW,Reg4,0
+57,stable,young drivers,Female,medical,1,private or freelance work,1,405.67,1 per year,405.69,358.69,397.95,12,5,other,25-50 kW,Reg3,1
+42,down,young drivers,Female,normal,1,private or freelance work,2,983.43,12 per year,1142.36,668.66,853.32,18,16,private garage,75 kW,Reg14,0
+46,stable,same,Male,normal,10,unknown,1,371.65,1 per year,371.66,220.32,358.09,15,3,street,150 kW,Reg8,0
+39,down,only partner,Male,normal,0,private or freelance work,1,453.04,2 per year,462.29,452.36,403.85,14,13,carport,75 kW,Reg7,0
+43,stable,only partner,Male,normal,9,unknown,1,246.47,1 per year,244.3,180.75,246.47,9,0,carport,100 kW,Reg9,0
+40,down,same,Female,normal,1,private or freelance work,1,643.53,1 per year,656.66,573.2,636.62,15,13,other,25-50 kW,Reg9,1
+38,down,only partner,Male,medical,0,private or freelance work,1,223.05,1 per year,227.6,272.93,206.91,6,0,other,75 kW,Reg8,0
+61,stable,only partner,Female,normal,0,private or freelance work,1,311.99,1 per year,312.0,378.47,330.11,13,6,other,75 kW,Reg9,1
+26,down,same,Female,normal,2,private or freelance work,1,382.64,4 per year,390.45,346.62,348.36,18,16,street,75 kW,Reg8,0
+43,down,same,Female,normal,1,private or freelance work,1,760.34,4 per year,793.4,783.8,661.16,10,8,private garage,125-300 kW,Reg8,0
+42,down,same,Female,normal,0,private or freelance work,1,453.9,4 per year,527.26,513.26,440.24,13,4,underground garage,25-50 kW,Reg7,0
+33,stable,same,Female,medical,9,unknown,2,273.33,12 per year,273.34,226.45,278.14,12,2,street,25-50 kW,Reg4,0
+32,down,only partner,Male,medical,0,private or freelance work,1,231.41,1 per year,236.14,333.98,214.68,14,7,private garage,75 kW,Reg13,1
+32,down,same,Male,normal,2,private or freelance work,1,326.6,1 per year,333.26,256.77,302.96,18,10,street,25-50 kW,Reg4,1
+30,down,all drivers > 24,Male,normal,0,private or freelance work,1,295.03,1 per year,301.05,254.38,270.95,11,10,private garage,25-50 kW,Reg8,0
+33,up,only partner,Male,medical,0,private or freelance work,1,193.15,1 per year,140.47,290.82,203.96,11,7,parking deck,75 kW,Reg6,0
+60,stable,same,Male,normal,11,unknown,1,297.51,1 per year,297.53,197.66,297.53,17,4,private garage,100 kW,Reg3,0
+51,stable,only partner,Male,medical,8,unknown,1,358.12,1 per year,358.14,250.84,392.19,8,0,carport,75 kW,Reg3,0
+41,down,only partner,Male,normal,1,private or freelance work,2,305.72,1 per year,311.96,393.4,294.38,17,11,private garage,75 kW,Reg1,0
+31,down,all drivers > 24,Female,medical,2,private or freelance work,1,732.69,12 per year,851.1,682.81,666.07,15,13,street,25-50 kW,Reg6,0
+55,stable,all drivers > 24,Female,normal,1,private or freelance work,1,203.74,1 per year,203.75,216.24,198.17,16,7,carport,75 kW,Reg12,0
+32,down,only partner,Female,normal,5,unknown,2,591.96,12 per year,604.04,423.46,549.12,16,11,unknown,125-300 kW,Reg10,0
+34,down,only partner,Female,normal,2,private or freelance work,1,285.41,2 per year,291.24,232.99,256.51,16,9,street,100 kW,Reg12,0
+40,stable,same,Male,normal,0,private or freelance work,1,130.96,1 per year,130.97,178.64,137.09,15,6,street,75 kW,Reg10,1
+44,stable,same,Female,normal,0,private or freelance work,2,125.16,1 per year,125.17,161.02,130.97,13,9,private garage,25-50 kW,Reg7,0
+37,down,only partner,Male,medical,0,private or freelance work,2,244.02,1 per year,249.0,273.12,222.01,16,15,street,100 kW,Reg4,1
+30,down,same,Male,normal,0,private or freelance work,1,458.08,4 per year,467.43,459.29,436.32,10,10,parking deck,100 kW,Reg1,1
+42,stable,only partner,Male,medical,0,private or freelance work,1,289.26,1 per year,289.27,441.44,306.11,7,3,private garage,75 kW,Reg9,0
+32,down,only partner,Male,medical,0,private or freelance work,2,569.81,4 per year,581.44,501.34,512.7,3,3,carport,100 kW,Reg14,0
+37,down,same,Male,normal,0,private or freelance work,1,1077.34,12 per year,1547.79,1030.74,936.83,15,14,other,75 kW,Reg4,1
+24,down,same,Male,medical,0,private or freelance work,1,623.58,1 per year,724.36,584.4,566.95,17,17,private garage,25-50 kW,Reg4,0
+46,stable,same,Male,normal,0,private or freelance work,1,283.44,4 per year,283.44,337.06,283.44,13,12,private garage,100 kW,Reg14,0
+28,stable,same,Female,medical,0,private or freelance work,1,834.34,1 per year,834.35,955.59,834.35,18,18,other,75 kW,Reg5,0
+36,down,same,Male,medical,0,private or freelance work,1,236.72,1 per year,241.55,277.06,213.47,13,11,private garage,100 kW,Reg5,0
+33,stable,only partner,Female,medical,1,private or freelance work,1,134.27,2 per year,134.29,165.32,134.29,11,0,private garage,25-50 kW,Reg1,1
+49,down,same,Male,medical,1,private or freelance work,1,214.15,1 per year,218.53,219.48,175.51,14,7,underground garage,150 kW,Reg7,0
+38,down,only partner,Male,normal,3,private or freelance work,1,533.63,4 per year,544.52,579.62,508.22,12,9,underground garage,75 kW,Reg2,0
+40,stable,only partner,Male,normal,1,private or freelance work,4,352.52,1 per year,352.54,380.06,352.54,13,9,private garage,125-300 kW,Reg8,0
+37,stable,only partner,Male,medical,1,private or freelance work,3,157.27,1 per year,157.29,247.57,157.29,14,8,private garage,25-50 kW,Reg8,0
+39,stable,only partner,Male,normal,1,private or freelance work,2,395.76,1 per year,395.77,311.71,388.45,8,6,private garage,100 kW,Reg14,0
+42,stable,only partner,Female,normal,2,private or freelance work,1,216.2,4 per year,216.2,212.76,216.2,10,8,carport,25-50 kW,Reg7,0
+40,down,only partner,Male,normal,0,private or freelance work,1,226.8,1 per year,231.42,245.82,180.93,18,5,private garage,100 kW,Reg8,0
+29,stable,only partner,Female,normal,1,private or freelance work,2,859.49,4 per year,859.49,965.14,859.49,15,14,private garage,75 kW,Reg4,0
+39,down,only partner,Male,normal,0,private or freelance work,1,297.5,4 per year,303.58,367.84,275.99,17,13,private garage,25-50 kW,Reg7,0
+57,stable,young drivers,Female,medical,1,private or freelance work,1,259.44,1 per year,259.44,260.21,259.44,14,8,other,75 kW,Reg5,0
+33,stable,only partner,Male,normal,0,private or freelance work,1,294.76,1 per year,294.78,400.3,294.78,13,9,private garage,75 kW,Reg5,1
+63,down,same,Male,medical,3,private or freelance work,1,310.83,2 per year,317.18,257.5,296.36,14,9,unknown,75 kW,Reg3,0
+35,down,only partner,Male,normal,8,private or freelance work,1,424.32,2 per year,432.98,397.89,396.71,11,3,private garage,100 kW,Reg7,0
+50,stable,only partner,Male,medical,8,unknown,1,249.08,1 per year,249.09,184.14,244.69,8,0,street,75 kW,Reg7,0
+32,stable,only partner,Female,medical,0,private or freelance work,1,240.52,2 per year,240.54,281.75,240.54,9,2,street,25-50 kW,Reg9,0
+67,stable,only partner,Male,normal,1,private or freelance work,2,326.7,1 per year,326.7,345.42,326.7,16,14,other,75 kW,Reg6,0
+24,stable,young drivers,Male,normal,1,private or freelance work,1,260.54,1 per year,260.55,357.27,260.55,15,12,street,25-50 kW,Reg1,0
+27,down,only partner,Female,normal,1,private or freelance work,1,373.87,2 per year,381.5,488.09,349.71,17,13,parking deck,100 kW,Reg5,0
+76,stable,same,Male,medical,10,unknown,1,144.49,1 per year,143.25,157.95,144.49,10,0,private garage,75 kW,Reg14,0
+46,down,young drivers,Male,medical,0,private or freelance work,2,400.64,1 per year,408.81,459.32,350.41,12,8,private garage,75 kW,Reg14,1
+58,down,same,Male,normal,9,unknown,1,302.97,1 per year,309.15,287.09,278.23,10,0,street,75 kW,Reg12,0
+36,stable,same,Male,normal,0,private or freelance work,2,261.65,4 per year,261.66,311.54,276.64,13,11,other,25-50 kW,Reg10,0
+69,stable,only partner,Male,medical,11,unknown,3,362.19,1 per year,362.2,200.43,349.19,18,6,street,125-300 kW,Reg5,0
+41,stable,same,Female,normal,1,private or freelance work,1,176.26,1 per year,176.28,245.94,176.28,16,8,carport,75 kW,Reg7,0
+52,stable,only partner,Male,medical,2,private or freelance work,1,213.79,1 per year,213.8,210.45,209.89,17,0,private garage,75 kW,Reg4,1
+43,stable,only partner,Male,medical,7,private or freelance work,1,222.86,4 per year,222.88,271.34,222.88,11,10,underground garage,100 kW,Reg1,0
+41,down,same,Male,medical,0,private or freelance work,2,362.78,1 per year,370.19,447.84,336.54,17,14,private garage,150 kW,Reg8,1
+36,down,same,Female,normal,0,private or freelance work,1,422.29,4 per year,430.91,416.06,356.32,8,8,private garage,100 kW,Reg13,0
+37,stable,same,Female,medical,0,private or freelance work,2,172.79,2 per year,172.8,219.61,172.8,12,7,carport,75 kW,Reg8,0
+34,down,young drivers,Male,normal,0,private or freelance work,1,388.3,2 per year,396.23,490.3,324.89,8,8,private garage,25-50 kW,Reg5,0
+40,stable,only partner,Male,normal,1,private or freelance work,2,220.1,4 per year,220.11,325.48,246.16,18,16,parking deck,75 kW,Reg3,0
+62,up,young drivers,Male,normal,0,private or freelance work,1,484.63,1 per year,323.09,423.84,503.73,12,12,private garage,75 kW,Reg7,0
+42,down,young drivers,Female,normal,0,private or freelance work,1,1058.19,4 per year,1229.21,912.99,916.75,14,13,parking deck,100 kW,Reg10,1
+37,stable,only partner,Male,medical,7,private or freelance work,2,196.59,1 per year,196.6,222.3,191.28,10,3,carport,75 kW,Reg3,0
+44,stable,same,Male,normal,0,private or freelance work,1,189.66,1 per year,189.68,221.74,189.68,16,4,street,75 kW,Reg4,0
+30,stable,same,Male,normal,0,private or freelance work,2,217.9,2 per year,217.91,295.7,241.49,14,10,parking deck,75 kW,Reg3,0
+62,down,same,Male,medical,3,private or freelance work,1,278.37,1 per year,284.05,200.67,221.63,6,3,street,75 kW,Reg12,0
+46,stable,same,Male,normal,1,private or freelance work,1,183.81,1 per year,183.82,209.77,173.85,13,7,private garage,175 kW,Reg8,0
+42,down,only partner,Female,normal,7,private or freelance work,1,206.57,1 per year,210.79,204.41,187.37,12,10,private garage,75 kW,Reg3,0
+38,stable,same,Male,medical,1,private or freelance work,1,228.38,1 per year,228.39,283.16,239.27,18,17,underground garage,75 kW,Reg14,0
+48,up,young drivers,Male,medical,0,private or freelance work,1,463.5,1 per year,370.8,761.44,463.53,12,7,street,25-50 kW,Reg8,0
+36,down,only partner,Female,normal,1,private or freelance work,1,281.11,4 per year,286.85,361.67,270.36,13,9,parking deck,100 kW,Reg1,0
+34,down,same,Male,medical,0,private or freelance work,1,560.5,4 per year,571.94,599.12,533.8,11,11,street,100 kW,Reg4,0
+23,down,same,Male,normal,0,private or freelance work,1,817.0,12 per year,949.04,646.04,742.76,14,14,underground garage,75 kW,Reg3,0
+39,up,only partner,Male,normal,0,private or freelance work,1,1228.21,1 per year,762.34,1533.89,1444.91,10,7,parking deck,125-300 kW,Reg7,0
+34,down,only partner,Female,normal,0,private or freelance work,1,283.88,1 per year,289.68,344.44,263.35,7,4,underground garage,100 kW,Reg8,0
+31,down,only partner,Female,medical,1,private or freelance work,1,334.62,1 per year,341.45,283.05,304.46,12,7,street,75 kW,Reg4,0
+36,stable,same,Male,normal,2,private or freelance work,1,216.3,1 per year,216.31,242.99,234.97,14,3,parking deck,75 kW,Reg14,0
+50,stable,only partner,Female,medical,4,private or freelance work,1,229.91,1 per year,229.93,184.94,200.09,18,17,unknown,75 kW,Reg4,0
+47,stable,same,Male,medical,0,private or freelance work,1,167.14,1 per year,167.15,238.16,167.15,18,13,parking deck,100 kW,Reg14,0
+44,stable,same,Male,medical,1,private or freelance work,2,213.16,1 per year,213.17,216.66,213.17,14,0,street,100 kW,Reg8,0
+42,down,same,Male,normal,1,private or freelance work,1,691.24,2 per year,705.35,620.54,628.11,9,6,parking deck,75 kW,Reg2,1
+35,down,only partner,Male,medical,3,private or freelance work,1,448.78,4 per year,457.94,416.35,419.78,17,8,unknown,100 kW,Reg5,1
+72,stable,only partner,Male,normal,11,unknown,1,282.04,2 per year,282.05,302.8,284.64,16,3,private garage,75 kW,Reg4,0
+37,up,same,Male,medical,1,private or freelance work,1,438.81,4 per year,351.05,479.79,438.81,14,9,other,100 kW,Reg5,0
+68,stable,same,Male,normal,8,unknown,1,325.32,1 per year,325.34,292.33,305.39,16,6,private garage,75 kW,Reg7,0
+55,stable,only partner,Female,medical,9,unknown,2,176.35,1 per year,176.36,165.44,176.36,9,0,street,100 kW,Reg8,1
+43,stable,same,Male,medical,6,unknown,1,448.06,1 per year,448.07,400.7,427.71,15,9,street,125-300 kW,Reg8,0
+42,stable,only partner,Male,normal,4,private or freelance work,1,230.68,1 per year,230.69,262.98,237.18,16,3,private garage,75 kW,Reg3,0
+32,down,only partner,Male,normal,0,private or freelance work,1,308.92,1 per year,315.22,351.95,286.56,11,7,street,100 kW,Reg1,0
+26,down,same,Female,normal,0,private or freelance work,2,225.35,1 per year,229.95,227.73,210.79,15,9,private garage,25-50 kW,Reg5,0
+40,down,only partner,Female,medical,0,private or freelance work,1,182.5,1 per year,186.22,232.66,176.55,13,10,private garage,25-50 kW,Reg5,0
+55,stable,same,Male,normal,9,unknown,1,262.45,1 per year,262.46,189.51,255.34,15,3,private garage,75 kW,Reg14,0
+26,down,same,Male,medical,0,private or freelance work,1,735.33,4 per year,854.18,752.94,687.83,10,9,street,100 kW,Reg14,0
+65,stable,same,Male,medical,10,private or freelance work,3,148.0,1 per year,148.01,168.38,139.98,5,5,private garage,125-300 kW,Reg7,0
+25,down,same,Male,medical,1,private or freelance work,1,1282.32,4 per year,1338.07,637.17,1115.04,8,7,private garage,100 kW,Reg1,1
+76,down,same,Male,normal,11,unknown,1,398.0,1 per year,406.12,326.9,364.4,11,0,private garage,75 kW,Reg4,0
+49,stable,young drivers,Male,medical,0,private or freelance work,1,152.2,1 per year,152.21,231.32,152.21,11,1,private garage,75 kW,Reg14,0
+35,down,only partner,Female,normal,4,private or freelance work,2,283.06,1 per year,288.84,312.9,269.17,12,9,other,125-300 kW,Reg3,0
+44,down,only partner,Male,medical,3,private or freelance work,2,535.5,1 per year,546.43,411.35,482.31,18,15,street,75 kW,Reg4,0
+36,down,only partner,Male,medical,2,private or freelance work,1,275.02,1 per year,280.64,280.21,245.55,16,6,private garage,150 kW,Reg4,0
+35,stable,only partner,Female,normal,2,private or freelance work,1,261.55,1 per year,261.56,280.75,268.99,14,9,street,75 kW,Reg6,0
+32,down,only partner,Male,normal,0,private or freelance work,1,258.6,4 per year,263.88,330.91,239.89,13,5,carport,75 kW,Reg3,0
+36,down,only partner,Male,normal,7,private or freelance work,1,181.4,1 per year,185.1,182.81,161.96,11,3,street,25-50 kW,Reg5,0
+39,stable,same,Male,normal,0,private or freelance work,1,214.27,4 per year,214.29,246.26,198.71,12,7,parking deck,100 kW,Reg9,0
+43,stable,young drivers,Female,normal,9,unknown,1,362.95,1 per year,362.96,330.46,369.94,12,0,private garage,75 kW,Reg8,0
+68,stable,same,Male,normal,7,private or freelance work,1,222.88,1 per year,222.88,296.09,222.88,18,11,private garage,100 kW,Reg8,0
+32,down,same,Male,normal,0,private or freelance work,1,466.82,12 per year,476.35,518.27,436.65,12,10,carport,175 kW,Reg14,0
+41,stable,same,Female,medical,2,private or freelance work,1,260.36,2 per year,260.38,218.71,260.38,17,12,other,25-50 kW,Reg8,0
+41,down,only partner,Male,normal,7,unknown,3,366.24,12 per year,373.71,222.84,291.79,15,7,street,25-50 kW,Reg7,0
+34,stable,only partner,Female,normal,0,private or freelance work,1,416.36,4 per year,416.36,407.66,416.36,12,11,private garage,25-50 kW,Reg4,0
+54,stable,young drivers,Male,normal,0,private or freelance work,1,397.0,1 per year,397.01,427.96,397.01,6,5,private garage,75 kW,Reg3,1
+35,stable,same,Male,medical,0,private or freelance work,1,369.99,2 per year,370.0,444.5,339.67,16,12,other,100 kW,Reg2,0
+48,down,only partner,Female,medical,1,private or freelance work,1,450.4,1 per year,459.59,408.01,428.95,17,13,carport,75 kW,Reg14,1
+77,down,same,Male,normal,12,unknown,1,344.75,1 per year,351.79,368.77,325.42,16,1,private estate,25-50 kW,Reg10,0
+44,stable,same,Male,normal,1,private or freelance work,1,291.54,1 per year,291.55,318.11,286.18,18,18,private garage,75 kW,Reg7,0
+22,down,same,Female,normal,1,private or freelance work,1,676.87,2 per year,706.3,569.94,588.59,11,10,other,25-50 kW,Reg7,0
+41,stable,only partner,Male,medical,5,unknown,1,312.8,1 per year,312.81,270.84,312.81,15,7,unknown,25-50 kW,Reg9,1
+32,stable,same,Male,normal,0,private or freelance work,1,316.0,12 per year,316.01,268.29,331.18,13,5,private garage,100 kW,Reg4,0
+38,stable,only partner,Male,normal,0,private or freelance work,1,384.77,4 per year,384.79,352.33,384.79,16,16,underground garage,25-50 kW,Reg8,0
+74,stable,only partner,Female,normal,9,private or freelance work,1,226.9,1 per year,222.78,216.21,226.9,12,0,street,75 kW,Reg5,0
+38,down,same,Male,medical,0,private or freelance work,1,1093.83,12 per year,1270.61,882.7,975.4,4,4,street,75 kW,Reg4,0
+29,stable,same,Female,medical,0,private or freelance work,1,710.96,2 per year,710.98,870.74,710.98,17,17,private garage,75 kW,Reg7,0
+42,down,same,Male,normal,3,private or freelance work,1,269.73,1 per year,275.24,243.72,244.65,3,0,unknown,100 kW,Reg3,0
+47,stable,only partner,Male,normal,1,private or freelance work,1,420.61,4 per year,420.62,436.23,441.0,8,0,private garage,100 kW,Reg12,0
+38,down,same,Female,medical,6,unknown,1,469.09,12 per year,478.66,261.05,412.09,13,7,private garage,25-50 kW,Reg7,0
+58,stable,only partner,Male,normal,0,private or freelance work,1,166.86,1 per year,166.88,235.73,166.88,8,0,street,100 kW,Reg11,0
+25,down,same,Female,normal,0,private or freelance work,1,424.85,4 per year,433.53,444.75,354.55,14,13,private garage,75 kW,Reg11,1
+59,stable,same,Male,normal,0,private or freelance work,1,202.94,2 per year,202.95,308.41,204.85,18,13,street,75 kW,Reg8,0
+43,stable,all drivers > 24,Male,normal,1,private or freelance work,1,443.26,1 per year,443.27,501.61,460.51,18,11,parking deck,100 kW,Reg9,0
+42,stable,only partner,Male,normal,0,private or freelance work,1,246.74,4 per year,246.75,309.77,246.75,10,3,other,25-50 kW,Reg1,0
+27,down,same,Male,medical,0,private or freelance work,1,441.58,4 per year,450.59,482.75,440.9,16,15,other,75 kW,Reg1,0
+76,stable,same,Female,normal,8,unknown,1,218.2,1 per year,210.21,250.32,218.2,13,5,private garage,75 kW,Reg4,0
+55,stable,only partner,Female,normal,5,private or freelance work,1,201.14,1 per year,201.14,138.52,201.14,12,9,private garage,75 kW,Reg7,0
+59,stable,all drivers > 24,Male,normal,3,private or freelance work,1,398.59,1 per year,398.6,355.4,417.78,18,10,unknown,75 kW,Reg7,0
+49,stable,only partner,Male,normal,3,private or freelance work,2,249.01,1 per year,249.03,220.99,263.17,16,8,unknown,100 kW,Reg3,0
+85,stable,same,Male,normal,10,unknown,1,135.15,1 per year,133.95,157.68,135.15,11,0,private garage,25-50 kW,Reg7,0
+33,down,same,Male,normal,0,private or freelance work,1,421.88,4 per year,430.49,375.76,362.76,18,18,parking deck,100 kW,Reg3,0
+34,down,same,Male,normal,1,private or freelance work,1,240.26,4 per year,245.16,265.81,224.74,14,5,other,75 kW,Reg6,1
+36,stable,same,Male,normal,0,private or freelance work,4,150.25,4 per year,150.26,210.0,150.26,18,8,street,25-50 kW,Reg8,0
+26,down,same,Female,normal,0,private or freelance work,2,242.34,1 per year,247.29,247.07,224.81,15,14,parking deck,25-50 kW,Reg13,0
+23,down,same,Female,medical,1,private or freelance work,1,618.73,1 per year,718.72,617.89,562.48,11,10,carport,25-50 kW,Reg5,0
+32,stable,only partner,Male,medical,0,private or freelance work,2,168.39,1 per year,168.4,220.05,168.4,10,4,other,25-50 kW,Reg4,0
+78,down,same,Male,normal,10,private or freelance work,1,578.81,4 per year,590.62,558.07,546.62,15,14,parking deck,75 kW,Reg12,0
+42,stable,same,Female,normal,8,unknown,1,249.16,1 per year,249.16,209.11,249.16,8,0,private garage,100 kW,Reg7,0
+39,stable,only partner,Female,normal,1,private or freelance work,3,135.41,1 per year,135.41,157.26,135.41,13,3,other,25-50 kW,Reg5,0
+38,stable,all drivers > 24,Male,normal,6,unknown,1,244.85,1 per year,244.86,190.88,242.59,6,0,street,25-50 kW,Reg5,1
+27,down,same,Male,normal,1,private or freelance work,1,467.52,1 per year,477.06,395.49,449.87,13,9,private garage,75 kW,Reg7,1
+29,down,only partner,Female,normal,0,private or freelance work,1,340.18,4 per year,347.13,352.21,318.2,17,16,private garage,75 kW,Reg7,0
+23,down,same,Female,normal,0,private or freelance work,1,410.63,4 per year,419.01,514.5,391.07,18,18,private garage,75 kW,Reg8,0
+48,down,same,Female,normal,1,private or freelance work,1,300.3,1 per year,306.42,300.89,268.2,18,8,private garage,75 kW,Reg8,0
+60,stable,same,Male,normal,0,private or freelance work,1,199.65,2 per year,199.66,232.39,190.56,18,18,street,100 kW,Reg7,0
+37,stable,only partner,Male,normal,6,unknown,1,314.69,12 per year,314.7,192.62,287.31,14,8,private garage,125-300 kW,Reg12,0
+60,stable,same,Male,normal,7,unknown,1,473.1,2 per year,473.11,441.34,473.11,12,5,street,100 kW,Reg5,0
+34,down,only partner,Female,normal,8,unknown,1,372.71,4 per year,380.31,258.59,330.19,8,0,private garage,75 kW,Reg8,0
+35,stable,only partner,Male,medical,1,private or freelance work,1,420.35,4 per year,420.36,447.86,420.36,14,14,street,75 kW,Reg8,0
+68,down,same,Male,normal,0,private or freelance work,1,591.97,4 per year,604.05,701.19,522.75,17,12,other,175 kW,Reg9,0
+34,stable,only partner,Male,medical,1,private or freelance work,2,228.54,1 per year,228.55,248.85,224.35,10,6,carport,75 kW,Reg12,1
+70,stable,only partner,Male,normal,5,unknown,1,294.95,4 per year,294.96,297.44,303.27,12,1,unknown,75 kW,Reg11,0
+34,stable,only partner,Female,normal,10,private or freelance work,1,179.59,2 per year,179.6,170.6,179.6,13,0,private garage,25-50 kW,Reg5,0
+29,stable,same,Male,normal,0,private or freelance work,1,286.55,4 per year,286.56,316.73,273.41,13,7,parking deck,75 kW,Reg4,1
+54,stable,same,Male,normal,1,private or freelance work,1,264.27,1 per year,264.29,257.07,254.4,12,10,private garage,225 kW,Reg4,0
+28,down,same,Male,medical,0,private or freelance work,1,698.82,4 per year,811.76,787.56,685.65,18,17,carport,75 kW,Reg12,0
+49,down,same,Male,medical,9,private or freelance work,1,409.93,1 per year,418.3,354.46,371.82,14,4,parking deck,125-300 kW,Reg8,0
+58,stable,same,Male,normal,3,private or freelance work,1,212.25,12 per year,212.26,273.56,224.66,14,7,private garage,100 kW,Reg10,0
+52,stable,young drivers,Female,medical,2,private or freelance work,1,361.99,12 per year,362.0,283.82,355.28,14,6,street,75 kW,Reg14,0
+26,down,same,Female,normal,0,private or freelance work,1,395.59,4 per year,403.66,452.45,376.75,16,16,other,75 kW,Reg11,0
+28,down,same,Male,normal,0,private or freelance work,1,496.64,1 per year,518.24,457.43,412.16,8,3,private garage,75 kW,Reg13,0
+34,stable,only partner,Male,normal,2,private or freelance work,2,422.02,2 per year,422.04,388.95,422.04,12,9,parking deck,75 kW,Reg4,0
+54,stable,only partner,Male,normal,5,private or freelance work,1,142.59,1 per year,142.6,205.23,142.6,18,9,street,75 kW,Reg8,0
+39,stable,same,Female,normal,1,private or freelance work,1,399.6,1 per year,399.61,405.5,399.61,18,16,private garage,75 kW,Reg7,0
+45,down,only partner,Male,medical,0,private or freelance work,1,273.75,1 per year,279.34,315.88,251.4,8,4,private garage,75 kW,Reg5,0
+33,down,same,Female,normal,1,private or freelance work,1,565.14,4 per year,576.67,358.18,503.54,9,6,carport,100 kW,Reg7,0
+45,stable,only partner,Male,normal,1,private or freelance work,1,455.91,4 per year,455.92,407.31,434.54,14,14,private garage,125-300 kW,Reg4,1
+23,down,young drivers,Male,normal,0,private or freelance work,1,573.23,1 per year,584.93,583.38,545.92,11,8,private garage,75 kW,Reg4,1
+58,stable,same,Male,normal,6,unknown,1,265.59,1 per year,265.6,214.04,251.24,10,4,private garage,75 kW,Reg5,0
+37,stable,same,Female,normal,7,unknown,1,392.86,12 per year,392.87,255.0,392.87,18,17,street,25-50 kW,Reg4,0
+35,stable,only partner,Female,medical,0,private or freelance work,1,302.14,2 per year,302.15,317.59,322.98,13,13,street,75 kW,Reg1,0
+39,down,only partner,Male,normal,2,private or freelance work,2,367.9,2 per year,375.41,309.68,316.0,14,7,private garage,25-50 kW,Reg8,0
+44,stable,only partner,Female,medical,2,private or freelance work,1,214.69,1 per year,214.7,168.1,201.36,15,3,private garage,150 kW,Reg6,1
+31,down,only partner,Female,medical,0,private or freelance work,1,256.21,1 per year,261.44,264.86,253.69,5,1,private garage,75 kW,Reg4,0
+32,down,only partner,Male,normal,1,private or freelance work,1,406.5,4 per year,414.8,427.79,366.58,13,9,private garage,150 kW,Reg9,0
+25,down,same,Female,normal,0,private or freelance work,1,709.39,12 per year,740.24,718.91,653.44,15,14,street,75 kW,Reg9,0
+52,down,only partner,Male,normal,6,private or freelance work,1,334.94,1 per year,341.78,340.68,310.7,13,7,private garage,125-300 kW,Reg7,0
+38,down,same,Male,normal,0,private or freelance work,1,264.98,12 per year,270.39,254.12,226.25,15,0,private garage,100 kW,Reg3,0
+63,stable,all drivers > 24,Male,normal,4,private or freelance work,1,213.05,1 per year,213.05,227.55,213.05,12,5,unknown,100 kW,Reg5,0
+40,stable,only partner,Male,normal,5,unknown,1,230.69,1 per year,230.7,260.85,232.7,16,6,unknown,75 kW,Reg7,0
+74,stable,same,Female,normal,10,unknown,1,278.1,1 per year,275.55,320.51,278.1,11,0,private garage,125-300 kW,Reg6,0
+41,stable,all drivers > 24,Female,medical,10,private or freelance work,2,234.51,1 per year,234.51,232.46,234.51,10,7,carport,75 kW,Reg10,1
+37,stable,same,Male,normal,1,private or freelance work,1,263.14,1 per year,263.15,327.5,270.62,11,7,underground garage,100 kW,Reg8,1
+40,down,same,Female,medical,3,private or freelance work,1,575.16,1 per year,586.9,332.57,522.31,10,6,unknown,25-50 kW,Reg9,0
+33,stable,only partner,Male,medical,2,private or freelance work,1,331.55,1 per year,331.56,317.1,322.35,10,8,private garage,100 kW,Reg8,0
+35,stable,same,Male,normal,1,private or freelance work,1,261.76,4 per year,261.77,307.01,254.55,16,9,private garage,75 kW,Reg5,0
+33,down,same,Male,medical,1,private or freelance work,1,475.69,1 per year,485.4,461.05,416.05,11,10,other,100 kW,Reg3,0
+31,down,only partner,Female,medical,2,private or freelance work,1,495.67,12 per year,505.79,382.5,472.06,13,0,street,25-50 kW,Reg8,0
+55,stable,young drivers,Female,medical,0,private or freelance work,1,184.33,1 per year,184.34,272.02,196.85,4,0,private garage,75 kW,Reg8,0
+29,down,same,Male,medical,2,private or freelance work,1,489.64,12 per year,499.64,391.93,428.26,18,14,street,75 kW,Reg6,0
+29,down,only partner,Female,normal,0,private or freelance work,1,710.81,4 per year,725.31,539.54,621.7,13,13,parking deck,75 kW,Reg4,0
+37,stable,same,Male,normal,1,private or freelance work,1,331.29,1 per year,331.3,386.39,331.3,15,4,street,100 kW,Reg8,0
+41,stable,only partner,Male,normal,2,private or freelance work,2,258.92,1 per year,258.94,241.96,251.84,13,7,carport,75 kW,Reg8,0
+40,stable,same,Male,medical,8,unknown,2,446.56,12 per year,446.58,288.25,446.58,13,5,private garage,75 kW,Reg4,0
+36,stable,same,Male,normal,4,private or freelance work,1,198.75,1 per year,198.76,200.06,189.68,13,0,private garage,125-300 kW,Reg7,0
+48,stable,only partner,Male,medical,8,unknown,2,289.64,1 per year,289.65,262.57,289.65,12,1,private garage,75 kW,Reg8,0
+36,stable,only partner,Female,medical,0,private or freelance work,1,254.26,4 per year,249.59,342.57,254.26,12,5,parking deck,75 kW,Reg10,0
+27,down,same,Male,normal,2,private or freelance work,2,396.45,1 per year,404.54,352.08,364.08,13,5,street,75 kW,Reg2,0
+43,stable,same,Female,normal,1,private or freelance work,2,191.76,1 per year,191.77,199.65,179.86,18,10,private garage,75 kW,Reg8,0
+66,stable,only partner,Male,medical,11,private or freelance work,1,148.84,1 per year,148.85,199.68,148.85,14,3,private garage,100 kW,Reg10,0
+44,down,only partner,Male,medical,1,private or freelance work,1,322.03,1 per year,328.6,335.4,259.14,17,13,other,100 kW,Reg8,0
+41,down,same,Male,medical,0,private or freelance work,1,600.7,4 per year,697.79,682.69,577.69,0,0,street,100 kW,Reg9,0
+42,down,same,Female,normal,1,private or freelance work,1,499.0,4 per year,520.7,526.12,433.91,17,16,other,25-50 kW,Reg5,0
+43,stable,all drivers > 24,Male,normal,2,private or freelance work,1,244.11,1 per year,244.13,235.93,244.13,18,8,private garage,25-50 kW,Reg4,0
+75,stable,same,Male,normal,10,private or freelance work,1,158.82,4 per year,158.84,209.12,158.84,17,4,parking deck,100 kW,Reg5,0
+52,down,same,Male,medical,0,private or freelance work,1,201.71,1 per year,205.83,246.79,174.04,16,3,private garage,125-300 kW,Reg6,0
+51,down,only partner,Female,normal,1,private or freelance work,1,558.83,12 per year,583.12,607.16,499.74,18,10,parking deck,75 kW,Reg3,0
+40,down,only partner,Female,normal,3,private or freelance work,1,307.61,1 per year,313.89,217.05,285.36,16,7,unknown,25-50 kW,Reg4,0
+51,stable,young drivers,Male,normal,10,private or freelance work,2,337.16,1 per year,337.17,284.4,337.17,11,0,parking deck,75 kW,Reg4,0
+38,down,only partner,Female,medical,1,private or freelance work,1,279.08,1 per year,284.78,277.59,244.09,17,10,parking deck,25-50 kW,Reg5,0
+31,stable,all drivers > 24,Female,normal,1,private or freelance work,1,688.35,1 per year,688.36,625.15,643.57,14,9,street,125-300 kW,Reg6,0
+62,stable,same,Male,normal,0,private or freelance work,1,116.42,1 per year,116.44,165.61,116.44,18,10,underground garage,25-50 kW,Reg7,0
+38,stable,only partner,Male,medical,1,private or freelance work,3,210.71,2 per year,206.83,202.21,210.71,8,7,private garage,100 kW,Reg7,0
+48,stable,same,Female,medical,9,unknown,1,239.06,1 per year,239.07,220.34,226.67,12,3,private garage,25-50 kW,Reg7,0
+41,stable,only partner,Male,medical,0,private or freelance work,1,232.03,4 per year,232.04,287.3,250.29,14,11,street,75 kW,Reg12,0
+38,stable,only partner,Male,medical,2,private or freelance work,1,217.54,1 per year,217.55,190.19,202.09,15,0,private garage,100 kW,Reg8,0
+66,stable,same,Female,medical,6,unknown,3,260.4,2 per year,260.41,231.38,265.25,16,2,private estate,75 kW,Reg5,0
+34,stable,all drivers > 24,Male,normal,2,private or freelance work,1,282.14,1 per year,282.14,284.61,282.14,11,3,underground garage,75 kW,Reg8,0
+29,stable,only partner,Female,normal,0,private or freelance work,1,297.67,4 per year,297.69,314.16,286.67,14,14,parking deck,100 kW,Reg11,1
+37,stable,only partner,Female,medical,0,private or freelance work,1,169.48,2 per year,169.49,237.0,161.8,15,9,private garage,75 kW,Reg8,0
+40,down,same,Male,medical,0,private or freelance work,1,749.43,4 per year,870.55,827.51,728.29,11,10,carport,75 kW,Reg6,0
+43,stable,only partner,Female,medical,1,private or freelance work,1,301.35,12 per year,301.35,428.46,301.35,15,4,private garage,75 kW,Reg8,0
+25,down,same,Female,normal,3,private or freelance work,2,539.59,12 per year,550.6,529.58,549.26,16,15,street,75 kW,Reg4,0
+53,down,young drivers,Male,normal,0,private or freelance work,1,471.78,2 per year,481.41,472.01,449.32,8,1,other,25-50 kW,Reg8,1
+40,stable,only partner,Female,medical,1,private or freelance work,2,242.84,4 per year,242.85,291.12,233.94,12,7,private garage,75 kW,Reg12,0
+49,stable,all drivers > 24,Male,normal,6,private or freelance work,1,602.5,12 per year,602.51,426.76,558.69,16,9,street,25-50 kW,Reg9,0
+51,stable,same,Male,medical,1,private or freelance work,2,164.23,2 per year,164.24,172.5,168.82,18,10,carport,75 kW,Reg4,0
+38,stable,only partner,Female,medical,3,private or freelance work,1,231.73,1 per year,231.74,229.99,231.74,17,13,carport,75 kW,Reg1,0
+44,stable,only partner,Male,normal,2,private or freelance work,1,278.96,1 per year,278.97,336.65,292.31,15,6,private garage,125-300 kW,Reg2,0
+69,down,same,Male,normal,6,unknown,1,500.93,1 per year,511.15,341.51,425.56,16,10,street,75 kW,Reg10,0
+57,stable,same,Female,normal,0,private or freelance work,1,182.6,4 per year,182.61,246.29,189.6,14,10,street,75 kW,Reg4,1
+69,stable,same,Male,medical,9,unknown,1,244.71,1 per year,244.72,261.28,229.68,10,1,private garage,75 kW,Reg12,0
+43,down,same,Male,medical,0,private or freelance work,2,401.91,1 per year,410.11,448.81,382.78,14,11,parking deck,75 kW,Reg4,0
+32,stable,only partner,Male,normal,3,private or freelance work,1,423.47,4 per year,423.49,307.38,423.49,18,11,unknown,100 kW,Reg4,0
+29,stable,only partner,Male,medical,0,private or freelance work,1,353.02,2 per year,353.04,423.19,370.19,11,9,street,150 kW,Reg2,1
+34,down,only partner,Female,medical,6,unknown,1,421.07,4 per year,429.66,265.25,366.93,13,6,private garage,75 kW,Reg14,0
+48,down,same,Male,normal,2,private or freelance work,2,390.95,4 per year,398.93,434.99,379.35,16,11,private garage,25-50 kW,Reg12,0
+47,down,same,Female,medical,6,unknown,1,434.73,1 per year,443.6,359.74,366.01,17,10,street,75 kW,Reg5,0
+53,stable,only partner,Female,medical,0,private or freelance work,1,290.58,1 per year,290.59,284.94,290.59,10,10,private garage,125-300 kW,Reg8,0
+69,stable,only partner,Male,medical,12,unknown,1,549.94,1 per year,549.95,434.54,539.85,16,4,private garage,150 kW,Reg5,0
+39,down,only partner,Male,normal,1,private or freelance work,5,355.51,1 per year,362.76,275.31,332.54,18,18,private garage,125-300 kW,Reg7,0
+49,down,only partner,Male,medical,0,private or freelance work,1,276.04,4 per year,281.67,347.21,256.06,12,8,other,75 kW,Reg3,0
+42,down,only partner,Male,medical,2,private or freelance work,1,244.62,1 per year,249.61,284.02,232.49,14,9,private garage,25-50 kW,Reg11,0
+38,down,only partner,Female,medical,4,private or freelance work,1,216.27,4 per year,220.69,240.36,198.62,9,8,street,100 kW,Reg5,0
+41,down,same,Female,medical,0,private or freelance work,1,421.55,2 per year,439.87,466.45,366.59,9,8,street,75 kW,Reg4,0
+22,down,same,Male,normal,0,private or freelance work,2,401.04,4 per year,409.23,464.19,378.69,16,15,private garage,75 kW,Reg7,0
+42,down,same,Female,normal,0,private or freelance work,1,521.42,12 per year,605.69,674.66,474.03,15,12,private garage,75 kW,Reg3,0
+26,down,all drivers > 24,Female,medical,0,private or freelance work,1,647.46,2 per year,752.1,721.84,588.62,14,14,street,75 kW,Reg7,0
+36,stable,same,Female,medical,2,private or freelance work,2,235.41,2 per year,235.42,212.25,224.84,14,7,private garage,75 kW,Reg8,0
+23,up,same,Male,normal,2,private or freelance work,1,1108.77,2 per year,887.01,785.1,1066.83,15,13,street,75 kW,Reg14,0
+40,down,only partner,Female,medical,6,private or freelance work,1,160.96,1 per year,164.25,215.52,149.09,17,11,parking deck,75 kW,Reg5,0
+36,stable,only partner,Female,normal,2,private or freelance work,2,400.48,12 per year,400.49,357.73,415.86,18,14,other,75 kW,Reg4,0
+73,stable,only partner,Male,normal,5,private or freelance work,1,202.1,1 per year,202.1,209.29,202.1,14,13,private garage,75 kW,Reg10,0
+38,down,all drivers > 24,Male,normal,2,private or freelance work,1,260.79,4 per year,266.11,248.78,232.85,9,7,other,100 kW,Reg5,0
+67,stable,same,Female,normal,0,private or freelance work,1,235.56,1 per year,235.58,255.44,231.15,8,3,street,75 kW,Reg6,1
+41,down,same,Male,normal,2,private or freelance work,1,351.8,4 per year,358.97,400.16,326.34,15,9,private garage,100 kW,Reg12,0
+52,stable,only partner,Male,medical,7,unknown,1,290.62,2 per year,290.62,258.2,290.62,9,2,private estate,100 kW,Reg4,1
+29,down,only partner,Male,normal,0,private or freelance work,4,320.69,1 per year,327.24,319.91,305.03,15,14,private garage,125-300 kW,Reg6,1
+37,stable,same,Female,medical,0,private or freelance work,1,138.34,4 per year,138.35,213.95,143.51,14,7,street,75 kW,Reg6,0
+61,down,young drivers,Male,normal,1,private or freelance work,1,775.69,1 per year,791.52,756.74,659.0,12,9,street,75 kW,Reg8,0
+49,stable,only partner,Male,medical,6,unknown,1,275.24,1 per year,275.25,222.85,260.25,10,4,street,75 kW,Reg8,0
+37,stable,same,Male,normal,9,unknown,1,454.94,2 per year,454.95,262.39,454.95,10,1,private garage,75 kW,Reg6,0
+79,stable,only partner,Male,medical,11,unknown,1,237.98,1 per year,227.29,228.19,237.98,11,0,private garage,75 kW,Reg8,0
+21,down,same,Male,normal,0,private or freelance work,1,641.44,12 per year,745.11,666.98,583.14,16,15,other,25-50 kW,Reg3,0
+42,stable,only partner,Male,normal,2,private or freelance work,1,177.98,1 per year,177.99,148.52,152.03,8,7,private garage,75 kW,Reg6,1
+56,stable,same,Male,normal,2,private or freelance work,1,161.95,1 per year,161.96,194.03,154.66,9,0,parking deck,100 kW,Reg6,0
+38,down,only partner,Male,normal,2,private or freelance work,1,301.11,1 per year,307.25,284.8,276.53,11,8,carport,75 kW,Reg5,0
+51,down,young drivers,Male,normal,0,private or freelance work,1,298.97,1 per year,305.07,382.9,310.34,10,7,private garage,75 kW,Reg14,0
+37,down,same,Male,medical,2,private or freelance work,1,219.04,4 per year,223.51,187.7,195.58,12,0,parking deck,100 kW,Reg10,0
+51,down,only partner,Female,medical,0,private or freelance work,1,206.46,1 per year,210.67,288.44,184.34,12,9,other,100 kW,Reg8,0
+54,up,all drivers > 24,Female,normal,2,private or freelance work,1,741.03,12 per year,592.83,730.25,741.04,12,10,parking deck,75 kW,Reg12,0
+44,stable,only partner,Male,medical,7,unknown,1,336.7,1 per year,324.45,242.56,336.7,10,2,street,100 kW,Reg14,0
+48,down,same,Male,medical,1,private or freelance work,1,299.71,1 per year,305.83,385.54,271.85,17,14,private garage,75 kW,Reg8,0
+45,down,all drivers > 24,Male,normal,0,private or freelance work,1,663.39,1 per year,692.24,633.23,539.58,17,16,underground garage,175 kW,Reg2,0
+47,stable,only partner,Male,medical,6,unknown,2,297.86,1 per year,297.88,245.43,287.29,10,4,private garage,100 kW,Reg4,0
+34,stable,only partner,Female,normal,0,private or freelance work,1,301.15,1 per year,301.16,316.71,301.16,14,8,street,25-50 kW,Reg4,0
+31,stable,same,Male,normal,1,private or freelance work,2,382.15,12 per year,382.16,403.43,393.03,18,14,street,75 kW,Reg7,0
+61,down,young drivers,Female,medical,0,private or freelance work,1,229.48,1 per year,234.16,318.94,195.54,7,0,private garage,75 kW,Reg4,0
+27,down,same,Male,medical,0,private or freelance work,1,341.62,1 per year,348.59,339.85,298.79,11,7,street,25-50 kW,Reg7,0
+39,down,only partner,Female,medical,0,private or freelance work,1,372.22,2 per year,379.81,313.25,305.14,12,12,carport,25-50 kW,Reg3,0
+59,stable,same,Female,normal,1,private or freelance work,1,282.46,4 per year,282.46,281.88,282.46,18,17,carport,75 kW,Reg5,0
+46,down,all drivers > 24,Male,medical,2,private or freelance work,1,774.24,2 per year,899.38,641.7,703.86,7,2,street,75 kW,Reg4,0
+40,stable,only partner,Male,medical,1,private or freelance work,1,226.2,1 per year,226.21,293.0,226.21,16,10,carport,75 kW,Reg1,0
+63,stable,only partner,Male,normal,9,unknown,2,270.65,1 per year,270.66,177.74,270.66,17,5,private garage,75 kW,Reg10,0
+42,down,same,Female,medical,0,private or freelance work,1,380.46,4 per year,388.22,423.94,373.71,12,12,other,75 kW,Reg9,0
+29,stable,only partner,Female,medical,0,private or freelance work,1,360.45,4 per year,360.46,384.0,360.42,18,18,private garage,75 kW,Reg5,0
+39,stable,same,Male,normal,0,private or freelance work,1,435.34,1 per year,435.35,503.46,456.73,8,7,private garage,75 kW,Reg4,0
+46,stable,young drivers,Male,normal,0,private or freelance work,1,285.03,1 per year,285.04,359.25,301.84,8,4,other,100 kW,Reg4,0
+40,stable,only partner,Female,medical,0,private or freelance work,3,208.29,4 per year,208.3,299.06,208.3,13,10,private garage,75 kW,Reg13,1
+78,down,same,Male,normal,9,unknown,1,255.54,1 per year,260.75,223.08,230.21,18,6,private garage,25-50 kW,Reg5,0
+53,stable,all drivers > 24,Female,medical,0,private or freelance work,1,128.79,1 per year,128.8,151.88,128.8,9,0,private garage,25-50 kW,Reg8,0
+72,up,all drivers > 24,Male,medical,10,unknown,2,328.22,1 per year,218.81,374.89,331.38,12,2,private garage,75 kW,Reg4,0
+60,down,all drivers > 24,Male,normal,5,unknown,1,455.42,1 per year,464.71,369.09,398.33,9,4,unknown,225 kW,Reg5,0
+58,stable,same,Male,normal,4,private or freelance work,2,154.81,1 per year,154.83,158.18,147.88,17,2,private garage,175 kW,Reg7,0
+43,stable,only partner,Female,medical,5,private or freelance work,2,298.58,4 per year,298.58,303.29,298.58,11,9,private garage,25-50 kW,Reg5,0
+37,down,same,Male,normal,4,private or freelance work,1,507.86,12 per year,518.22,520.36,407.7,15,11,private garage,75 kW,Reg8,1
+47,down,same,Male,normal,5,private or freelance work,2,243.92,1 per year,248.9,143.42,179.25,18,14,unknown,125-300 kW,Reg3,0
+37,stable,only partner,Female,normal,2,private or freelance work,1,218.86,2 per year,218.88,188.16,231.03,14,6,private garage,75 kW,Reg3,1
+27,down,young drivers,Female,normal,0,private or freelance work,1,483.89,12 per year,493.76,509.71,470.92,15,13,street,25-50 kW,Reg10,0
+52,stable,same,Female,medical,2,private or freelance work,1,246.81,1 per year,246.83,213.99,235.74,15,1,private garage,75 kW,Reg6,0
+37,stable,only partner,Male,medical,6,private or freelance work,1,202.54,1 per year,202.55,252.41,202.55,9,2,private garage,100 kW,Reg8,0
+40,down,same,Male,medical,1,private or freelance work,1,488.4,4 per year,498.36,373.31,388.75,9,9,private garage,125-300 kW,Reg8,0
+57,down,same,Female,normal,3,private or freelance work,1,638.56,12 per year,651.59,495.93,597.29,17,10,unknown,100 kW,Reg7,0
+48,stable,young drivers,Female,normal,0,private or freelance work,2,341.85,1 per year,341.86,380.3,365.68,14,10,other,100 kW,Reg6,0
+44,stable,only partner,Female,normal,4,private or freelance work,1,297.56,12 per year,297.57,341.97,314.93,4,0,street,75 kW,Reg9,0
+71,stable,same,Male,normal,2,private or freelance work,1,205.81,1 per year,196.34,283.04,205.81,18,6,private garage,125-300 kW,Reg4,0
+46,stable,only partner,Female,medical,1,private or freelance work,2,265.24,1 per year,265.25,313.58,265.25,15,11,other,100 kW,Reg4,0
+31,down,only partner,Male,normal,1,private or freelance work,1,266.72,1 per year,272.16,288.29,247.43,12,6,carport,75 kW,Reg3,1
+35,down,only partner,Female,normal,2,private or freelance work,1,221.0,12 per year,225.51,214.1,204.15,11,4,other,125-300 kW,Reg14,0
+34,stable,only partner,Male,normal,6,unknown,1,234.79,1 per year,234.8,234.64,218.09,9,3,private estate,125-300 kW,Reg5,0
+31,down,only partner,Male,normal,0,private or freelance work,1,261.02,1 per year,266.35,299.26,246.69,11,0,other,75 kW,Reg8,0
+30,down,same,Female,normal,2,private or freelance work,2,447.71,4 per year,456.85,438.68,406.86,18,17,private garage,75 kW,Reg6,0
+27,down,same,Male,normal,0,private or freelance work,1,774.92,4 per year,900.16,837.44,704.42,15,15,private garage,225 kW,Reg7,0
+33,stable,same,Female,medical,0,private or freelance work,1,115.39,1 per year,115.4,165.58,113.39,11,4,private garage,25-50 kW,Reg4,0
+26,down,same,Female,medical,0,private or freelance work,1,603.04,2 per year,700.5,546.5,548.21,5,4,underground garage,100 kW,Reg8,0
+61,stable,same,Male,normal,1,private or freelance work,1,162.83,1 per year,162.84,208.49,162.84,16,11,parking deck,100 kW,Reg7,0
+63,stable,only partner,Female,normal,1,private or freelance work,1,290.62,2 per year,290.64,387.6,307.89,18,11,street,100 kW,Reg9,0
+39,down,only partner,Male,normal,7,private or freelance work,3,369.02,1 per year,376.55,435.21,351.45,14,5,private garage,75 kW,Reg7,0
+26,down,same,Male,normal,2,private or freelance work,2,450.0,1 per year,459.19,445.19,428.57,18,15,street,75 kW,Reg4,0
+43,down,young drivers,Female,normal,0,private or freelance work,1,533.35,2 per year,544.24,498.9,440.91,15,13,private garage,75 kW,Reg12,0
+39,down,same,Male,medical,3,private or freelance work,1,396.4,4 per year,404.49,357.35,360.42,7,7,underground garage,100 kW,Reg12,1
+31,stable,only partner,Female,medical,1,private or freelance work,1,195.46,1 per year,195.48,237.96,191.95,14,8,street,75 kW,Reg3,0
+28,down,same,Male,normal,1,private or freelance work,1,555.12,4 per year,566.45,498.77,485.53,17,17,private garage,75 kW,Reg5,1
+65,stable,all drivers > 24,Male,normal,0,private or freelance work,3,315.74,1 per year,315.75,371.97,315.75,14,9,street,75 kW,Reg5,0
+38,stable,only partner,Male,medical,4,private or freelance work,1,216.11,2 per year,216.12,294.35,232.57,11,6,street,25-50 kW,Reg4,0
+39,stable,all drivers > 24,Female,medical,0,private or freelance work,1,124.03,1 per year,124.04,170.79,124.04,11,2,carport,75 kW,Reg3,0
+50,stable,same,Male,normal,5,unknown,1,138.85,1 per year,138.86,110.82,136.55,18,9,unknown,25-50 kW,Reg3,0
+33,down,all drivers > 24,Female,normal,1,private or freelance work,2,333.89,12 per year,340.7,328.19,314.54,13,5,parking deck,75 kW,Reg10,1
+48,down,only partner,Male,medical,8,unknown,1,230.21,1 per year,234.91,176.15,201.35,9,0,street,75 kW,Reg3,0
+37,stable,only partner,Male,medical,0,private or freelance work,1,195.5,4 per year,195.51,264.6,195.51,13,6,other,125-300 kW,Reg10,0
+54,down,same,Female,normal,0,private or freelance work,1,659.8,4 per year,766.44,635.65,599.81,16,16,private garage,100 kW,Reg10,0
+42,stable,same,Female,medical,10,unknown,1,448.49,4 per year,448.5,299.18,452.45,18,6,private garage,75 kW,Reg4,0
+35,stable,only partner,Female,normal,3,private or freelance work,1,359.6,1 per year,359.61,248.96,337.1,6,2,carport,75 kW,Reg12,0
+40,stable,same,Male,medical,6,unknown,1,218.71,1 per year,218.72,182.14,194.84,12,3,private garage,100 kW,Reg4,0
+35,down,same,Female,normal,3,private or freelance work,1,265.97,1 per year,271.4,183.75,244.17,14,6,unknown,25-50 kW,Reg12,0
+29,down,all drivers > 24,Female,medical,0,private or freelance work,1,302.8,1 per year,308.97,370.16,279.95,10,2,private garage,25-50 kW,Reg14,1
+69,down,same,Male,normal,5,unknown,1,170.56,4 per year,174.04,144.57,156.05,16,6,unknown,25-50 kW,Reg13,0
+47,down,same,Male,normal,7,unknown,1,437.94,2 per year,446.88,298.65,391.01,16,8,street,75 kW,Reg9,0
+54,down,same,Male,medical,1,private or freelance work,2,632.09,1 per year,644.99,519.48,552.85,15,2,parking deck,125-300 kW,Reg12,1
+32,down,all drivers > 24,Male,normal,1,private or freelance work,1,650.7,2 per year,678.99,513.73,525.05,8,7,private garage,75 kW,Reg4,0
+39,stable,only partner,Female,medical,6,unknown,1,199.48,12 per year,199.49,173.04,189.54,12,1,private garage,25-50 kW,Reg13,1
+52,stable,same,Male,medical,1,private or freelance work,1,201.59,1 per year,201.6,256.22,203.46,18,10,private garage,75 kW,Reg12,0
+57,stable,young drivers,Female,normal,0,private or freelance work,2,226.89,1 per year,226.9,375.93,218.68,17,15,private garage,75 kW,Reg3,0
+31,down,same,Male,medical,0,private or freelance work,2,295.56,1 per year,301.59,359.0,276.46,9,8,private garage,100 kW,Reg6,0
+47,stable,same,Female,medical,0,private or freelance work,1,207.41,4 per year,207.43,264.71,207.43,15,14,private garage,100 kW,Reg4,0
+62,down,only partner,Male,medical,2,private or freelance work,2,359.41,1 per year,366.75,335.8,336.19,14,1,private garage,100 kW,Reg5,1
+42,stable,same,Male,medical,10,unknown,2,439.94,2 per year,439.95,337.59,444.0,10,0,street,100 kW,Reg7,0
+46,down,young drivers,Male,normal,0,private or freelance work,1,1016.18,2 per year,1180.41,1115.01,923.8,15,15,private garage,75 kW,Reg7,0
+46,down,young drivers,Female,medical,2,private or freelance work,1,726.43,2 per year,741.25,462.78,718.79,4,0,private garage,25-50 kW,Reg8,0
+59,stable,same,Male,normal,9,unknown,1,306.6,4 per year,306.61,211.25,288.01,13,4,carport,75 kW,Reg11,0
+28,down,same,Female,medical,0,private or freelance work,1,249.57,4 per year,254.66,316.22,237.69,12,8,parking deck,25-50 kW,Reg1,0
+40,down,only partner,Male,normal,2,private or freelance work,1,517.8,1 per year,528.36,458.2,428.34,10,4,private garage,75 kW,Reg4,1
+47,stable,same,Male,medical,10,unknown,1,390.74,1 per year,390.74,273.71,390.74,15,3,private garage,25-50 kW,Reg5,0
+40,down,same,Female,normal,1,private or freelance work,2,283.23,2 per year,289.01,298.25,256.9,15,11,underground garage,75 kW,Reg4,1
+53,stable,same,Male,medical,9,unknown,3,232.8,1 per year,232.8,185.28,232.8,14,2,private garage,100 kW,Reg10,1
+33,down,all drivers > 24,Female,normal,0,private or freelance work,1,828.24,12 per year,962.1,804.59,717.95,12,12,private garage,75 kW,Reg8,0
+40,down,young drivers,Female,medical,1,private or freelance work,1,921.56,2 per year,1291.07,1031.05,824.75,13,12,private garage,75 kW,Reg7,0
+40,stable,same,Male,normal,0,private or freelance work,1,176.25,1 per year,176.26,242.38,176.26,16,7,private garage,25-50 kW,Reg1,0
+32,up,only partner,Female,normal,0,private or freelance work,1,438.58,1 per year,313.27,524.94,438.57,16,12,other,75 kW,Reg7,0
+42,stable,same,Male,normal,1,private or freelance work,2,223.98,2 per year,223.99,228.09,219.85,11,3,private garage,100 kW,Reg3,0
+47,down,same,Male,normal,0,private or freelance work,1,583.66,12 per year,677.99,623.35,572.25,13,12,street,25-50 kW,Reg11,0
+41,stable,only partner,Female,normal,5,private or freelance work,4,174.4,1 per year,174.41,180.36,161.96,8,3,private garage,125-300 kW,Reg2,0
+39,stable,same,Male,normal,0,private or freelance work,1,299.29,4 per year,299.3,297.15,299.29,16,15,private garage,100 kW,Reg5,0
+47,down,only partner,Male,medical,0,private or freelance work,1,244.88,4 per year,249.87,263.36,233.35,13,13,carport,25-50 kW,Reg4,0
+75,down,all drivers > 24,Female,medical,11,unknown,1,646.07,1 per year,659.25,439.49,575.57,18,6,private garage,75 kW,Reg8,0
+40,stable,same,Male,medical,7,unknown,1,310.5,1 per year,307.75,228.12,310.5,11,3,street,25-50 kW,Reg4,0
+77,stable,same,Male,normal,8,unknown,1,393.87,1 per year,375.13,418.47,419.4,15,3,private garage,125-300 kW,Reg3,0
+42,stable,all drivers > 24,Male,medical,0,private or freelance work,1,167.04,1 per year,167.05,255.07,176.55,9,6,street,25-50 kW,Reg1,0
+27,down,same,Female,normal,0,private or freelance work,2,399.55,1 per year,407.7,429.07,373.73,11,10,other,100 kW,Reg10,0
+43,down,same,Male,normal,0,private or freelance work,1,249.25,4 per year,254.34,305.94,226.8,17,11,street,100 kW,Reg6,0
+41,stable,same,Male,normal,1,private or freelance work,1,295.96,1 per year,295.97,389.19,322.32,14,8,parking deck,125-300 kW,Reg9,0
+66,stable,only partner,Male,normal,2,private or freelance work,1,184.94,1 per year,184.95,197.49,184.95,12,3,private garage,75 kW,Reg13,1
+59,down,same,Female,normal,0,private or freelance work,1,251.49,12 per year,256.63,327.05,233.3,18,16,underground garage,75 kW,Reg6,0
+43,down,only partner,Female,normal,3,private or freelance work,1,318.78,2 per year,325.29,222.18,260.75,5,5,private garage,100 kW,Reg8,1
+47,down,same,Female,normal,10,unknown,2,245.75,1 per year,250.76,174.42,220.9,13,0,street,25-50 kW,Reg8,0
+40,down,only partner,Male,medical,1,private or freelance work,2,230.31,1 per year,235.01,307.1,215.42,10,0,private garage,100 kW,Reg8,0
+34,down,same,Female,medical,2,private or freelance work,1,568.95,12 per year,580.56,399.06,541.85,14,13,parking deck,25-50 kW,Reg4,0
+35,down,only partner,Female,normal,2,private or freelance work,1,300.82,4 per year,306.96,318.95,279.06,9,0,street,100 kW,Reg7,0
+29,up,young drivers,Male,medical,1,private or freelance work,1,359.83,1 per year,287.86,748.36,376.99,11,5,other,75 kW,Reg3,1
+62,stable,all drivers > 24,Female,normal,1,private or freelance work,1,230.34,1 per year,230.34,227.64,230.34,14,12,parking deck,75 kW,Reg7,1
+77,stable,same,Male,normal,9,unknown,1,217.24,1 per year,217.25,204.11,215.26,9,0,private garage,75 kW,Reg12,0
+36,stable,same,Male,normal,7,private or freelance work,1,211.77,1 per year,211.79,247.09,211.79,13,5,underground garage,100 kW,Reg5,0
+47,down,young drivers,Male,medical,0,private or freelance work,3,284.75,1 per year,290.56,395.5,271.41,14,10,private garage,25-50 kW,Reg8,1
+25,stable,same,Male,normal,0,private or freelance work,1,858.39,4 per year,858.4,890.58,858.4,18,18,private garage,100 kW,Reg7,0
+46,stable,same,Male,normal,7,unknown,1,332.84,12 per year,332.85,256.3,342.13,10,0,private garage,75 kW,Reg13,1
+47,stable,same,Female,normal,0,private or freelance work,1,169.93,1 per year,169.94,216.55,169.94,16,0,private garage,100 kW,Reg1,0
+64,stable,same,Male,normal,7,unknown,1,451.06,12 per year,430.26,323.46,451.06,12,4,street,75 kW,Reg14,0
+59,stable,only partner,Male,normal,5,unknown,1,242.39,1 per year,242.4,226.11,242.4,7,0,unknown,100 kW,Reg8,0
+51,stable,young drivers,Male,medical,0,private or freelance work,1,239.93,1 per year,239.94,285.35,235.4,5,5,private garage,100 kW,Reg4,0
+22,down,same,Male,medical,0,private or freelance work,1,452.26,2 per year,461.49,446.0,448.05,12,11,carport,100 kW,Reg5,1
+73,down,same,Female,normal,8,private or freelance work,1,268.84,12 per year,274.33,362.39,240.04,18,7,private garage,75 kW,Reg8,0
+55,down,young drivers,Male,medical,0,private or freelance work,3,214.13,1 per year,218.5,272.4,200.29,9,4,private garage,25-50 kW,Reg14,0
+47,stable,only partner,Male,medical,9,unknown,1,189.06,1 per year,189.07,167.9,192.45,9,0,private garage,100 kW,Reg8,0
+41,down,same,Female,medical,1,private or freelance work,2,292.58,4 per year,298.55,377.25,271.41,14,9,street,75 kW,Reg4,0
+44,down,only partner,Male,medical,1,private or freelance work,1,348.87,1 per year,355.99,407.16,335.13,12,10,parking deck,75 kW,Reg9,0
+58,stable,same,Female,medical,0,private or freelance work,1,139.96,1 per year,139.98,223.3,159.49,17,12,street,25-50 kW,Reg8,0
+44,stable,same,Male,medical,4,private or freelance work,1,218.71,1 per year,218.72,287.4,235.83,13,8,parking deck,75 kW,Reg14,0
+30,down,only partner,Female,medical,1,private or freelance work,1,482.98,4 per year,492.84,430.69,447.36,11,7,other,100 kW,Reg7,0
+41,stable,same,Male,medical,1,private or freelance work,1,340.69,1 per year,340.7,370.12,340.7,17,10,street,75 kW,Reg9,0
+25,down,same,Female,medical,2,private or freelance work,1,356.78,4 per year,364.06,328.25,333.73,7,6,parking deck,25-50 kW,Reg8,0
+37,stable,only partner,Female,normal,0,private or freelance work,1,133.31,12 per year,133.33,221.36,145.75,17,7,private garage,25-50 kW,Reg3,0
+59,stable,same,Male,normal,1,private or freelance work,1,321.16,1 per year,321.18,418.35,321.18,17,7,private garage,100 kW,Reg14,0
+41,stable,same,Male,normal,0,private or freelance work,1,216.69,4 per year,216.7,238.71,216.7,13,13,private garage,25-50 kW,Reg5,0
+43,up,same,Female,normal,2,private or freelance work,1,1026.05,12 per year,669.16,1050.31,1026.05,15,12,street,75 kW,Reg1,0
+42,down,only partner,Male,normal,0,private or freelance work,1,548.64,1 per year,559.84,522.98,489.1,12,11,private garage,150 kW,Reg6,0
+48,stable,learner 17,Male,normal,5,private or freelance work,2,148.31,1 per year,141.26,176.41,149.24,9,1,private garage,25-50 kW,Reg5,0
+40,down,only partner,Female,normal,3,private or freelance work,1,526.08,12 per year,536.81,351.26,477.51,14,11,carport,25-50 kW,Reg1,0
+31,down,only partner,Male,normal,1,private or freelance work,1,368.35,12 per year,375.86,327.79,361.04,12,8,other,75 kW,Reg3,0
+40,down,only partner,Male,normal,1,private or freelance work,2,261.08,1 per year,266.41,279.01,248.82,16,13,parking deck,25-50 kW,Reg4,0
+63,stable,same,Male,medical,0,private or freelance work,4,480.19,1 per year,480.19,545.4,480.19,17,16,private garage,75 kW,Reg8,0
+31,down,same,Female,normal,3,private or freelance work,1,346.69,2 per year,353.76,269.71,318.37,16,9,unknown,25-50 kW,Reg7,0
+69,down,same,Female,medical,4,private or freelance work,1,503.49,4 per year,513.76,304.44,484.35,12,0,unknown,25-50 kW,Reg3,0
+52,stable,same,Male,medical,0,private or freelance work,1,297.16,12 per year,297.18,358.82,297.19,4,0,street,100 kW,Reg14,0
+45,stable,same,Male,normal,0,private or freelance work,1,199.19,4 per year,199.2,327.61,199.2,18,14,other,100 kW,Reg2,0
+24,down,same,Male,normal,0,private or freelance work,2,1386.81,4 per year,1992.39,1067.22,1289.45,14,13,other,25-50 kW,Reg4,1
+33,stable,only partner,Male,normal,0,private or freelance work,1,235.84,2 per year,235.85,286.4,235.85,12,9,private garage,100 kW,Reg9,0
+35,stable,same,Male,normal,0,private or freelance work,1,317.63,4 per year,317.64,391.44,317.64,18,15,parking deck,75 kW,Reg4,0
+34,down,same,Male,medical,0,private or freelance work,1,170.62,1 per year,174.1,181.0,152.34,10,10,street,75 kW,Reg10,0
+38,stable,same,Male,medical,3,private or freelance work,1,380.15,1 per year,380.16,319.77,380.16,17,8,unknown,75 kW,Reg14,0
+40,stable,only partner,Male,normal,1,private or freelance work,1,344.87,4 per year,344.89,413.95,361.82,18,17,private garage,75 kW,Reg4,0
+26,down,same,Male,normal,0,private or freelance work,1,918.5,12 per year,1286.79,826.88,783.51,14,12,underground garage,100 kW,Reg8,0
+49,stable,young drivers,Male,normal,0,private or freelance work,1,303.23,1 per year,303.24,352.05,317.92,13,6,private garage,75 kW,Reg4,0
+50,stable,only partner,Male,medical,5,unknown,1,274.65,1 per year,274.66,223.82,274.66,15,8,unknown,75 kW,Reg7,0
+79,stable,same,Male,normal,9,unknown,2,228.69,1 per year,224.49,273.99,228.69,13,1,private garage,100 kW,Reg4,0
+30,down,only partner,Male,normal,0,private or freelance work,1,258.08,2 per year,263.35,293.51,241.49,13,10,private garage,100 kW,Reg8,0
+31,stable,only partner,Female,medical,1,private or freelance work,2,407.89,4 per year,388.47,497.22,411.24,6,1,street,125-300 kW,Reg4,1
+31,stable,same,Female,normal,1,private or freelance work,1,279.09,12 per year,268.81,274.69,279.09,14,13,private garage,100 kW,Reg3,0
+44,stable,all drivers > 24,Male,normal,1,private or freelance work,1,265.8,4 per year,265.81,241.19,265.81,8,5,street,100 kW,Reg11,0
+41,down,all drivers > 24,Male,normal,1,private or freelance work,2,307.34,12 per year,313.61,316.35,282.25,11,6,street,100 kW,Reg3,0
+33,stable,same,Female,normal,0,private or freelance work,1,143.04,1 per year,143.05,162.1,143.05,8,0,street,25-50 kW,Reg14,0
+46,stable,same,Male,medical,1,private or freelance work,1,249.71,4 per year,249.71,209.7,249.71,7,0,carport,75 kW,Reg3,0
+38,stable,only partner,Female,medical,8,unknown,1,329.52,2 per year,329.54,225.1,329.54,17,9,private garage,75 kW,Reg5,0
+21,down,same,Female,medical,0,private or freelance work,1,417.3,4 per year,425.81,442.22,397.43,10,7,other,25-50 kW,Reg14,1
+36,down,same,Female,medical,0,private or freelance work,1,522.47,4 per year,606.91,570.11,474.93,15,14,private garage,75 kW,Reg6,0
+44,stable,same,Male,medical,0,private or freelance work,1,155.9,4 per year,155.91,248.04,164.83,17,3,street,75 kW,Reg9,0
+41,stable,same,Female,medical,0,private or freelance work,1,193.69,1 per year,193.7,261.35,184.91,18,15,street,25-50 kW,Reg7,0
+32,stable,all drivers > 24,Male,normal,2,private or freelance work,1,390.74,1 per year,390.75,434.26,398.12,15,5,underground garage,100 kW,Reg8,0
+35,stable,same,Male,normal,1,private or freelance work,1,265.64,1 per year,265.65,281.66,265.65,16,11,street,150 kW,Reg13,0
+48,stable,only partner,Female,normal,4,private or freelance work,1,635.57,1 per year,635.59,478.8,623.53,14,10,unknown,75 kW,Reg9,1
+47,stable,all drivers > 24,Male,normal,2,private or freelance work,2,424.48,12 per year,404.28,439.79,436.44,13,11,street,75 kW,Reg9,0
+84,down,same,Male,normal,10,unknown,1,442.36,1 per year,451.39,411.18,414.24,13,0,private garage,100 kW,Reg8,0
+69,stable,only partner,Female,normal,10,unknown,2,151.77,1 per year,151.79,191.5,150.44,10,0,private garage,25-50 kW,Reg5,0
+48,stable,same,Male,normal,0,private or freelance work,1,129.99,4 per year,130.0,216.9,130.0,18,8,private garage,75 kW,Reg14,0
+56,stable,only partner,Male,normal,7,private or freelance work,2,313.66,2 per year,313.68,216.39,313.68,15,11,unknown,25-50 kW,Reg10,1
+44,down,only partner,Female,normal,1,private or freelance work,1,251.22,12 per year,256.35,213.01,228.21,10,9,parking deck,100 kW,Reg3,0
+42,stable,all drivers > 24,Male,normal,0,private or freelance work,1,212.25,1 per year,212.26,301.54,212.26,18,12,carport,75 kW,Reg3,0
+43,down,only partner,Male,normal,1,private or freelance work,1,337.18,2 per year,344.06,314.56,301.05,11,9,private garage,125-300 kW,Reg14,1
+41,down,only partner,Female,normal,1,private or freelance work,1,581.95,4 per year,607.25,507.3,506.05,13,12,parking deck,75 kW,Reg4,0
+36,stable,same,Male,normal,1,private or freelance work,1,192.19,1 per year,192.2,212.95,205.04,13,4,private garage,100 kW,Reg13,0
+43,stable,only partner,Female,normal,0,private or freelance work,4,374.29,4 per year,374.3,401.64,367.29,13,7,other,100 kW,Reg14,0
+33,stable,young drivers,Male,normal,2,private or freelance work,4,391.12,4 per year,391.14,269.19,362.56,13,5,private garage,150 kW,Reg12,0
+25,stable,same,Male,normal,0,private or freelance work,1,858.39,4 per year,858.4,850.33,858.4,16,16,private garage,100 kW,Reg12,0
+48,down,only partner,Male,normal,0,private or freelance work,1,352.53,4 per year,359.72,362.51,329.98,12,11,other,125-300 kW,Reg10,0
+46,stable,same,Female,medical,7,unknown,1,252.9,1 per year,252.91,268.75,260.04,12,2,street,75 kW,Reg9,1
+39,stable,all drivers > 24,Male,medical,1,private or freelance work,1,466.77,4 per year,466.79,472.1,480.22,16,0,street,75 kW,Reg4,0
+41,stable,only partner,Female,normal,7,unknown,1,280.44,12 per year,280.45,207.16,290.83,14,3,private garage,75 kW,Reg1,0
+29,down,all drivers > 24,Female,normal,0,private or freelance work,1,471.63,4 per year,492.14,624.49,410.11,11,4,parking deck,100 kW,Reg5,0
+40,down,same,Female,normal,0,private or freelance work,1,253.31,4 per year,258.47,316.29,213.9,14,10,street,75 kW,Reg12,0
+47,stable,only partner,Male,medical,10,unknown,1,300.04,12 per year,300.05,204.24,300.05,10,0,street,125-300 kW,Reg10,0
+47,stable,young drivers,Male,normal,0,private or freelance work,1,207.75,1 per year,207.76,242.6,207.76,10,7,street,25-50 kW,Reg10,0
+38,stable,same,Female,normal,0,private or freelance work,1,327.22,1 per year,327.24,334.83,327.24,6,6,private garage,75 kW,Reg4,1
+60,down,all drivers > 24,Female,medical,0,private or freelance work,1,429.25,12 per year,438.01,466.69,397.43,18,17,private garage,100 kW,Reg3,0
+50,stable,same,Female,medical,6,unknown,1,191.35,1 per year,191.36,160.56,176.47,7,1,private garage,100 kW,Reg8,0
+60,down,same,Male,medical,1,private or freelance work,7,686.93,2 per year,716.8,729.25,597.34,15,10,carport,125-300 kW,Reg3,0
+32,down,same,Female,normal,0,private or freelance work,1,344.3,4 per year,351.32,406.97,327.9,11,8,private garage,75 kW,Reg11,0
+44,down,same,Female,normal,10,private or freelance work,1,268.47,1 per year,273.95,237.71,234.81,11,11,private garage,100 kW,Reg5,0
+34,down,same,Male,medical,1,private or freelance work,1,356.35,4 per year,363.62,358.2,297.69,15,11,underground garage,75 kW,Reg8,0
+73,stable,only partner,Male,normal,9,private or freelance work,2,208.99,1 per year,208.99,229.62,208.99,9,0,private garage,75 kW,Reg12,0
+50,stable,young drivers,Male,medical,0,private or freelance work,1,237.81,1 per year,237.82,239.81,237.82,10,2,parking deck,75 kW,Reg4,0
+45,stable,only partner,Female,normal,5,unknown,1,201.38,1 per year,201.39,198.09,203.23,10,0,unknown,100 kW,Reg4,0
+35,down,same,Male,medical,0,private or freelance work,1,476.28,4 per year,486.0,595.91,480.19,17,15,street,75 kW,Reg9,0
+23,down,same,Female,normal,0,private or freelance work,1,479.89,12 per year,489.69,490.02,427.98,11,8,private garage,75 kW,Reg12,0
+77,stable,same,Female,normal,9,unknown,1,128.1,1 per year,128.11,156.4,123.58,10,1,private garage,75 kW,Reg7,0
+38,down,same,Male,medical,5,private or freelance work,2,425.75,1 per year,434.44,275.51,368.45,16,12,unknown,75 kW,Reg10,0
+43,down,young drivers,Female,medical,0,private or freelance work,1,218.09,1 per year,222.54,299.6,201.92,13,4,private garage,75 kW,Reg9,0
+54,stable,young drivers,Female,normal,2,private or freelance work,2,470.21,4 per year,470.22,260.91,470.22,16,15,private garage,25-50 kW,Reg4,0
+28,stable,same,Male,medical,0,private or freelance work,1,210.74,4 per year,210.75,293.75,237.67,7,0,underground garage,75 kW,Reg7,0
+36,down,same,Female,normal,11,unknown,1,440.42,4 per year,449.41,282.16,404.47,12,0,private garage,25-50 kW,Reg8,0
+62,stable,same,Male,normal,5,unknown,1,257.85,1 per year,257.86,250.65,239.49,14,0,unknown,25-50 kW,Reg9,0
+22,stable,same,Male,medical,0,private or freelance work,1,1038.46,4 per year,1038.48,1199.1,1028.59,6,5,street,25-50 kW,Reg10,0
+45,down,young drivers,Female,medical,0,private or freelance work,1,344.81,1 per year,351.85,381.49,301.59,11,1,street,25-50 kW,Reg4,0
+40,down,same,Male,normal,0,private or freelance work,1,494.31,4 per year,515.8,553.45,429.84,18,18,other,75 kW,Reg1,0
+32,stable,same,Male,medical,0,private or freelance work,1,311.63,12 per year,311.64,339.62,305.77,10,9,street,100 kW,Reg12,0
+41,stable,only partner,Male,medical,0,private or freelance work,1,166.5,1 per year,166.51,224.77,166.51,16,3,private garage,75 kW,Reg7,0
+55,stable,same,Male,normal,2,private or freelance work,1,320.97,2 per year,320.99,295.73,333.3,10,1,carport,75 kW,Reg4,0
+54,stable,only partner,Male,normal,3,private or freelance work,1,272.57,1 per year,272.57,258.89,272.57,12,6,unknown,75 kW,Reg10,0
+43,stable,only partner,Male,medical,0,private or freelance work,1,205.04,1 per year,205.05,283.02,205.05,13,8,private garage,25-50 kW,Reg8,0
+44,stable,only partner,Male,normal,10,private or freelance work,1,183.56,1 per year,183.58,173.16,192.34,4,4,private garage,100 kW,Reg7,1
+25,stable,only partner,Male,normal,2,private or freelance work,2,486.0,2 per year,476.95,306.38,486.0,2,1,carport,100 kW,Reg8,0
+57,stable,only partner,Female,normal,0,private or freelance work,1,196.9,1 per year,196.91,228.16,214.29,14,0,other,75 kW,Reg7,0
+28,down,young drivers,Male,medical,0,private or freelance work,1,838.47,4 per year,973.97,957.36,762.25,18,18,other,75 kW,Reg4,0
+39,down,only partner,Female,medical,11,private or freelance work,1,223.88,1 per year,228.45,256.9,203.08,11,0,parking deck,75 kW,Reg4,0
+43,down,all drivers > 24,Male,medical,0,private or freelance work,1,349.37,1 per year,356.5,526.11,332.74,18,17,other,100 kW,Reg6,0
+36,stable,only partner,Male,normal,1,private or freelance work,2,168.53,2 per year,168.54,193.35,178.0,13,3,private garage,75 kW,Reg7,0
+74,stable,only partner,Male,normal,10,unknown,1,241.24,1 per year,241.25,260.43,245.75,17,4,private garage,75 kW,Reg8,1
+40,stable,same,Male,normal,4,private or freelance work,1,313.08,2 per year,313.09,251.92,307.37,17,6,unknown,75 kW,Reg11,0
+54,stable,same,Male,normal,0,private or freelance work,1,298.97,4 per year,298.97,333.36,298.97,12,12,private garage,175 kW,Reg5,0
+38,stable,same,Male,medical,1,private or freelance work,1,312.02,4 per year,300.56,291.73,312.02,15,14,parking deck,75 kW,Reg12,0
+37,down,only partner,Male,normal,1,private or freelance work,2,557.46,1 per year,581.7,510.86,484.75,12,10,parking deck,25-50 kW,Reg4,0
+49,stable,same,Male,normal,0,private or freelance work,3,310.61,4 per year,310.62,348.39,310.62,18,15,parking deck,75 kW,Reg4,0
+36,down,same,Male,medical,2,private or freelance work,2,286.5,1 per year,292.35,369.26,250.59,13,9,street,25-50 kW,Reg7,0
+54,stable,only partner,Male,medical,0,private or freelance work,2,117.49,1 per year,117.5,198.9,117.5,17,9,private garage,75 kW,Reg13,0
+37,stable,same,Male,medical,2,private or freelance work,1,250.4,2 per year,250.41,300.86,243.6,12,5,carport,100 kW,Reg7,0
+42,down,only partner,Female,medical,0,private or freelance work,1,435.3,1 per year,444.19,484.06,431.21,14,13,other,75 kW,Reg10,0
+33,stable,only partner,Male,medical,0,private or freelance work,1,280.75,1 per year,280.76,301.9,280.76,7,0,street,100 kW,Reg7,0
+42,up,young drivers,Female,medical,0,private or freelance work,1,1400.16,4 per year,1110.48,1879.69,1469.06,15,15,carport,75 kW,Reg3,0
+35,down,same,Male,normal,2,private or freelance work,1,237.87,2 per year,242.72,256.51,232.49,15,9,private garage,75 kW,Reg5,1
+34,stable,same,Male,medical,0,private or freelance work,2,191.9,1 per year,191.91,263.76,191.91,11,4,underground garage,150 kW,Reg7,0
+43,down,all drivers > 24,Male,normal,2,private or freelance work,3,245.38,1 per year,250.39,242.86,214.61,16,7,parking deck,125-300 kW,Reg14,0
+33,down,only partner,Male,normal,1,private or freelance work,1,280.57,1 per year,286.3,354.85,266.7,16,9,street,125-300 kW,Reg12,1
+48,down,young drivers,Female,medical,0,private or freelance work,1,476.04,1 per year,496.74,560.09,398.56,9,5,private garage,75 kW,Reg3,0
+34,down,same,Female,normal,0,private or freelance work,1,421.74,1 per year,489.9,439.64,401.36,5,3,private garage,25-50 kW,Reg4,0
+38,down,only partner,Male,normal,4,private or freelance work,2,284.47,1 per year,290.28,235.76,256.51,13,3,unknown,25-50 kW,Reg11,0
+37,stable,only partner,Female,medical,1,private or freelance work,1,164.84,2 per year,164.85,185.31,175.58,15,6,other,25-50 kW,Reg12,0
+30,down,same,Female,normal,1,private or freelance work,1,704.84,1 per year,735.49,602.3,595.79,14,12,street,75 kW,Reg4,0
+26,down,same,Female,normal,2,private or freelance work,1,515.96,4 per year,526.49,345.68,482.61,18,16,other,75 kW,Reg7,0
+43,down,only partner,Male,medical,2,private or freelance work,1,358.13,2 per year,365.44,261.09,307.94,5,2,private garage,75 kW,Reg7,0
+40,down,same,Male,normal,0,private or freelance work,1,514.6,4 per year,525.1,454.39,467.46,15,15,street,100 kW,Reg6,0
+26,up,all drivers > 24,Female,normal,1,private or freelance work,2,1090.51,12 per year,711.2,1191.0,1090.5,15,13,street,25-50 kW,Reg9,0
+33,down,same,Female,medical,7,unknown,1,451.8,1 per year,461.03,341.29,419.11,11,4,street,25-50 kW,Reg2,0
+38,down,same,Male,normal,0,private or freelance work,1,638.03,12 per year,741.15,636.79,523.1,15,14,other,75 kW,Reg13,0
+40,stable,only partner,Male,normal,1,private or freelance work,1,262.4,1 per year,262.4,290.54,262.4,9,5,private garage,100 kW,Reg7,0
+28,stable,young drivers,Female,normal,3,private or freelance work,1,429.39,4 per year,421.3,357.12,429.39,15,7,unknown,75 kW,Reg7,0
+44,down,same,Female,medical,0,private or freelance work,1,237.93,4 per year,242.79,276.4,222.56,12,7,parking deck,75 kW,Reg3,0
+35,down,same,Male,normal,1,private or freelance work,1,685.15,1 per year,714.94,640.7,579.17,17,15,parking deck,100 kW,Reg11,0
+71,stable,only partner,Male,normal,4,private or freelance work,2,407.44,1 per year,407.45,315.9,407.45,11,8,parking deck,25-50 kW,Reg12,0
+50,stable,same,Male,normal,8,unknown,1,554.54,4 per year,554.55,365.46,519.5,16,8,street,75 kW,Reg14,0
+35,down,only partner,Female,medical,5,private or freelance work,2,177.98,1 per year,181.61,170.05,170.3,17,12,private garage,25-50 kW,Reg5,0
+40,down,same,Male,medical,1,private or freelance work,2,420.0,4 per year,428.57,411.99,367.35,12,9,private garage,75 kW,Reg4,0
+31,stable,only partner,Female,medical,0,private or freelance work,1,178.18,1 per year,178.19,287.36,178.19,16,9,private garage,100 kW,Reg3,0
+49,stable,only partner,Female,normal,1,private or freelance work,1,172.58,12 per year,164.38,212.53,175.45,16,5,other,75 kW,Reg7,0
+37,down,same,Male,medical,0,private or freelance work,1,180.5,1 per year,184.19,262.53,168.84,14,6,private garage,100 kW,Reg1,0
+41,stable,only partner,Female,medical,7,unknown,1,231.31,1 per year,231.32,176.84,241.95,11,3,street,75 kW,Reg14,0
+36,stable,commercial,Female,normal,7,unknown,1,390.75,2 per year,390.76,381.39,405.85,12,11,unknown,25-50 kW,Reg12,0
+40,down,only partner,Male,medical,0,private or freelance work,7,291.24,1 per year,297.19,332.91,264.16,7,3,street,150 kW,Reg5,0
+52,stable,same,Male,normal,1,private or freelance work,1,307.99,4 per year,308.0,278.25,288.68,18,18,private garage,150 kW,Reg7,0
+46,stable,same,Male,normal,0,private or freelance work,1,473.65,2 per year,473.66,457.46,455.85,11,10,private garage,125-300 kW,Reg4,0
+54,down,same,Female,normal,0,private or freelance work,1,211.58,1 per year,215.9,275.23,204.85,15,6,private garage,100 kW,Reg12,0
+32,down,only partner,Male,medical,0,private or freelance work,1,246.75,1 per year,251.79,333.95,230.81,11,9,other,75 kW,Reg8,0
+40,down,only partner,Male,medical,3,private or freelance work,1,236.88,1 per year,241.71,225.88,217.54,3,0,unknown,75 kW,Reg7,0
+32,down,same,Male,medical,0,private or freelance work,1,264.94,4 per year,270.35,314.24,240.31,13,8,private garage,75 kW,Reg12,0
+41,stable,only partner,Male,normal,0,private or freelance work,1,203.06,2 per year,203.08,254.95,203.08,15,10,other,25-50 kW,Reg1,0
+67,down,same,Female,normal,1,private or freelance work,1,398.85,4 per year,406.99,450.45,384.24,18,11,private garage,75 kW,Reg10,1
+29,down,same,Female,medical,0,private or freelance work,1,477.14,4 per year,486.88,456.99,413.65,13,12,private garage,25-50 kW,Reg13,0
+54,down,young drivers,Male,medical,0,private or freelance work,1,532.87,1 per year,618.99,604.54,484.39,5,4,other,25-50 kW,Reg7,0
+70,down,only partner,Male,medical,5,private or freelance work,2,233.03,1 per year,237.79,188.17,207.53,5,0,private garage,75 kW,Reg7,0
+33,stable,same,Male,medical,1,private or freelance work,1,196.65,1 per year,196.65,247.99,196.65,8,0,underground garage,100 kW,Reg7,0
+23,down,same,Female,normal,0,private or freelance work,1,678.03,4 per year,787.61,651.19,676.92,15,15,private garage,25-50 kW,Reg4,0
+36,stable,only partner,Female,normal,0,private or freelance work,1,225.55,1 per year,225.56,232.75,217.24,14,13,private garage,75 kW,Reg12,0
+54,down,same,Male,normal,7,private or freelance work,1,183.08,2 per year,186.81,200.5,163.46,11,3,private garage,75 kW,Reg13,0
+46,stable,same,Male,medical,0,private or freelance work,1,258.54,4 per year,258.55,292.31,249.07,15,15,parking deck,100 kW,Reg11,0
+49,stable,same,Male,normal,2,private or freelance work,1,212.46,1 per year,212.47,226.62,212.47,16,11,carport,75 kW,Reg9,0
+36,stable,same,Male,medical,0,private or freelance work,6,251.31,1 per year,251.32,354.44,265.83,12,0,other,25-50 kW,Reg9,0
+56,stable,same,Male,normal,2,private or freelance work,1,207.96,2 per year,207.98,184.61,209.9,15,0,private garage,75 kW,Reg12,0
+45,down,only partner,Female,medical,3,private or freelance work,1,337.18,1 per year,344.06,277.36,304.27,10,0,unknown,25-50 kW,Reg8,0
+32,down,only partner,Female,medical,2,private or freelance work,1,423.03,12 per year,431.66,490.68,395.69,10,7,private garage,75 kW,Reg5,0
+37,down,only partner,Female,medical,1,private or freelance work,1,461.25,1 per year,470.66,494.12,431.44,12,8,private garage,75 kW,Reg4,0
+34,down,only partner,Male,medical,6,private or freelance work,1,424.23,1 per year,432.89,310.01,393.54,8,0,private garage,100 kW,Reg3,1
+45,stable,young drivers,Male,normal,2,private or freelance work,2,528.16,1 per year,528.18,517.34,559.69,5,5,parking deck,75 kW,Reg4,1
+30,down,same,Female,normal,0,private or freelance work,1,464.24,2 per year,484.43,455.65,403.66,15,14,street,25-50 kW,Reg8,0
+59,down,same,Female,normal,11,unknown,1,303.51,2 per year,309.7,227.82,270.99,13,0,private garage,25-50 kW,Reg5,0
+43,stable,same,Female,normal,0,private or freelance work,1,601.26,4 per year,601.27,669.03,635.68,15,15,street,25-50 kW,Reg3,0
+45,stable,same,Male,normal,0,private or freelance work,1,327.65,4 per year,327.66,350.83,346.78,10,10,private garage,25-50 kW,Reg12,0
+35,stable,only partner,Female,normal,2,private or freelance work,1,312.65,1 per year,312.65,288.24,312.65,9,5,other,100 kW,Reg4,0
+38,stable,young drivers,Female,medical,0,private or freelance work,1,222.73,2 per year,222.74,282.71,222.74,13,7,private garage,25-50 kW,Reg7,0
+43,stable,only partner,Male,normal,0,private or freelance work,2,191.91,1 per year,191.91,221.98,191.91,17,16,parking deck,25-50 kW,Reg5,0
+46,stable,same,Male,normal,2,private or freelance work,1,118.58,1 per year,118.59,170.35,118.59,18,13,underground garage,225 kW,Reg7,0
+40,down,same,Male,medical,0,private or freelance work,2,336.24,2 per year,343.1,301.22,294.09,13,13,other,25-50 kW,Reg13,0
+31,down,same,Male,medical,2,private or freelance work,3,586.81,2 per year,598.79,516.05,522.91,12,9,private garage,150 kW,Reg2,0
+40,down,young drivers,Female,normal,3,private or freelance work,2,446.3,12 per year,455.41,367.18,390.35,11,6,carport,25-50 kW,Reg12,0
+47,down,only partner,Male,medical,3,private or freelance work,2,251.57,12 per year,256.7,283.48,232.49,18,18,parking deck,25-50 kW,Reg4,0
+49,stable,only partner,Female,normal,2,private or freelance work,1,216.59,1 per year,216.6,231.39,216.6,16,9,private garage,100 kW,Reg7,0
+76,stable,all drivers > 24,Male,normal,10,unknown,2,266.56,1 per year,264.13,272.45,266.56,10,0,private garage,75 kW,Reg4,0
+37,stable,all drivers > 24,Female,medical,4,private or freelance work,1,340.61,2 per year,340.62,323.54,350.36,11,0,unknown,75 kW,Reg5,0
+70,down,only partner,Male,medical,8,private or freelance work,1,266.46,1 per year,271.9,210.9,235.03,8,0,parking deck,100 kW,Reg9,0
+34,stable,same,Male,normal,0,private or freelance work,1,426.29,4 per year,426.3,261.7,455.09,10,10,street,25-50 kW,Reg10,0
+36,down,young drivers,Male,normal,0,private or freelance work,1,799.08,4 per year,815.39,753.36,890.82,12,11,parking deck,125-300 kW,Reg4,0
+41,down,all drivers > 24,Male,normal,0,private or freelance work,2,213.55,4 per year,217.91,267.8,191.91,9,3,private garage,125-300 kW,Reg8,0
+36,stable,same,Female,medical,9,unknown,1,234.16,1 per year,234.17,209.76,229.97,12,1,private garage,75 kW,Reg8,0
+45,down,same,Male,medical,1,private or freelance work,1,193.71,1 per year,197.66,167.09,169.42,17,16,other,75 kW,Reg13,0
+47,down,young drivers,Male,normal,0,private or freelance work,1,859.94,4 per year,897.32,914.96,712.55,9,9,other,75 kW,Reg3,1
+30,stable,same,Female,medical,1,private or freelance work,1,363.72,4 per year,363.74,498.1,363.74,12,8,street,75 kW,Reg4,0
+34,stable,same,Male,normal,1,private or freelance work,1,226.44,1 per year,226.45,271.88,222.31,15,9,private garage,75 kW,Reg3,0
+48,down,only partner,Male,normal,1,private or freelance work,1,353.67,1 per year,360.89,466.99,340.22,18,11,underground garage,125-300 kW,Reg8,0
+28,stable,young drivers,Male,medical,1,private or freelance work,1,518.26,1 per year,518.27,505.62,518.27,16,9,private garage,75 kW,Reg12,0
+59,stable,only partner,Male,normal,0,private or freelance work,1,309.3,4 per year,309.31,330.79,309.34,9,8,private garage,75 kW,Reg12,0
+36,stable,only partner,Male,normal,0,private or freelance work,1,241.48,1 per year,241.49,341.81,262.8,11,8,private garage,75 kW,Reg8,1
+40,stable,same,Male,normal,0,private or freelance work,1,310.86,4 per year,310.86,319.94,310.86,18,17,other,75 kW,Reg4,1
+40,stable,only partner,Female,normal,0,private or freelance work,1,222.86,2 per year,222.88,262.84,220.79,11,8,underground garage,125-300 kW,Reg4,0
+27,down,same,Male,normal,1,private or freelance work,1,730.33,4 per year,1023.16,655.9,605.65,11,10,parking deck,75 kW,Reg7,0
+57,stable,all drivers > 24,Male,normal,9,private or freelance work,1,334.66,4 per year,318.74,293.6,337.51,12,10,private garage,100 kW,Reg11,0
+31,down,same,Male,medical,0,private or freelance work,1,342.79,2 per year,349.79,460.66,294.33,15,10,underground garage,75 kW,Reg6,0
+33,down,same,Male,normal,0,private or freelance work,1,233.56,1 per year,238.33,331.3,231.15,13,7,private garage,75 kW,Reg6,0
+40,stable,only partner,Male,medical,5,private or freelance work,3,340.51,1 per year,340.53,318.0,309.86,12,6,street,75 kW,Reg7,0
+32,down,only partner,Male,normal,0,private or freelance work,1,200.13,4 per year,204.21,242.53,181.53,12,5,private garage,25-50 kW,Reg7,0
+34,down,same,Female,medical,0,private or freelance work,1,413.46,1 per year,480.29,627.52,375.88,15,12,private garage,75 kW,Reg4,0
+54,down,only partner,Female,medical,10,unknown,1,249.95,2 per year,255.05,163.34,226.71,12,0,street,25-50 kW,Reg14,0
+37,stable,same,Male,medical,2,private or freelance work,1,333.54,4 per year,333.55,421.85,333.55,18,17,parking deck,75 kW,Reg7,0
+70,stable,same,Male,normal,7,unknown,1,190.9,1 per year,187.41,208.69,190.9,8,1,private garage,100 kW,Reg8,0
+33,down,same,Female,normal,1,private or freelance work,1,201.35,4 per year,205.46,182.55,184.91,17,13,private garage,25-50 kW,Reg3,1
+37,down,same,Female,normal,2,private or freelance work,1,310.76,12 per year,317.1,229.5,285.39,9,3,street,75 kW,Reg13,0
+46,stable,only partner,Female,normal,6,unknown,1,256.05,1 per year,256.06,194.05,230.41,9,3,street,25-50 kW,Reg14,0
+30,down,only partner,Female,medical,9,private or freelance work,1,367.07,1 per year,374.56,385.56,343.35,14,5,street,25-50 kW,Reg5,0
+41,stable,same,Female,medical,0,private or freelance work,1,210.74,1 per year,210.75,292.99,210.75,17,14,other,75 kW,Reg5,0
+61,stable,same,Female,normal,1,private or freelance work,1,261.76,1 per year,261.77,317.24,256.9,14,1,parking deck,75 kW,Reg5,0
+29,down,same,Male,medical,0,private or freelance work,1,200.13,1 per year,204.21,263.5,190.14,18,15,private garage,100 kW,Reg7,0
+39,down,only partner,Male,normal,1,private or freelance work,2,381.15,4 per year,388.93,348.46,318.27,12,11,other,75 kW,Reg12,1
+51,stable,all drivers > 24,Male,medical,5,unknown,2,375.5,1 per year,362.05,326.19,375.5,13,0,unknown,75 kW,Reg8,0
+25,stable,young drivers,Female,medical,2,private or freelance work,1,594.44,2 per year,594.44,364.21,594.44,9,5,private garage,75 kW,Reg7,0
+68,down,same,Male,normal,3,private or freelance work,1,493.36,1 per year,503.42,424.56,431.5,9,6,street,75 kW,Reg5,0
+27,down,same,Male,normal,0,private or freelance work,1,493.54,4 per year,503.61,403.03,403.85,14,13,other,25-50 kW,Reg5,0
+48,stable,same,Male,normal,2,private or freelance work,2,416.5,2 per year,416.5,475.17,416.5,16,13,carport,75 kW,Reg4,0
+52,stable,only partner,Male,normal,8,private or freelance work,6,316.74,1 per year,316.75,243.58,316.75,15,11,unknown,75 kW,Reg4,1
+36,down,same,Male,normal,6,unknown,1,346.43,4 per year,353.5,284.97,312.36,10,4,unknown,100 kW,Reg7,0
+35,down,same,Female,medical,0,private or freelance work,2,202.75,2 per year,206.89,234.01,181.03,12,9,street,75 kW,Reg13,0
+30,stable,same,Male,normal,1,private or freelance work,2,309.24,4 per year,309.25,322.7,300.76,18,14,street,100 kW,Reg7,0
+31,down,same,Male,medical,1,private or freelance work,1,277.98,4 per year,283.65,346.44,266.77,14,9,street,100 kW,Reg8,0
+37,stable,same,Female,medical,7,unknown,1,305.65,1 per year,305.66,214.72,305.66,12,5,private garage,75 kW,Reg7,0
+27,stable,same,Male,normal,2,private or freelance work,1,275.97,4 per year,275.99,351.4,275.99,16,9,underground garage,75 kW,Reg4,1
+44,up,same,Female,normal,0,private or freelance work,2,391.57,4 per year,320.37,400.39,366.55,8,4,other,75 kW,Reg12,0
+66,down,young drivers,Male,medical,0,private or freelance work,1,324.84,4 per year,338.96,354.8,282.47,5,0,private garage,25-50 kW,Reg13,0
+36,stable,same,Male,normal,1,private or freelance work,1,403.39,1 per year,403.39,430.45,403.39,11,5,street,100 kW,Reg5,0
+42,down,only partner,Male,normal,10,private or freelance work,1,162.21,1 per year,165.52,168.66,130.97,12,2,private garage,25-50 kW,Reg12,0
+39,stable,same,Male,normal,2,private or freelance work,1,266.65,4 per year,266.66,292.77,259.38,14,7,other,75 kW,Reg6,0
+73,stable,all drivers > 24,Male,normal,0,private or freelance work,1,143.92,1 per year,143.94,202.66,159.49,15,0,private garage,100 kW,Reg5,0
+24,down,all drivers > 24,Female,normal,2,private or freelance work,1,1034.1,4 per year,1079.06,692.6,899.23,6,4,underground garage,25-50 kW,Reg8,0
+53,down,all drivers > 24,Male,medical,1,private or freelance work,1,228.74,1 per year,233.41,221.09,200.06,18,13,street,25-50 kW,Reg2,0
+36,stable,same,Female,medical,1,private or freelance work,1,253.12,1 per year,253.14,272.29,234.99,17,14,other,75 kW,Reg6,0
+38,down,same,Male,medical,0,private or freelance work,1,336.29,4 per year,343.15,369.04,311.96,12,11,private garage,150 kW,Reg7,0
+27,stable,same,Female,medical,0,private or freelance work,1,344.77,4 per year,344.79,311.45,344.79,13,7,underground garage,25-50 kW,Reg8,0
+39,stable,same,Female,medical,6,unknown,1,337.01,1 per year,337.02,289.44,337.02,14,7,private garage,75 kW,Reg4,0
+61,stable,same,Male,medical,2,private or freelance work,1,184.95,1 per year,179.89,193.12,184.95,14,0,private garage,75 kW,Reg6,0
+50,stable,only partner,Female,normal,1,private or freelance work,1,258.96,2 per year,258.97,365.48,282.04,17,9,private garage,125-300 kW,Reg9,0
+43,down,only partner,Male,normal,5,unknown,1,354.03,4 per year,361.25,341.66,328.11,13,3,unknown,75 kW,Reg3,0
+32,stable,same,Male,medical,1,private or freelance work,2,301.24,4 per year,301.25,276.7,301.25,2,0,other,75 kW,Reg4,0
+37,stable,only partner,Male,medical,1,private or freelance work,2,184.91,1 per year,184.93,259.75,179.96,16,10,private garage,75 kW,Reg8,0
+37,down,same,Male,normal,0,private or freelance work,1,559.91,4 per year,584.25,576.7,455.84,18,18,private garage,75 kW,Reg5,0
+29,stable,only partner,Female,normal,0,private or freelance work,1,209.95,1 per year,209.96,276.66,209.96,13,10,private garage,75 kW,Reg12,1
+40,down,all drivers > 24,Male,medical,7,private or freelance work,1,89.96,1 per year,91.8,92.66,80.33,18,18,street,25-50 kW,Reg4,0
+40,down,same,Female,medical,1,private or freelance work,1,184.18,1 per year,187.94,271.59,161.03,11,8,private garage,75 kW,Reg3,0
+37,stable,young drivers,Male,normal,0,private or freelance work,2,286.09,4 per year,286.1,402.74,275.48,14,12,parking deck,25-50 kW,Reg11,0
+50,stable,only partner,Female,medical,7,unknown,2,233.29,4 per year,233.3,207.61,231.12,9,2,private estate,75 kW,Reg10,0
+44,stable,only partner,Male,normal,1,private or freelance work,1,213.41,1 per year,213.43,271.09,205.58,17,11,street,150 kW,Reg8,0
+81,stable,same,Male,normal,6,unknown,1,314.4,1 per year,314.41,312.69,294.72,16,10,private garage,75 kW,Reg7,0
+42,down,only partner,Male,normal,0,private or freelance work,3,297.93,1 per year,304.01,306.35,276.39,14,12,private garage,75 kW,Reg7,0
+47,stable,same,Female,medical,6,unknown,1,443.21,4 per year,443.22,280.99,423.33,14,0,street,75 kW,Reg6,0
+69,stable,only partner,Male,normal,8,unknown,4,253.66,1 per year,249.09,226.39,253.66,13,2,private garage,100 kW,Reg8,0
+35,down,only partner,Male,medical,1,private or freelance work,1,260.32,1 per year,265.64,283.86,236.12,18,9,private garage,100 kW,Reg10,0
+31,down,same,Female,normal,0,private or freelance work,1,460.66,2 per year,470.06,414.34,415.2,18,18,street,100 kW,Reg4,0
+69,stable,same,Male,medical,11,unknown,1,300.95,1 per year,300.96,201.4,312.11,16,2,private garage,100 kW,Reg1,1
+35,down,same,Male,medical,0,private or freelance work,1,478.9,4 per year,488.68,407.88,419.44,17,16,street,100 kW,Reg4,0
+40,stable,same,Female,medical,0,private or freelance work,1,164.24,1 per year,164.25,216.46,175.14,12,3,underground garage,25-50 kW,Reg8,0
+68,stable,only partner,Male,normal,7,private or freelance work,3,146.5,1 per year,146.51,114.84,146.51,16,0,private garage,125-300 kW,Reg14,0
+28,down,same,Female,normal,1,private or freelance work,2,810.77,4 per year,1135.86,832.61,739.39,12,10,street,75 kW,Reg9,1
+33,down,only partner,Male,medical,0,private or freelance work,1,259.53,1 per year,264.83,347.78,295.16,4,0,private garage,25-50 kW,Reg8,0
+43,stable,same,Male,medical,11,unknown,1,317.29,1 per year,317.3,270.01,320.14,18,12,street,100 kW,Reg2,0
+34,down,same,Male,normal,3,private or freelance work,1,535.13,4 per year,546.05,453.56,481.45,16,12,street,100 kW,Reg8,0
+40,stable,only partner,Male,medical,1,private or freelance work,2,178.02,1 per year,178.04,201.5,178.04,18,9,street,100 kW,Reg4,0
+43,up,same,Female,normal,0,private or freelance work,1,1052.01,2 per year,834.35,1177.59,1052.01,18,18,street,100 kW,Reg5,1
+51,stable,only partner,Female,medical,7,unknown,1,186.81,1 per year,186.83,148.15,186.83,9,2,private garage,25-50 kW,Reg10,0
+57,stable,all drivers > 24,Male,normal,3,private or freelance work,2,296.04,1 per year,296.05,287.39,296.05,17,11,private garage,75 kW,Reg10,0
+32,down,same,Male,normal,6,private or freelance work,1,849.15,12 per year,866.47,705.05,818.09,17,15,parking deck,125-300 kW,Reg5,0
+35,stable,only partner,Male,normal,0,private or freelance work,1,259.0,1 per year,259.01,307.9,259.01,7,0,private garage,100 kW,Reg4,0
+51,down,only partner,Female,normal,1,private or freelance work,2,344.03,12 per year,351.05,340.11,343.35,17,11,private garage,25-50 kW,Reg12,1
+75,stable,all drivers > 24,Male,normal,8,private or freelance work,1,363.3,1 per year,363.3,393.2,363.3,10,1,private garage,100 kW,Reg2,0
+38,stable,same,Male,medical,0,private or freelance work,1,177.12,4 per year,177.12,226.98,177.12,0,0,parking deck,75 kW,Reg14,0
+60,stable,all drivers > 24,Male,medical,2,private or freelance work,2,226.89,1 per year,226.9,344.7,226.9,18,0,underground garage,100 kW,Reg7,0
+33,down,only partner,Female,medical,0,private or freelance work,1,209.21,4 per year,213.47,286.91,194.06,15,13,private garage,75 kW,Reg7,0
+32,stable,same,Male,medical,0,private or freelance work,1,190.13,4 per year,190.14,268.89,197.35,13,9,carport,75 kW,Reg4,0
+33,stable,only partner,Female,medical,2,private or freelance work,1,184.9,1 per year,184.91,210.43,184.91,13,11,carport,75 kW,Reg10,0
+67,stable,same,Female,normal,10,private or freelance work,1,182.3,1 per year,182.31,173.4,196.18,14,1,private garage,25-50 kW,Reg8,0
+38,stable,only partner,Female,medical,0,private or freelance work,1,182.08,4 per year,182.09,280.61,182.09,16,10,carport,75 kW,Reg10,0
+45,down,only partner,Female,medical,1,private or freelance work,1,284.75,1 per year,290.56,303.34,266.35,11,0,private garage,125-300 kW,Reg8,0
+41,stable,all drivers > 24,Female,normal,2,private or freelance work,2,315.2,4 per year,315.21,310.57,345.91,10,2,carport,100 kW,Reg6,0
+40,down,all drivers > 24,Male,normal,4,private or freelance work,1,637.28,1 per year,650.29,505.45,547.48,9,5,unknown,125-300 kW,Reg4,1
+42,stable,same,Male,normal,2,private or freelance work,1,192.71,1 per year,192.71,238.16,192.71,13,6,private garage,125-300 kW,Reg7,0
+41,stable,only partner,Male,normal,2,private or freelance work,1,233.64,2 per year,233.65,302.73,233.65,18,11,underground garage,75 kW,Reg8,0
+47,down,same,Male,medical,6,unknown,1,715.12,4 per year,729.71,426.82,615.94,18,11,private estate,100 kW,Reg7,0
+27,down,same,Female,medical,2,private or freelance work,2,639.82,2 per year,652.87,353.14,609.35,10,7,other,75 kW,Reg7,1
+31,down,same,Female,normal,1,private or freelance work,1,562.66,12 per year,587.13,513.4,507.89,15,13,street,25-50 kW,Reg4,0
+67,stable,same,Female,normal,7,private or freelance work,1,204.68,12 per year,204.69,221.68,204.69,18,14,parking deck,25-50 kW,Reg7,0
+31,stable,all drivers > 24,Male,normal,2,private or freelance work,1,391.79,1 per year,391.8,340.21,391.8,15,9,street,75 kW,Reg7,0
+38,down,only partner,Female,medical,0,private or freelance work,1,212.21,1 per year,216.54,311.64,198.49,14,9,parking deck,75 kW,Reg6,0
+23,down,same,Male,normal,1,private or freelance work,1,1050.51,12 per year,1096.19,759.3,913.49,9,7,parking deck,75 kW,Reg4,0
+41,down,only partner,Male,medical,4,private or freelance work,3,211.69,1 per year,216.01,184.29,185.6,10,2,unknown,25-50 kW,Reg4,0
+26,down,only partner,Female,medical,0,private or freelance work,1,572.53,4 per year,584.21,430.9,531.1,11,10,street,100 kW,Reg12,0
+65,stable,same,Female,normal,0,private or freelance work,1,121.88,1 per year,121.89,157.66,112.26,11,3,private garage,75 kW,Reg12,0
+34,stable,same,Male,medical,1,private or freelance work,2,229.72,1 per year,229.74,246.59,225.54,13,6,parking deck,100 kW,Reg6,0
+27,down,only partner,Female,normal,0,private or freelance work,1,321.44,2 per year,328.0,362.75,306.14,8,7,private garage,75 kW,Reg7,0
+26,down,same,Female,normal,0,private or freelance work,2,767.55,1 per year,891.6,744.03,697.77,11,10,parking deck,75 kW,Reg5,0
+46,stable,same,Male,medical,9,unknown,1,458.59,2 per year,458.6,351.3,450.16,10,1,street,75 kW,Reg4,0
+48,stable,young drivers,Male,normal,0,private or freelance work,1,229.26,1 per year,229.27,218.06,212.51,14,4,private garage,75 kW,Reg14,0
+33,down,only partner,Male,normal,1,private or freelance work,1,334.22,2 per year,341.04,306.79,300.44,3,0,private garage,75 kW,Reg4,1
+54,stable,young drivers,Male,medical,11,private or freelance work,4,257.78,1 per year,257.79,286.81,257.79,14,1,street,25-50 kW,Reg5,0
+46,stable,all drivers > 24,Male,normal,5,private or freelance work,1,347.95,1 per year,347.96,332.91,357.99,18,11,street,100 kW,Reg6,0
+44,down,same,Female,normal,2,private or freelance work,2,299.0,1 per year,305.1,232.51,254.2,15,5,private garage,75 kW,Reg13,0
+44,stable,same,Female,normal,3,private or freelance work,1,400.24,4 per year,400.25,276.99,378.15,11,7,unknown,75 kW,Reg14,1
+31,down,all drivers > 24,Female,normal,0,private or freelance work,1,237.91,1 per year,242.76,273.79,220.7,6,0,street,25-50 kW,Reg7,0
+41,stable,same,Male,normal,2,private or freelance work,1,228.71,4 per year,228.72,200.6,228.72,15,2,parking deck,75 kW,Reg14,0
+40,up,same,Male,normal,1,private or freelance work,1,501.46,1 per year,364.7,450.45,501.44,10,9,parking deck,100 kW,Reg3,0
+64,stable,same,Male,normal,1,private or freelance work,1,159.97,1 per year,159.99,144.55,157.14,15,3,private garage,25-50 kW,Reg12,0
+44,stable,only partner,Male,medical,1,private or freelance work,1,147.86,1 per year,147.88,178.24,147.88,14,1,private garage,25-50 kW,Reg5,0
+39,stable,only partner,Male,normal,1,private or freelance work,1,355.77,1 per year,355.79,392.95,369.54,11,6,street,75 kW,Reg9,0
+44,stable,same,Female,normal,0,private or freelance work,1,247.28,4 per year,247.29,367.02,247.29,18,12,parking deck,125-300 kW,Reg4,0
+38,down,only partner,Female,medical,11,unknown,1,441.69,4 per year,450.7,343.18,402.22,11,0,street,75 kW,Reg5,0
+41,stable,only partner,Male,normal,0,private or freelance work,1,251.38,2 per year,251.39,305.6,251.4,14,12,carport,75 kW,Reg1,0
+51,stable,same,Male,normal,1,private or freelance work,1,469.44,1 per year,469.45,572.01,487.63,15,9,street,100 kW,Reg9,0
+77,stable,only partner,Male,normal,11,unknown,1,188.53,1 per year,188.54,219.04,192.02,11,0,private garage,75 kW,Reg8,0
+48,stable,only partner,Male,normal,0,private or freelance work,1,160.99,1 per year,161.0,213.44,158.01,18,14,private garage,100 kW,Reg8,0
+59,up,only partner,Male,medical,7,unknown,1,482.85,1 per year,321.9,368.26,482.85,12,4,street,75 kW,Reg9,0
+48,stable,same,Male,medical,6,private or freelance work,2,276.94,1 per year,276.95,337.08,276.95,6,0,private garage,125-300 kW,Reg8,0
+38,down,only partner,Male,normal,1,private or freelance work,1,331.88,2 per year,338.65,342.64,293.53,11,7,parking deck,75 kW,Reg14,0
+38,stable,only partner,Female,normal,2,private or freelance work,1,114.36,1 per year,114.38,170.41,114.38,18,12,street,25-50 kW,Reg3,0
+51,stable,only partner,Female,medical,7,unknown,2,315.44,4 per year,315.45,179.74,333.07,17,9,private garage,75 kW,Reg3,0
+46,stable,same,Female,medical,6,unknown,1,221.08,1 per year,221.09,177.44,233.39,9,2,street,25-50 kW,Reg7,1
+40,down,only partner,Male,normal,4,private or freelance work,2,349.46,2 per year,356.59,301.94,324.17,4,2,street,25-50 kW,Reg9,0
+43,down,all drivers > 24,Male,medical,0,private or freelance work,1,381.02,4 per year,388.8,578.39,373.73,15,11,private garage,100 kW,Reg5,1
+26,up,same,Female,medical,1,private or freelance work,1,502.14,2 per year,390.55,543.2,535.97,14,14,private garage,25-50 kW,Reg4,0
+46,stable,only partner,Female,normal,0,private or freelance work,1,388.21,1 per year,388.22,507.99,411.09,18,14,parking deck,75 kW,Reg9,1
+56,down,same,Male,normal,0,private or freelance work,1,337.07,12 per year,343.95,405.59,315.29,16,13,private garage,100 kW,Reg4,0
+39,stable,only partner,Male,medical,0,private or freelance work,1,220.45,1 per year,220.46,239.8,200.59,9,8,private garage,150 kW,Reg3,0
+38,stable,only partner,Male,normal,7,unknown,1,256.23,1 per year,256.24,226.83,258.56,17,10,street,25-50 kW,Reg7,0
+24,down,same,Female,medical,1,private or freelance work,1,793.25,4 per year,827.74,616.4,689.79,8,6,private garage,25-50 kW,Reg8,1
+43,stable,only partner,Male,medical,1,private or freelance work,1,202.69,1 per year,195.38,260.59,202.69,14,3,other,25-50 kW,Reg4,0
+42,down,same,Female,medical,1,private or freelance work,1,440.31,1 per year,449.3,449.07,385.11,10,8,private garage,75 kW,Reg8,0
+26,down,young drivers,Male,medical,0,private or freelance work,1,291.98,1 per year,297.94,437.4,270.86,12,11,private garage,75 kW,Reg5,0
+33,stable,only partner,Male,normal,1,private or freelance work,1,264.15,1 per year,264.16,376.19,254.34,18,9,private garage,100 kW,Reg7,0
+31,down,all drivers > 24,Male,normal,0,private or freelance work,1,512.29,12 per year,522.75,520.88,439.54,18,18,underground garage,150 kW,Reg4,0
+34,down,only partner,Male,normal,0,private or freelance work,1,230.77,1 per year,235.48,286.16,222.01,10,3,street,100 kW,Reg9,1
+24,up,same,Female,medical,1,private or freelance work,1,707.6,12 per year,561.2,767.09,707.6,5,4,street,25-50 kW,Reg7,0
+25,down,same,Female,normal,0,private or freelance work,1,399.29,4 per year,407.44,455.46,380.28,14,12,other,75 kW,Reg12,0
+66,stable,same,Male,medical,6,unknown,2,388.17,2 per year,388.19,309.36,373.88,7,0,private garage,75 kW,Reg4,0
+59,stable,all drivers > 24,Male,normal,0,private or freelance work,1,476.88,1 per year,476.89,418.43,476.89,13,6,other,75 kW,Reg7,0
+41,stable,only partner,Male,medical,2,private or freelance work,2,224.09,4 per year,224.1,301.02,213.9,13,4,other,75 kW,Reg7,0
+37,down,only partner,Female,normal,2,private or freelance work,2,361.66,1 per year,369.04,326.64,316.32,3,1,private garage,75 kW,Reg8,0
+38,stable,same,Male,medical,0,private or freelance work,1,170.24,1 per year,170.25,235.43,170.25,18,12,private garage,75 kW,Reg3,0
+28,down,only partner,Female,normal,1,private or freelance work,1,394.66,4 per year,402.71,377.86,345.18,14,9,private garage,75 kW,Reg8,0
+28,down,young drivers,Male,normal,0,private or freelance work,1,382.7,1 per year,390.51,350.85,347.13,12,7,parking deck,75 kW,Reg8,0
+42,stable,only partner,Female,medical,7,unknown,2,380.15,1 per year,380.16,256.26,373.41,7,0,private garage,75 kW,Reg3,0
+51,down,same,Male,normal,2,private or freelance work,1,685.01,1 per year,698.99,707.98,691.26,10,6,street,100 kW,Reg9,0
+37,stable,same,Male,medical,0,private or freelance work,1,276.44,1 per year,276.45,353.49,292.4,3,0,street,100 kW,Reg9,0
+48,stable,only partner,Male,normal,2,private or freelance work,1,207.57,1 per year,207.57,290.4,207.57,18,11,parking deck,100 kW,Reg4,0
+64,stable,only partner,Female,normal,7,unknown,1,334.84,1 per year,334.85,262.82,325.75,8,0,private garage,100 kW,Reg5,0
+67,stable,only partner,Female,normal,2,private or freelance work,1,186.38,1 per year,186.39,199.49,193.41,18,6,private garage,75 kW,Reg8,0
+37,stable,same,Male,normal,1,private or freelance work,1,223.23,1 per year,223.24,284.76,233.7,14,4,underground garage,75 kW,Reg7,0
+41,stable,same,Female,medical,0,private or freelance work,1,199.2,1 per year,199.2,252.38,199.2,17,13,street,25-50 kW,Reg4,0
+35,down,same,Female,medical,0,private or freelance work,1,387.77,4 per year,395.69,430.54,359.72,12,11,street,75 kW,Reg8,0
+36,stable,all drivers > 24,Male,medical,5,private or freelance work,1,255.36,1 per year,255.38,330.89,260.24,12,3,street,75 kW,Reg4,0
+27,down,same,Female,normal,0,private or freelance work,1,759.85,12 per year,1091.65,733.35,660.74,14,14,private garage,25-50 kW,Reg6,0
+23,stable,same,Male,normal,1,private or freelance work,1,717.06,12 per year,717.07,409.98,717.07,18,16,other,75 kW,Reg3,0
+30,stable,same,Male,normal,0,private or freelance work,3,227.09,4 per year,227.1,284.4,227.1,12,9,private garage,75 kW,Reg8,0
+35,up,all drivers > 24,Female,normal,2,private or freelance work,1,524.66,2 per year,419.72,555.3,544.55,10,1,street,25-50 kW,Reg9,0
+23,down,same,Female,normal,0,private or freelance work,1,928.12,1 per year,1078.12,842.07,843.7,17,16,private garage,75 kW,Reg7,0
+37,stable,only partner,Male,medical,1,private or freelance work,1,177.95,1 per year,177.96,178.08,177.96,18,9,other,75 kW,Reg5,1
+41,stable,same,Male,normal,0,private or freelance work,1,206.9,1 per year,206.91,247.27,206.91,12,10,parking deck,25-50 kW,Reg6,0
+35,stable,only partner,Male,medical,3,private or freelance work,1,345.48,1 per year,345.48,336.19,345.48,12,8,unknown,100 kW,Reg11,0
+41,stable,same,Male,normal,2,private or freelance work,1,276.46,4 per year,276.47,228.88,276.47,17,6,private garage,125-300 kW,Reg11,0
+34,stable,same,Male,normal,0,private or freelance work,1,582.91,12 per year,582.92,499.47,617.25,15,15,street,25-50 kW,Reg9,0
+37,down,same,Female,normal,1,private or freelance work,1,340.6,1 per year,347.55,368.19,315.96,14,10,private garage,75 kW,Reg7,0
+38,down,same,Male,normal,0,private or freelance work,1,905.16,4 per year,1268.1,767.65,787.1,15,10,other,150 kW,Reg14,1
+63,down,same,Male,normal,0,private or freelance work,1,209.21,4 per year,213.47,265.56,194.06,1,0,private garage,75 kW,Reg3,0
+44,stable,same,Male,normal,1,private or freelance work,1,198.12,1 per year,198.14,189.1,198.14,12,2,private garage,75 kW,Reg10,0
+55,up,only partner,Male,normal,9,unknown,2,357.39,1 per year,238.26,289.39,357.4,17,7,private garage,100 kW,Reg7,0
+37,stable,same,Male,medical,1,private or freelance work,1,246.99,12 per year,247.0,268.18,247.0,18,12,street,75 kW,Reg5,0
+42,stable,only partner,Female,normal,9,unknown,1,265.2,2 per year,265.21,218.51,251.42,14,5,private garage,75 kW,Reg11,0
+58,stable,same,Male,normal,9,private or freelance work,1,182.31,1 per year,182.31,203.64,182.31,10,0,private garage,125-300 kW,Reg14,0
+44,stable,same,Male,medical,2,private or freelance work,1,315.87,1 per year,315.87,329.6,315.87,5,3,private garage,125-300 kW,Reg2,0
+39,stable,young drivers,Male,medical,0,private or freelance work,1,200.45,4 per year,200.46,317.3,200.46,10,1,private garage,25-50 kW,Reg5,0
+78,down,same,Male,normal,9,unknown,1,465.51,1 per year,475.01,392.16,426.23,16,4,private garage,75 kW,Reg8,1
+51,down,same,Male,normal,1,private or freelance work,2,711.95,12 per year,726.47,637.36,678.04,11,11,private garage,100 kW,Reg4,0
+44,stable,same,Female,normal,2,private or freelance work,1,220.47,1 per year,209.99,244.45,224.19,10,2,other,75 kW,Reg7,0
+31,stable,same,Male,medical,0,private or freelance work,1,795.86,4 per year,795.88,932.76,834.35,13,13,other,125-300 kW,Reg3,0
+56,stable,young drivers,Female,medical,0,private or freelance work,1,155.07,1 per year,155.09,237.93,155.09,18,13,street,75 kW,Reg5,0
+45,stable,young drivers,Female,medical,8,unknown,1,593.25,2 per year,593.26,413.85,521.41,15,3,street,75 kW,Reg3,0
+36,stable,only partner,Male,medical,6,unknown,1,348.04,1 per year,348.05,305.79,348.05,11,4,street,75 kW,Reg9,0
+41,stable,only partner,Male,normal,1,private or freelance work,4,295.74,1 per year,295.75,290.34,328.33,13,12,parking deck,125-300 kW,Reg5,0
+30,stable,only partner,Male,medical,1,private or freelance work,2,229.29,1 per year,229.3,292.39,229.3,13,3,private garage,100 kW,Reg6,0
+61,stable,same,Male,normal,7,unknown,1,247.13,1 per year,247.14,178.14,238.29,16,0,private garage,100 kW,Reg8,0
+59,down,same,Male,normal,6,unknown,1,848.02,1 per year,865.33,536.86,741.7,15,8,street,100 kW,Reg4,0
+51,stable,all drivers > 24,Female,normal,0,private or freelance work,1,1363.03,4 per year,1363.04,879.7,1363.05,18,17,private garage,75 kW,Reg7,0
+29,down,only partner,Male,medical,0,private or freelance work,1,418.62,4 per year,427.16,428.5,402.84,14,14,private garage,25-50 kW,Reg8,0
+32,down,only partner,Female,normal,0,private or freelance work,1,593.03,12 per year,605.14,593.25,598.26,11,9,street,25-50 kW,Reg10,1
+64,stable,only partner,Female,normal,3,private or freelance work,1,354.87,4 per year,354.89,261.12,375.4,18,15,private garage,100 kW,Reg7,0
+33,stable,commercial,Male,normal,3,commercial,1,625.07,2 per year,625.09,490.35,625.09,18,11,unknown,75 kW,Reg5,1
+62,down,same,Female,medical,2,private or freelance work,1,417.68,1 per year,426.2,296.34,355.39,16,10,private garage,25-50 kW,Reg10,0
+34,down,same,Male,medical,1,private or freelance work,1,395.22,1 per year,403.29,474.59,359.14,9,8,other,125-300 kW,Reg5,0
+34,down,same,Male,medical,2,private or freelance work,1,311.86,1 per year,318.23,296.57,289.3,10,3,street,125-300 kW,Reg5,0
+44,stable,only partner,Male,medical,1,private or freelance work,1,179.69,1 per year,179.7,205.55,184.76,12,8,carport,125-300 kW,Reg4,0
+48,down,young drivers,Female,medical,0,private or freelance work,2,421.24,2 per year,429.84,443.55,424.52,12,11,parking deck,25-50 kW,Reg9,0
+34,down,only partner,Female,medical,2,private or freelance work,1,332.23,12 per year,339.01,496.08,316.41,18,15,private garage,100 kW,Reg8,0
+45,stable,young drivers,Male,medical,4,private or freelance work,1,191.9,1 per year,191.91,323.29,179.85,10,0,private garage,75 kW,Reg11,0
+55,down,only partner,Male,normal,0,private or freelance work,1,336.29,12 per year,343.15,436.32,311.96,18,13,street,100 kW,Reg5,0
+35,down,only partner,Female,medical,0,private or freelance work,2,393.57,1 per year,401.6,367.05,344.23,11,11,private garage,25-50 kW,Reg3,0
+52,stable,same,Male,medical,5,private or freelance work,1,201.83,1 per year,201.84,194.05,201.84,17,1,street,75 kW,Reg5,0
+41,stable,only partner,Male,medical,7,unknown,1,286.38,1 per year,286.39,248.19,299.95,12,5,street,25-50 kW,Reg8,0
+40,down,only partner,Female,medical,2,private or freelance work,1,461.73,1 per year,471.15,518.89,400.02,18,17,other,75 kW,Reg6,0
+69,stable,only partner,Male,medical,9,unknown,1,287.59,1 per year,287.6,355.83,238.55,10,1,private garage,100 kW,Reg12,0
+47,stable,all drivers > 24,Female,normal,10,unknown,1,202.1,1 per year,202.11,169.1,196.79,18,6,private garage,75 kW,Reg7,0
+39,down,only partner,Male,normal,0,private or freelance work,2,275.06,1 per year,280.67,377.19,261.96,10,4,private garage,75 kW,Reg7,1
+25,stable,same,Male,medical,0,private or freelance work,1,1038.46,4 per year,1038.48,1159.95,1038.48,8,8,private garage,100 kW,Reg6,0
+47,down,same,Male,medical,0,private or freelance work,1,249.18,4 per year,254.26,316.88,231.15,18,15,other,125-300 kW,Reg7,0
+48,down,same,Male,normal,2,private or freelance work,1,282.41,1 per year,288.17,289.4,246.74,11,2,street,100 kW,Reg12,0
+39,down,only partner,Female,normal,2,private or freelance work,1,243.74,1 per year,248.71,181.21,197.95,18,17,private garage,75 kW,Reg8,1
+28,down,all drivers > 24,Female,medical,0,private or freelance work,1,589.55,4 per year,684.82,649.5,561.65,13,13,parking deck,25-50 kW,Reg1,0
+46,down,learner 17,Male,normal,1,private or freelance work,2,571.28,1 per year,582.94,742.74,544.08,11,0,private garage,150 kW,Reg14,1
+31,stable,only partner,Male,normal,0,private or freelance work,1,253.16,12 per year,253.17,274.7,253.17,10,5,carport,100 kW,Reg3,0
+52,stable,only partner,Female,medical,1,private or freelance work,1,168.46,4 per year,168.47,202.67,168.47,14,3,other,75 kW,Reg3,0
+28,down,only partner,Female,normal,1,private or freelance work,3,333.42,1 per year,340.22,402.57,309.3,15,11,street,75 kW,Reg4,0
+28,down,all drivers > 24,Female,medical,0,private or freelance work,1,453.43,2 per year,526.71,609.59,412.21,8,8,private garage,25-50 kW,Reg5,0
+61,down,only partner,Male,normal,0,private or freelance work,1,518.81,12 per year,529.4,619.95,494.1,15,13,street,75 kW,Reg4,0
+45,down,only partner,Female,normal,1,private or freelance work,2,258.43,1 per year,263.7,293.72,248.82,6,1,street,25-50 kW,Reg9,0
+36,stable,same,Male,normal,1,private or freelance work,1,217.1,4 per year,217.11,223.78,229.44,18,17,street,75 kW,Reg3,0
+31,stable,only partner,Male,normal,1,private or freelance work,1,234.96,1 per year,234.97,244.3,241.56,9,2,private garage,100 kW,Reg7,0
+41,stable,same,Female,medical,2,private or freelance work,1,314.38,12 per year,314.39,347.7,305.83,10,3,underground garage,75 kW,Reg7,0
+72,stable,same,Male,normal,10,unknown,1,203.9,1 per year,203.91,212.06,213.36,16,6,private garage,25-50 kW,Reg12,0
+31,stable,same,Male,medical,0,private or freelance work,1,268.33,1 per year,263.35,313.05,268.33,14,13,private garage,125-300 kW,Reg12,1
+52,stable,same,Male,normal,0,private or freelance work,1,232.96,2 per year,232.96,247.3,232.96,17,16,other,75 kW,Reg5,0
+42,up,all drivers > 24,Female,medical,0,private or freelance work,1,554.54,1 per year,396.1,526.26,554.54,5,4,private garage,75 kW,Reg8,0
+36,down,young drivers,Female,medical,0,private or freelance work,1,685.21,1 per year,795.95,678.68,622.86,9,9,other,25-50 kW,Reg10,0
+45,stable,same,Male,normal,0,private or freelance work,1,200.0,1 per year,200.01,303.55,207.76,16,12,street,100 kW,Reg4,0
+59,stable,same,Male,normal,1,private or freelance work,1,266.89,2 per year,266.9,276.45,259.49,7,0,parking deck,75 kW,Reg9,0
+22,down,same,Female,normal,1,private or freelance work,1,405.54,1 per year,413.81,406.45,393.47,12,8,street,25-50 kW,Reg8,1
+32,down,only partner,Male,normal,0,private or freelance work,1,471.63,4 per year,492.14,509.86,410.11,6,5,underground garage,100 kW,Reg7,0
+53,stable,same,Male,medical,9,unknown,1,299.24,1 per year,299.25,287.3,291.1,11,0,private garage,125-300 kW,Reg8,0
+65,stable,same,Female,medical,7,private or freelance work,2,186.41,1 per year,186.42,173.71,181.32,15,7,parking deck,100 kW,Reg14,0
+62,down,same,Male,medical,8,private or freelance work,1,300.95,1 per year,307.09,323.26,272.98,16,7,street,100 kW,Reg5,0
+49,stable,same,Female,medical,8,unknown,1,267.01,12 per year,267.02,271.24,267.02,12,4,street,75 kW,Reg9,0
+34,down,same,Male,normal,2,private or freelance work,4,311.54,1 per year,317.9,284.54,283.43,10,8,underground garage,125-300 kW,Reg9,0
+41,stable,same,Male,normal,2,private or freelance work,1,304.44,1 per year,304.44,307.39,304.44,8,3,underground garage,100 kW,Reg4,0
+43,stable,only partner,Male,normal,4,private or freelance work,1,211.59,1 per year,211.6,223.58,205.84,15,3,private garage,25-50 kW,Reg5,0
+39,up,only partner,Female,normal,3,private or freelance work,2,423.53,4 per year,308.02,397.73,448.12,12,3,unknown,75 kW,Reg7,1
+30,down,same,Male,normal,1,private or freelance work,5,763.67,4 per year,796.88,616.23,639.41,16,15,private garage,75 kW,Reg12,1
+41,stable,same,Male,medical,2,private or freelance work,1,248.69,2 per year,248.7,268.21,248.7,18,13,underground garage,75 kW,Reg7,0
+39,stable,same,Male,normal,7,unknown,2,340.28,1 per year,340.29,261.22,325.24,11,4,private garage,75 kW,Reg3,0
+39,down,same,Male,normal,1,private or freelance work,1,470.25,12 per year,479.85,497.14,439.86,18,16,street,100 kW,Reg4,0
+44,stable,same,Female,normal,2,private or freelance work,1,409.42,4 per year,409.44,326.23,441.47,15,14,other,25-50 kW,Reg3,0
+35,stable,same,Male,normal,7,private or freelance work,1,259.1,12 per year,259.11,256.88,266.47,10,3,street,75 kW,Reg1,0
+43,down,same,Male,medical,2,private or freelance work,2,293.93,1 per year,299.93,226.77,253.21,18,10,private garage,75 kW,Reg4,1
+40,stable,only partner,Male,normal,1,private or freelance work,1,204.84,1 per year,204.85,238.25,201.06,10,3,private garage,125-300 kW,Reg8,0
+34,stable,only partner,Female,normal,1,private or freelance work,2,244.7,1 per year,244.71,266.51,244.71,14,11,carport,75 kW,Reg14,0
+55,stable,young drivers,Male,medical,8,unknown,1,210.64,1 per year,210.65,166.56,205.03,8,0,private garage,25-50 kW,Reg8,0
+81,stable,same,Male,normal,10,unknown,1,318.94,1 per year,307.43,261.69,318.94,18,10,private garage,100 kW,Reg14,0
+67,stable,same,Male,normal,1,private or freelance work,1,322.4,1 per year,322.41,379.71,313.36,15,10,other,100 kW,Reg4,0
+25,down,same,Male,medical,0,private or freelance work,1,735.47,4 per year,767.45,672.56,639.55,18,18,private garage,75 kW,Reg8,0
+28,down,same,Female,normal,0,private or freelance work,1,269.32,12 per year,274.81,358.04,254.26,13,5,private garage,75 kW,Reg12,0
+42,stable,only partner,Female,medical,6,unknown,1,303.46,1 per year,303.47,277.0,306.28,16,9,private garage,75 kW,Reg7,0
+46,stable,young drivers,Female,medical,5,private or freelance work,1,269.43,2 per year,269.44,351.42,247.3,18,11,parking deck,75 kW,Reg2,0
+31,stable,only partner,Female,normal,0,private or freelance work,1,745.1,4 per year,745.11,889.94,773.69,11,11,parking deck,75 kW,Reg8,0
+42,stable,same,Male,normal,1,private or freelance work,1,362.86,1 per year,362.87,401.23,356.1,11,5,street,75 kW,Reg4,0
+31,down,same,Male,normal,0,private or freelance work,1,219.23,4 per year,223.7,274.19,201.32,18,8,private garage,75 kW,Reg11,0
+51,stable,only partner,Male,normal,5,unknown,1,213.54,1 per year,213.55,175.79,213.55,8,0,unknown,25-50 kW,Reg13,0
+38,stable,learner 17,Female,medical,1,private or freelance work,1,236.85,1 per year,236.86,366.35,236.86,14,4,parking deck,75 kW,Reg11,0
+37,stable,only partner,Female,normal,1,private or freelance work,3,229.45,4 per year,229.46,289.06,229.46,12,3,parking deck,75 kW,Reg7,0
+26,down,same,Male,normal,0,private or freelance work,1,737.2,4 per year,767.91,759.16,624.2,14,13,private garage,125-300 kW,Reg7,0
+44,up,same,Male,medical,4,private or freelance work,1,749.03,4 per year,588.53,626.82,756.21,9,3,unknown,100 kW,Reg7,0
+25,stable,same,Female,medical,2,private or freelance work,1,385.56,4 per year,385.57,369.66,385.57,16,10,street,75 kW,Reg5,1
+40,down,only partner,Female,normal,7,unknown,1,582.99,1 per year,594.89,399.76,529.1,9,1,private estate,100 kW,Reg4,0
+60,down,only partner,Female,normal,5,private or freelance work,1,191.32,4 per year,195.22,228.61,173.54,16,8,street,75 kW,Reg5,1
+62,stable,same,Male,normal,4,private or freelance work,1,281.21,1 per year,281.22,318.4,260.9,14,0,other,75 kW,Reg7,1
+32,down,only partner,Male,medical,1,private or freelance work,2,522.33,4 per year,532.99,588.46,444.16,11,10,private garage,75 kW,Reg4,0
+39,down,only partner,Female,medical,1,private or freelance work,2,229.5,4 per year,234.19,223.02,214.68,9,0,private garage,25-50 kW,Reg4,0
+27,down,same,Male,medical,0,private or freelance work,1,598.85,2 per year,624.89,601.2,520.75,16,13,carport,75 kW,Reg5,0
+39,stable,only partner,Female,medical,2,private or freelance work,6,232.22,4 per year,232.24,235.03,223.86,16,0,carport,75 kW,Reg12,0
+46,stable,only partner,Female,normal,1,private or freelance work,1,363.05,1 per year,363.06,371.74,363.06,17,12,private garage,25-50 kW,Reg8,0
+34,stable,same,Male,normal,7,private or freelance work,1,218.8,1 per year,218.81,233.65,218.81,7,0,street,100 kW,Reg7,0
+39,stable,young drivers,Female,normal,0,private or freelance work,1,330.37,4 per year,330.39,352.74,330.39,14,8,carport,75 kW,Reg10,0
+39,down,same,Female,medical,0,private or freelance work,1,526.85,12 per year,1247.14,415.1,458.14,16,16,private garage,25-50 kW,Reg1,0
+28,stable,only partner,Female,medical,1,private or freelance work,2,304.45,2 per year,304.46,320.8,304.46,17,14,private garage,75 kW,Reg12,0
+28,down,same,Female,normal,0,private or freelance work,1,413.81,2 per year,431.8,548.8,395.01,10,5,parking deck,125-300 kW,Reg4,0
+69,down,young drivers,Male,normal,0,private or freelance work,1,314.53,1 per year,320.95,404.2,314.62,16,14,parking deck,25-50 kW,Reg8,0
+31,stable,same,Male,normal,3,private or freelance work,1,490.71,2 per year,490.72,377.1,490.72,16,0,unknown,150 kW,Reg8,0
+52,stable,young drivers,Male,normal,0,private or freelance work,1,235.19,4 per year,235.2,280.95,230.75,12,10,parking deck,75 kW,Reg11,0
+49,stable,same,Male,medical,10,unknown,1,243.09,1 per year,243.09,191.45,243.09,10,0,private garage,100 kW,Reg7,0
+33,stable,only partner,Male,medical,0,private or freelance work,1,403.3,4 per year,403.31,485.9,403.31,9,7,private garage,100 kW,Reg5,1
+33,up,same,Male,normal,1,private or freelance work,1,547.19,2 per year,401.27,711.21,547.2,13,9,other,100 kW,Reg4,0
+42,down,same,Male,normal,0,private or freelance work,1,262.95,1 per year,268.31,261.86,241.49,9,8,private garage,100 kW,Reg7,0
+43,stable,same,Male,normal,2,private or freelance work,2,193.08,12 per year,193.09,173.43,179.74,17,4,carport,75 kW,Reg5,0
+23,down,same,Male,normal,2,private or freelance work,1,1261.36,12 per year,1287.1,584.79,1201.3,18,17,street,125-300 kW,Reg14,1
+41,down,only partner,Female,normal,1,private or freelance work,2,251.49,1 per year,256.63,262.82,219.96,18,3,private garage,75 kW,Reg10,1
+31,down,only partner,Male,medical,0,private or freelance work,1,205.76,1 per year,209.96,270.56,186.64,16,13,private garage,75 kW,Reg8,0
+33,stable,only partner,Female,normal,4,private or freelance work,2,322.2,4 per year,322.2,292.02,322.2,12,11,street,75 kW,Reg7,0
+42,down,young drivers,Male,normal,0,private or freelance work,1,548.44,4 per year,572.29,669.04,476.88,12,12,private garage,75 kW,Reg14,0
+50,stable,young drivers,Male,medical,9,unknown,1,367.14,1 per year,367.15,313.74,340.41,9,0,street,100 kW,Reg4,0
+33,stable,same,Male,normal,0,private or freelance work,1,242.75,12 per year,242.76,322.08,249.59,12,0,private garage,75 kW,Reg4,1
+24,down,only partner,Female,normal,0,private or freelance work,1,419.27,4 per year,487.02,441.38,381.14,14,14,private garage,25-50 kW,Reg14,0
+40,stable,only partner,Male,normal,0,private or freelance work,1,206.76,2 per year,206.77,266.93,206.77,12,8,private garage,100 kW,Reg4,0
+42,down,only partner,Male,medical,2,private or freelance work,1,171.18,1 per year,174.68,175.3,152.84,5,1,carport,75 kW,Reg4,1
+44,down,all drivers > 24,Female,normal,1,private or freelance work,1,537.96,1 per year,548.94,570.95,523.53,18,15,street,125-300 kW,Reg8,0
+61,stable,same,Male,medical,0,private or freelance work,1,121.88,4 per year,121.89,221.45,131.2,14,11,private garage,100 kW,Reg4,0
+51,stable,same,Male,normal,2,private or freelance work,1,236.67,1 per year,236.67,230.26,236.67,11,2,street,75 kW,Reg5,0
+50,stable,same,Male,normal,8,unknown,2,356.26,1 per year,356.27,300.14,349.8,9,0,street,100 kW,Reg4,0
+38,down,same,Female,medical,0,private or freelance work,1,542.18,4 per year,629.8,574.59,492.89,16,16,carport,75 kW,Reg3,0
+23,stable,young drivers,Female,normal,1,private or freelance work,2,500.32,4 per year,500.34,414.65,481.71,11,10,private garage,25-50 kW,Reg13,0
+69,stable,only partner,Male,normal,6,private or freelance work,1,248.92,1 per year,248.94,193.82,248.94,6,0,private garage,150 kW,Reg7,0
+49,down,all drivers > 24,Male,normal,1,private or freelance work,1,749.65,4 per year,764.95,465.21,680.69,12,10,street,25-50 kW,Reg8,1
+54,stable,same,Male,medical,8,unknown,1,231.95,1 per year,231.95,198.19,231.95,8,0,private garage,25-50 kW,Reg4,0
+48,down,only partner,Female,medical,8,unknown,2,287.63,1 per year,293.5,256.7,271.0,9,1,private garage,75 kW,Reg4,0
+76,stable,same,Male,normal,9,unknown,1,206.54,1 per year,206.55,205.9,222.19,14,2,private garage,25-50 kW,Reg12,0
+37,stable,only partner,Male,normal,0,private or freelance work,1,224.96,2 per year,224.97,327.31,224.97,16,9,private garage,100 kW,Reg4,0
+47,stable,same,Female,medical,0,private or freelance work,1,153.63,1 per year,153.64,194.5,153.64,11,0,other,75 kW,Reg5,0
+42,stable,only partner,Male,normal,0,private or freelance work,1,229.69,4 per year,229.7,356.05,229.7,14,9,private garage,100 kW,Reg4,0
+44,stable,young drivers,Female,medical,0,private or freelance work,1,235.46,1 per year,235.48,389.15,235.48,18,9,other,75 kW,Reg3,1
+37,down,same,Female,medical,0,private or freelance work,1,760.3,4 per year,883.17,710.56,789.74,12,12,other,25-50 kW,Reg9,0
+34,down,same,Female,medical,0,private or freelance work,1,317.13,4 per year,323.6,344.3,293.27,15,11,street,25-50 kW,Reg9,1
+84,down,only partner,Male,normal,9,private or freelance work,2,263.46,1 per year,268.84,278.2,244.4,15,0,private garage,75 kW,Reg10,0
+69,down,all drivers > 24,Male,normal,4,private or freelance work,1,289.91,1 per year,295.83,339.06,289.54,11,0,unknown,125-300 kW,Reg3,0
+32,down,all drivers > 24,Female,medical,1,private or freelance work,1,436.21,4 per year,445.11,408.29,408.03,13,8,street,25-50 kW,Reg4,0
+37,down,only partner,Female,medical,1,private or freelance work,3,549.31,2 per year,560.53,513.91,523.15,14,13,private garage,100 kW,Reg5,0
+33,stable,only partner,Male,medical,2,private or freelance work,1,287.53,12 per year,287.54,266.22,290.16,15,5,other,75 kW,Reg4,1
+75,stable,same,Female,normal,0,private or freelance work,1,275.49,2 per year,275.5,391.51,291.6,15,5,parking deck,75 kW,Reg9,0
+38,stable,only partner,Female,normal,0,private or freelance work,1,121.7,1 per year,121.71,171.44,116.42,17,10,private garage,25-50 kW,Reg13,0
+31,stable,same,Female,medical,1,private or freelance work,1,191.94,12 per year,191.95,168.91,186.77,10,7,private garage,25-50 kW,Reg14,0
+57,down,young drivers,Male,normal,0,private or freelance work,1,452.26,2 per year,461.49,506.21,415.02,15,11,private garage,100 kW,Reg12,0
+22,stable,same,Male,normal,2,private or freelance work,1,545.31,12 per year,545.33,441.16,529.9,13,9,street,75 kW,Reg8,0
+38,down,same,Male,normal,1,private or freelance work,1,180.66,1 per year,184.35,171.46,151.3,8,3,private garage,125-300 kW,Reg7,0
+36,stable,only partner,Female,medical,0,private or freelance work,1,278.68,1 per year,278.69,337.35,278.69,8,8,other,100 kW,Reg14,1
+44,down,young drivers,Male,medical,0,private or freelance work,1,744.59,1 per year,776.96,847.31,647.46,17,17,private garage,75 kW,Reg4,0
+34,down,same,Female,normal,1,private or freelance work,1,181.88,1 per year,185.59,203.65,162.39,16,6,private garage,75 kW,Reg7,0
+43,down,only partner,Male,normal,0,private or freelance work,1,197.04,1 per year,201.06,237.2,175.93,15,9,private garage,125-300 kW,Reg4,0
+37,stable,young drivers,Male,medical,8,private or freelance work,1,241.31,2 per year,241.32,200.28,241.32,9,0,private garage,100 kW,Reg5,0
+54,stable,same,Male,normal,11,unknown,1,200.87,2 per year,200.87,317.11,200.87,18,8,private estate,100 kW,Reg5,0
+55,down,young drivers,Male,normal,1,private or freelance work,1,649.69,1 per year,754.69,715.85,579.63,7,6,parking deck,25-50 kW,Reg3,0
+37,down,same,Male,normal,3,private or freelance work,1,1046.21,1 per year,1215.3,792.0,951.11,14,11,unknown,25-50 kW,Reg4,0
+48,up,only partner,Male,normal,5,unknown,1,401.64,1 per year,292.1,364.96,409.0,17,0,unknown,100 kW,Reg4,0
+52,stable,only partner,Female,medical,4,private or freelance work,10,331.3,4 per year,315.54,256.0,333.64,11,10,street,25-50 kW,Reg13,0
+45,down,only partner,Female,medical,1,private or freelance work,1,497.2,1 per year,507.35,469.43,487.79,14,13,private garage,75 kW,Reg8,0
+56,stable,same,Male,normal,8,private or freelance work,1,223.64,2 per year,223.65,263.11,234.39,17,9,private garage,150 kW,Reg6,0
+45,down,all drivers > 24,Male,medical,2,private or freelance work,1,329.21,1 per year,335.92,294.44,298.58,7,6,street,100 kW,Reg5,0
+66,stable,same,Male,normal,9,unknown,3,265.3,1 per year,260.55,215.6,265.3,12,0,private garage,75 kW,Reg10,0
+39,down,same,Female,medical,9,unknown,1,419.87,12 per year,428.44,302.88,414.23,16,7,street,125-300 kW,Reg5,0
+23,stable,same,Male,normal,0,private or freelance work,2,601.01,4 per year,601.03,704.09,562.65,0,0,street,75 kW,Reg5,0
+27,down,same,Female,normal,0,private or freelance work,1,280.83,4 per year,286.56,337.89,257.9,10,9,private garage,125-300 kW,Reg5,0
+48,down,young drivers,Female,medical,3,private or freelance work,1,1016.05,12 per year,1036.79,611.34,888.7,15,14,other,75 kW,Reg4,0
+33,down,only partner,Male,normal,3,private or freelance work,1,288.65,1 per year,294.54,306.51,260.45,9,0,street,75 kW,Reg4,0
+32,stable,same,Male,normal,0,private or freelance work,1,307.94,1 per year,307.95,339.96,307.95,14,14,other,75 kW,Reg8,0
+34,stable,only partner,Male,medical,3,private or freelance work,1,309.48,1 per year,309.49,292.85,309.49,8,0,unknown,75 kW,Reg4,0
+24,down,same,Male,normal,0,private or freelance work,1,1027.63,1 per year,1193.71,877.57,934.21,14,10,underground garage,25-50 kW,Reg5,0
+39,down,only partner,Male,medical,0,private or freelance work,3,125.64,1 per year,128.2,133.21,107.34,11,10,other,100 kW,Reg7,0
+46,down,same,Male,normal,2,private or freelance work,1,544.62,1 per year,555.74,414.93,449.91,9,9,parking deck,125-300 kW,Reg5,1
+33,stable,same,Female,medical,0,private or freelance work,1,201.05,1 per year,201.06,225.21,201.06,6,2,street,75 kW,Reg7,0
+44,stable,same,Male,normal,0,private or freelance work,1,199.21,4 per year,199.23,215.56,183.2,18,12,street,100 kW,Reg6,0
+25,down,all drivers > 24,Female,normal,1,private or freelance work,1,760.34,1 per year,793.4,685.41,661.16,13,11,street,75 kW,Reg5,0
+38,stable,same,Male,medical,6,unknown,1,376.21,1 per year,376.23,350.83,383.22,15,8,private garage,125-300 kW,Reg6,0
+51,down,only partner,Female,normal,0,private or freelance work,2,589.18,4 per year,684.4,626.34,535.62,16,15,other,25-50 kW,Reg4,0
+31,stable,same,Male,normal,2,private or freelance work,1,237.49,4 per year,237.5,248.88,237.5,13,4,private garage,75 kW,Reg14,0
+60,down,same,Female,normal,7,private or freelance work,1,269.99,1 per year,275.5,305.98,244.89,9,1,private garage,75 kW,Reg8,0
+66,stable,same,Female,normal,9,unknown,1,221.34,1 per year,221.35,193.62,217.36,14,5,private garage,100 kW,Reg7,0
+27,down,only partner,Female,normal,0,private or freelance work,1,523.13,4 per year,545.88,558.95,454.9,12,10,parking deck,25-50 kW,Reg8,0
+30,stable,only partner,Female,normal,0,private or freelance work,1,247.71,1 per year,247.72,271.91,236.38,10,9,carport,100 kW,Reg1,0
+45,stable,same,Female,normal,5,private or freelance work,1,222.7,1 per year,218.55,260.96,222.7,12,7,private garage,75 kW,Reg8,0
+40,stable,only partner,Female,normal,0,private or freelance work,2,263.41,4 per year,263.43,257.4,268.43,13,12,private garage,25-50 kW,Reg8,0
+45,down,same,Male,medical,0,private or freelance work,2,1147.91,1 per year,1333.42,1138.65,1105.92,8,7,underground garage,125-300 kW,Reg9,0
+55,down,young drivers,Male,normal,5,private or freelance work,2,464.39,1 per year,473.86,311.89,394.58,10,8,private garage,75 kW,Reg6,0
+35,down,same,Male,normal,0,private or freelance work,1,644.08,2 per year,748.17,687.28,619.66,12,11,parking deck,75 kW,Reg4,1
+37,stable,same,Female,normal,0,private or freelance work,1,286.55,1 per year,286.56,379.31,286.56,18,16,underground garage,75 kW,Reg8,0
+35,stable,same,Male,normal,5,private or freelance work,1,218.36,1 per year,218.37,279.86,231.15,16,7,street,75 kW,Reg9,0
+49,up,same,Male,normal,7,unknown,1,515.01,4 per year,374.55,399.17,515.01,14,6,private estate,75 kW,Reg12,0

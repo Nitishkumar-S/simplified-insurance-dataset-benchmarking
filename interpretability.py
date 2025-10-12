@@ -157,19 +157,19 @@ def get_data(name):
         if os.path.exists(sampled_file):
             df = pd.read_csv(sampled_file)
         else:
-            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/EuropeanLapse.csv"
+            url = "https://raw.githubusercontent.com/Nitishkumar-S/insurance-dataset/main/data/classification/eudirectlapse.csv"
             output += "EuropeanLapse.csv"
             response = requests.get(url)
             with open(output, "wb") as f:
                 f.write(response.content)
             df = pd.read_csv(output)
             df_sampled, _ = train_test_split(
-                df, train_size=10000, random_state=42, stratify=df["Lapse"]
+                df, train_size=10000, random_state=42, stratify=df["lapse"]
             )
             df_sampled.to_csv(sampled_file, index=False)
             df = df_sampled
-        X = df.drop(columns=["Lapse"])
-        y = df["Lapse"]
+        X = df.drop(columns=["lapse"])
+        y = df["lapse"]
 
     feature_names = X.columns
     le = LabelEncoder()
@@ -247,6 +247,7 @@ if __name__ == "__main__":
 
         for method in methods_to_use:
             logging.info(f"Running method: {method} on dataset: {name}")
+            print(f"Running method: {method} on dataset: {name} on part {args.part}")
             filename = f"results/{name}/{name}_{method}"
             # Make sure directory exists
             os.makedirs(os.path.dirname(f"{filename}_shap_values.pkl"), exist_ok=True)
